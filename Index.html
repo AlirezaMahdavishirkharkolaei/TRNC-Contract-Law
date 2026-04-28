@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRNC Contract Law / قانون قراردادهای قبرس شمالی</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=Vazirmatn:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #F8F5EE;
+    --parchment: #EDE8DC;
+    --warm-white: #FDFAF5;
+    --gold: #B8972E;
+    --gold-light: #D4AF55;
+    --gold-pale: #F0E6C0;
+    --ink: #1E1A14;
+    --ink-mid: #3D3526;
+    --ink-soft: #6B5E45;
+    --border: #C9BAA0;
+    --border-light: #E0D5C0;
+    --accent-blue: #2A4A6B;
+    --accent-blue-light: #3A6491;
+    --accent-red: #7A2626;
+    --shadow: rgba(30,26,20,0.12);
+    --shadow-deep: rgba(30,26,20,0.22);
+    --highlight: #FFF8E7;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+
+  body[data-lang="fa"] { font-family: 'Vazirmatn', 'Crimson Pro', serif; direction: rtl; }
+  body[data-lang="tr"] { font-family: 'Crimson Pro', serif; direction: ltr; }
+  body[data-lang="en"] { font-family: 'Crimson Pro', serif; direction: ltr; }
+  body[data-lang="ru"] { font-family: 'Crimson Pro', serif; direction: ltr; }
+  body[data-lang="de"] { font-family: 'Crimson Pro', serif; direction: ltr; }
+
+  /* ─── Header ─── */
+  .site-header {
+    background: var(--ink);
+    color: var(--gold-light);
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px var(--shadow-deep);
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .logo-block { display: flex; align-items: center; gap: 14px; }
+
+  .logo-seal {
+    width: 46px; height: 46px;
+    border: 2px solid var(--gold);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+    background: rgba(184,151,46,0.1);
+    flex-shrink: 0;
+  }
+
+  .logo-text-main {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--gold-light);
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+  }
+
+  .logo-text-sub {
+    font-size: 11px;
+    color: rgba(212,175,85,0.65);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-family: 'Crimson Pro', serif;
+    margin-top: 2px;
+  }
+
+  /* Language switcher */
+  .lang-switcher {
+    display: flex;
+    gap: 4px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 6px;
+    padding: 4px;
+    border: 1px solid rgba(184,151,46,0.25);
+  }
+
+  .lang-btn {
+    background: transparent;
+    border: none;
+    color: rgba(212,175,85,0.6);
+    font-family: 'Crimson Pro', serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    letter-spacing: 0.05em;
+    transition: all 0.2s;
+  }
+
+  .lang-btn:hover { color: var(--gold-light); background: rgba(184,151,46,0.12); }
+  .lang-btn.active {
+    background: var(--gold);
+    color: var(--ink);
+    box-shadow: 0 2px 6px rgba(184,151,46,0.35);
+  }
+
+  /* ─── Hero banner ─── */
+  .hero {
+    background: linear-gradient(135deg, #2A3F2A 0%, #1E2E1E 40%, #1A1A2E 100%);
+    padding: 40px 32px 36px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 30px,
+      rgba(184,151,46,0.03) 30px,
+      rgba(184,151,46,0.03) 31px
+    );
+  }
+
+  .hero-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(22px, 4vw, 34px);
+    font-weight: 700;
+    color: var(--gold-light);
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+    position: relative;
+  }
+
+  .hero-subtitle {
+    color: rgba(212,175,85,0.6);
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: 'Crimson Pro', serif;
+    position: relative;
+  }
+
+  .hero-divider {
+    width: 80px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    margin: 14px auto 0;
+    position: relative;
+  }
+
+  /* ─── Main layout ─── */
+  .main-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 24px 60px;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 28px;
+    align-items: start;
+  }
+
+  @media (max-width: 860px) {
+    .main-wrap { grid-template-columns: 1fr; }
+    .header-inner { padding: 12px 16px; }
+  }
+
+  /* ─── Sidebar ─── */
+  .sidebar { position: sticky; top: 84px; }
+
+  .panel {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 2px 16px var(--shadow);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .panel-head {
+    background: var(--accent-blue);
+    color: #D6E8FF;
+    padding: 13px 18px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .panel-head .icon { font-size: 15px; opacity: 0.85; }
+
+  .panel-body { padding: 16px; }
+
+  /* Search inputs */
+  .search-group { margin-bottom: 14px; }
+
+  .search-label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-soft);
+    margin-bottom: 6px;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 600;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1.5px solid var(--border);
+    border-radius: 5px;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: inherit;
+    font-size: 15px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+  }
+
+  .search-input:focus {
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(184,151,46,0.12);
+  }
+
+  body[data-lang="fa"] .search-input { font-family: 'Vazirmatn', serif; direction: rtl; }
+
+  .search-btn {
+    width: 100%;
+    padding: 11px;
+    background: var(--gold);
+    color: var(--ink);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+    margin-top: 4px;
+    box-shadow: 0 2px 8px rgba(184,151,46,0.3);
+  }
+
+  .search-btn:hover { background: var(--gold-light); box-shadow: 0 4px 14px rgba(184,151,46,0.4); }
+  .search-btn:active { transform: scale(0.98); }
+
+  .clear-btn {
+    width: 100%;
+    padding: 8px;
+    background: transparent;
+    color: var(--ink-soft);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: all 0.2s;
+  }
+
+  .clear-btn:hover { background: var(--parchment); color: var(--ink); }
+
+  .divider-or {
+    text-align: center;
+    color: var(--border);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin: 10px 0;
+    position: relative;
+  }
+
+  .divider-or::before, .divider-or::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    height: 1px;
+    background: var(--border-light);
+  }
+  .divider-or::before { left: 0; }
+  .divider-or::after { right: 0; }
+
+  /* Chapter list */
+  .chapter-list { list-style: none; }
+
+  .chapter-item {
+    border-bottom: 1px solid var(--border-light);
+    last-child { border-bottom: none; }
+  }
+
+  .chapter-btn {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 10px 14px;
+    text-align: start;
+    cursor: pointer;
+    font-family: 'Crimson Pro', serif;
+    font-size: 14px;
+    color: var(--ink-mid);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.15s, color 0.15s;
+    line-height: 1.4;
+  }
+
+  .chapter-btn:hover { background: var(--gold-pale); color: var(--ink); }
+  .chapter-btn.active { background: var(--gold-pale); color: var(--gold); font-weight: 600; }
+
+  .chapter-num {
+    display: inline-block;
+    min-width: 28px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    background: var(--accent-blue);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  /* ─── Content area ─── */
+  .content-area { min-height: 400px; }
+
+  .results-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--border);
+  }
+
+  .results-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  .results-count {
+    background: var(--accent-blue);
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 600;
+  }
+
+  /* Article card */
+  .article-card {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 10px var(--shadow);
+    overflow: hidden;
+    transition: box-shadow 0.2s, transform 0.2s;
+    animation: fadeIn 0.3s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .article-card:hover {
+    box-shadow: 0 4px 20px var(--shadow-deep);
+    transform: translateY(-1px);
+  }
+
+  .article-card-head {
+    background: linear-gradient(90deg, var(--accent-blue) 0%, var(--accent-blue-light) 100%);
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .article-num-badge {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.25);
+    color: #fff;
+    padding: 3px 12px;
+    border-radius: 4px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .article-title-head {
+    color: #D6E8FF;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .article-card-body { padding: 20px; }
+
+  .article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+
+  .tag {
+    background: var(--gold-pale);
+    color: var(--ink-mid);
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: 'Crimson Pro', serif;
+    border: 1px solid rgba(184,151,46,0.3);
+  }
+
+  .article-text {
+    color: var(--ink-mid);
+    font-size: 16px;
+    line-height: 1.8;
+    border-top: 1px solid var(--border-light);
+    padding-top: 14px;
+  }
+
+  .article-text mark {
+    background: rgba(184,151,46,0.25);
+    color: var(--ink);
+    padding: 0 2px;
+    border-radius: 2px;
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--ink-soft);
+  }
+
+  .no-results-icon { font-size: 48px; margin-bottom: 16px; }
+  .no-results-text { font-size: 18px; font-family: 'Playfair Display', serif; color: var(--ink-mid); }
+  .no-results-hint { font-size: 14px; margin-top: 8px; }
+
+  .welcome-state {
+    text-align: center;
+    padding: 50px 20px;
+    color: var(--ink-soft);
+  }
+
+  .welcome-seal { font-size: 56px; margin-bottom: 20px; opacity: 0.5; }
+
+  .welcome-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+
+  .welcome-text { font-size: 15px; line-height: 1.7; max-width: 500px; margin: 0 auto; }
+
+  /* Footer */
+  .site-footer {
+    background: var(--ink);
+    color: rgba(212,175,85,0.45);
+    text-align: center;
+    padding: 18px 24px;
+    font-size: 13px;
+    font-family: 'Crimson Pro', serif;
+    letter-spacing: 0.05em;
+  }
+</style>
+</head>
+<body data-lang="en">
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="logo-block">
+      <div class="logo-seal">⚖</div>
+      <div>
+        <div class="logo-text-main" id="headerTitle">TRNC Contract Law</div>
+        <div class="logo-text-sub" id="headerSub">Legal Reference System</div>
+      </div>
+    </div>
+    <div class="lang-switcher">
+      <button class="lang-btn" onclick="setLang('fa')">فارسی</button>
+      <button class="lang-btn" onclick="setLang('tr')">Türkçe</button>
+      <button class="lang-btn active" onclick="setLang('en')">English</button>
+      <button class="lang-btn" onclick="setLang('ru')">Русский</button>
+      <button class="lang-btn" onclick="setLang('de')">Deutsch</button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-title" id="heroTitle">Northern Cyprus Contract Law</div>
+  <div class="hero-subtitle" id="heroSub">Cap. 149 · Official Legal Reference · TRNC</div>
+  <div class="hero-divider"></div>
+</div>
+
+<!-- MAIN -->
+<div class="main-wrap">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <!-- Search panel -->
+    <div class="panel">
+      <div class="panel-head">
+        <span class="icon">🔍</span>
+        <span id="searchPanelTitle">Search Articles</span>
+      </div>
+      <div class="panel-body">
+        <div class="search-group">
+          <label class="search-label" id="labelArticle">Article Number</label>
+          <input class="search-input" type="number" id="inputArticle" placeholder="e.g. 10" min="1" oninput="onSearchInput()">
+        </div>
+        <div class="divider-or" id="orLabel">— OR —</div>
+        <div class="search-group">
+          <label class="search-label" id="labelKeyword">Keyword</label>
+          <input class="search-input" type="text" id="inputKeyword" placeholder="e.g. offer, consideration" oninput="onSearchInput()">
+        </div>
+        <button class="search-btn" id="searchBtn" onclick="performSearch()">Search</button>
+        <button class="clear-btn" id="clearBtn" onclick="clearSearch()">✕ Clear</button>
+      </div>
+    </div>
+
+    <!-- Chapters -->
+    <div class="panel">
+      <div class="panel-head">
+        <span class="icon">📖</span>
+        <span id="chaptersPanelTitle">Browse by Chapter</span>
+      </div>
+      <div class="panel-body" style="padding:8px 0;">
+        <ul class="chapter-list" id="chapterList"></ul>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- RESULTS -->
+  <main class="content-area" id="contentArea">
+    <div class="welcome-state" id="welcomeState">
+      <div class="welcome-seal">⚖️</div>
+      <div class="welcome-title" id="welcomeTitle">TRNC Contract Law Reference</div>
+      <p class="welcome-text" id="welcomeText">Search by article number or keyword, or browse by chapter using the sidebar.</p>
+    </div>
+  </main>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer" id="footerText">
+  TRNC Contract Law (Cap. 149) · Legal Reference System · For informational purposes only
+</footer>
+
+<script>
+// ═══════════════════════════════════════════════════════
+//  DATA — TRNC Contract Law JSON
+// ═══════════════════════════════════════════════════════
+const LAWS = {
+  "meta": {
+    "title": {
+      "en": "TRNC Contract Law (Cap. 149)",
+      "fa": "قانون قراردادهای قبرس شمالی (فصل ۱۴۹)",
+      "tr": "KKTC Sözleşmeler Kanunu (Fas. 149)",
+      "ru": "Закон о договорах ТРСК (Гл. 149)",
+      "de": "TRNC Vertragsgesetz (Kap. 149)"
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "chapter_name": { "en": "Formation of Contracts", "fa": "انعقاد قراردادها", "tr": "Sözleşmelerin Oluşumu", "ru": "Заключение договоров", "de": "Vertragsschluss" },
+      "title": {
+        "en": "Definition of Contract",
+        "fa": "تعریف قرارداد",
+        "tr": "Sözleşmenin Tanımı",
+        "ru": "Определение договора",
+        "de": "Definition des Vertrags"
+      },
+      "keywords": {
+        "en": ["contract", "agreement", "definition", "obligation"],
+        "fa": ["قرارداد", "توافق", "تعریف", "تعهد"],
+        "tr": ["sözleşme", "anlaşma", "tanım", "yükümlülük"],
+        "ru": ["договор", "соглашение", "определение", "обязательство"],
+        "de": ["Vertrag", "Vereinbarung", "Definition", "Verpflichtung"]
+      },
+      "text": {
+        "en": "A contract is an agreement enforceable by law. Every agreement and every promise forming the consideration for each other is an agreement. Agreements, the consideration and object of which are lawful, are contracts.",
+        "fa": "قرارداد توافقی است که از طریق قانون قابل اجرا باشد. هر توافق و هر وعده‌ای که عوض یکدیگر محسوب می‌شود، توافق به شمار می‌آید. توافقاتی که عوض و موضوع آن‌ها قانونی باشد، قرارداد محسوب می‌شود.",
+        "tr": "Sözleşme, hukuken uygulanabilir bir anlaşmadır. Birbirinin ivazı niteliğinde olan her anlaşma ve her vaat, bir anlaşma oluşturur. İvazı ve konusu hukuka uygun olan anlaşmalar sözleşme niteliği taşır.",
+        "ru": "Договор — это соглашение, подлежащее исполнению в силу закона. Каждое соглашение и каждое обещание, составляющие встречное удовлетворение друг друга, являются соглашением. Соглашения, встречное удовлетворение и предмет которых являются законными, составляют договоры.",
+        "de": "Ein Vertrag ist eine durch das Recht durchsetzbare Vereinbarung. Jede Vereinbarung und jedes Versprechen, die füreinander die Gegenleistung bilden, stellen eine Vereinbarung dar. Vereinbarungen, deren Gegenleistung und Gegenstand rechtmäßig sind, sind Verträge."
+      }
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "chapter_name": { "en": "Formation of Contracts", "fa": "انعقاد قراردادها", "tr": "Sözleşmelerin Oluşumu", "ru": "Заключение договоров", "de": "Vertragsschluss" },
+      "title": {
+        "en": "Offer",
+        "fa": "ایجاب",
+        "tr": "Teklif (İcap)",
+        "ru": "Оферта",
+        "de": "Angebot"
+      },
+      "keywords": {
+        "en": ["offer", "proposal", "promisor", "offeror"],
+        "fa": ["ایجاب", "پیشنهاد", "موجب", "ایجاب‌کننده"],
+        "tr": ["teklif", "öneri", "icap", "icapçı"],
+        "ru": ["оферта", "предложение", "оферент"],
+        "de": ["Angebot", "Antrag", "Anbietender"]
+      },
+      "text": {
+        "en": "When one person signifies to another his willingness to do or to abstain from doing anything, with a view to obtaining the assent of that other to such act or abstinence, he is said to make a proposal. The person making the proposal is called the promisor or offeror.",
+        "fa": "هنگامی که شخصی آمادگی خود را برای انجام یا خودداری از انجام کاری به شخص دیگری اعلام می‌کند تا رضایت آن شخص را به این عمل یا خودداری جلب نماید، گفته می‌شود که ایجاب کرده است. شخصی که ایجاب می‌کند، موجب یا ایجاب‌کننده نامیده می‌شود.",
+        "tr": "Bir kimse, diğer kişinin onayını almak amacıyla bir şeyi yapma veya yapmaktan kaçınma isteğini karşı tarafa bildirdiğinde, teklifte bulunmuş sayılır. Teklifi yapan kişiye icapçı veya teklif eden denir.",
+        "ru": "Когда одно лицо выражает другому свою готовность совершить или воздержаться от совершения какого-либо действия с целью получения согласия этого другого лица на такое действие или воздержание, говорят, что оно делает оферту. Лицо, делающее оферту, называется оферентом.",
+        "de": "Wenn eine Person einer anderen ihre Bereitschaft signalisiert, etwas zu tun oder davon abzusehen, um die Zustimmung der anderen zu dieser Handlung oder Unterlassung zu erlangen, sagt man, sie macht ein Angebot. Die Person, die das Angebot macht, wird als Anbietender bezeichnet."
+      }
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "chapter_name": { "en": "Formation of Contracts", "fa": "انعقاد قراردادها", "tr": "Sözleşmelerin Oluşumu", "ru": "Заключение договоров", "de": "Vertragsschluss" },
+      "title": {
+        "en": "Acceptance",
+        "fa": "قبول",
+        "tr": "Kabul",
+        "ru": "Акцепт",
+        "de": "Annahme"
+      },
+      "keywords": {
+        "en": ["acceptance", "assent", "accept", "promisee"],
+        "fa": ["قبول", "رضایت", "پذیرش", "قابل"],
+        "tr": ["kabul", "onay", "rıza", "kabul eden"],
+        "ru": ["акцепт", "согласие", "принятие", "акцептант"],
+        "de": ["Annahme", "Zustimmung", "Akzeptanz"]
+      },
+      "text": {
+        "en": "When the person to whom the proposal is made signifies his assent thereto, the proposal is said to be accepted. A proposal when accepted becomes a promise. The person accepting the proposal is called the promisee or acceptor.",
+        "fa": "هنگامی که شخصی که ایجاب به او پیشنهاد شده است، رضایت خود را اعلام کند، گفته می‌شود که ایجاب پذیرفته شده است. ایجاب پس از قبول، وعده می‌شود. شخصی که ایجاب را می‌پذیرد، قابل یا پذیرنده نامیده می‌شود.",
+        "tr": "Teklifin yapıldığı kişi kabul beyanında bulunduğunda, teklifin kabul edildiği söylenir. Kabul edilen teklif bir vaat haline gelir. Teklifi kabul eden kişiye muhatap veya kabul eden denir.",
+        "ru": "Когда лицо, которому сделана оферта, выражает свое согласие с ней, говорят, что оферта принята. Принятая оферта становится обещанием. Лицо, принимающее оферту, называется акцептантом.",
+        "de": "Wenn die Person, der das Angebot gemacht wird, ihre Zustimmung dazu signalisiert, gilt das Angebot als angenommen. Ein angenommenes Angebot wird zum Versprechen. Die Person, die das Angebot annimmt, wird als Annehmender bezeichnet."
+      }
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "chapter_name": { "en": "Formation of Contracts", "fa": "انعقاد قراردادها", "tr": "Sözleşmelerin Oluşumu", "ru": "Заключение договоров", "de": "Vertragsschluss" },
+      "title": {
+        "en": "Communication of Offer and Acceptance",
+        "fa": "اعلام ایجاب و قبول",
+        "tr": "Teklif ve Kabulün İletilmesi",
+        "ru": "Сообщение оферты и акцепта",
+        "de": "Übermittlung von Angebot und Annahme"
+      },
+      "keywords": {
+        "en": ["communication", "notice", "revocation", "completion"],
+        "fa": ["اعلام", "اطلاع", "رجوع", "کامل شدن"],
+        "tr": ["bildirim", "iletişim", "geri alma", "tamamlanma"],
+        "ru": ["уведомление", "сообщение", "отзыв", "завершение"],
+        "de": ["Mitteilung", "Bekanntgabe", "Widerruf", "Vollendung"]
+      },
+      "text": {
+        "en": "The communication of a proposal is complete when it comes to the knowledge of the person to whom it is made. The communication of an acceptance is complete as against the proposer when it is put in a course of transmission to him, so as to be out of the power of the acceptor; as against the acceptor, when it comes to the knowledge of the proposer.",
+        "fa": "ابلاغ ایجاب زمانی کامل می‌شود که به اطلاع شخصی که به او پیشنهاد شده برسد. ابلاغ قبول در مقابل ایجاب‌کننده زمانی کامل می‌شود که به گونه‌ای در مسیر انتقال به او قرار گیرد که از اختیار قابل خارج شده باشد؛ در مقابل قابل، زمانی که به اطلاع ایجاب‌کننده برسد.",
+        "tr": "Teklifin bildirimi, teklifin yapıldığı kişinin bilgisine ulaştığında tamamlanmış sayılır. Kabulün bildirimi, icapçı açısından, kabulün icapçıya iletilmek üzere yola çıkarıldığı anda tamamlanır; kabul eden açısından ise icapçının bilgisine ulaştığı anda.",
+        "ru": "Сообщение об оферте считается завершённым, когда оно достигает сведения лица, которому оно направлено. Сообщение об акцепте считается завершённым в отношении оферента — когда оно поставлено в процесс передачи ему таким образом, что выходит из-под власти акцептанта; в отношении акцептанта — когда оно достигает сведения оферента.",
+        "de": "Die Übermittlung eines Angebots ist abgeschlossen, wenn sie dem Wissen der Person zugegangen ist, an die es gerichtet ist. Die Übermittlung einer Annahme gilt gegenüber dem Anbietenden als abgeschlossen, wenn sie zur Übermittlung an ihn aufgegeben wurde; gegenüber dem Annehmenden, wenn sie dem Wissen des Anbietenden zugegangen ist."
+      }
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "chapter_name": { "en": "Formation of Contracts", "fa": "انعقاد قراردادها", "tr": "Sözleşmelerin Oluşumu", "ru": "Заключение договоров", "de": "Vertragsschluss" },
+      "title": {
+        "en": "Revocation of Proposal and Acceptance",
+        "fa": "رجوع از ایجاب و قبول",
+        "tr": "Teklifin ve Kabulün Geri Alınması",
+        "ru": "Отзыв оферты и акцепта",
+        "de": "Widerruf von Angebot und Annahme"
+      },
+      "keywords": {
+        "en": ["revocation", "withdrawal", "lapse", "rejection", "counter-offer"],
+        "fa": ["رجوع", "فسخ", "انقضا", "رد", "ایجاب مقابل"],
+        "tr": ["geri alma", "iptal", "süre dolumu", "ret", "karşı teklif"],
+        "ru": ["отзыв", "аннулирование", "истечение", "отклонение", "встречная оферта"],
+        "de": ["Widerruf", "Rücknahme", "Erlöschen", "Ablehnung", "Gegenangebot"]
+      },
+      "text": {
+        "en": "A proposal may be revoked at any time before the communication of its acceptance is complete as against the proposer, but not afterwards. An acceptance may be revoked at any time before the communication of the acceptance is complete as against the acceptor, but not afterwards. A proposal is revoked by the lapse of time, by failure of the acceptor to fulfil a condition precedent, by the death or insanity of the proposer, or by counter-offer.",
+        "fa": "ایجاب می‌تواند در هر زمانی قبل از اینکه ابلاغ قبول در مقابل ایجاب‌کننده کامل شود، مسترد گردد اما نه پس از آن. قبول می‌تواند در هر زمانی قبل از اینکه ابلاغ قبول در مقابل قابل کامل شود، مسترد گردد اما نه پس از آن. ایجاب با انقضای مدت، عدم تحقق شرط سابق توسط قابل، فوت یا جنون ایجاب‌کننده، یا ایجاب مقابل مسترد می‌شود.",
+        "tr": "Bir teklif, icapçı açısından kabulün bildiriminin tamamlanmasından önce herhangi bir zamanda geri alınabilir; ancak sonrasında alınamaz. Kabul, kabul eden açısından kabulün bildiriminin tamamlanmasından önce herhangi bir zamanda geri alınabilir; ancak sonrasında alınamaz. Bir teklif; sürenin dolması, kabul edenin ön koşulu yerine getirmemesi, icapçının ölümü veya akıl hastalığı ya da karşı teklif ile geri alınmış olur.",
+        "ru": "Оферта может быть отозвана в любое время до завершения сообщения об её акцепте в отношении оферента, но не после этого. Акцепт может быть отозван в любое время до завершения сообщения об акцепте в отношении акцептанта, но не после этого. Оферта считается отозванной в связи с истечением времени, невыполнением акцептантом предварительного условия, смертью или сумасшествием оферента или встречной офертой.",
+        "de": "Ein Angebot kann jederzeit widerrufen werden, bevor die Übermittlung seiner Annahme gegenüber dem Anbietenden abgeschlossen ist, aber nicht danach. Eine Annahme kann jederzeit widerrufen werden, bevor die Übermittlung der Annahme gegenüber dem Annehmenden abgeschlossen ist, aber nicht danach. Ein Angebot erlischt durch Zeitablauf, durch das Versäumnis des Annehmenden, eine aufschiebende Bedingung zu erfüllen, durch den Tod oder Wahnsinn des Anbietenden oder durch ein Gegenangebot."
+      }
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "chapter_name": { "en": "Consideration", "fa": "عوض", "tr": "İvaz", "ru": "Встречное удовлетворение", "de": "Gegenleistung" },
+      "title": {
+        "en": "Consideration Defined",
+        "fa": "تعریف عوض",
+        "tr": "İvazın Tanımı",
+        "ru": "Определение встречного удовлетворения",
+        "de": "Definition der Gegenleistung"
+      },
+      "keywords": {
+        "en": ["consideration", "past consideration", "valuable", "benefit", "detriment"],
+        "fa": ["عوض", "عوض گذشته", "با ارزش", "منفعت", "ضرر"],
+        "tr": ["ivaz", "geçmiş ivaz", "değerli", "fayda", "zarar"],
+        "ru": ["встречное удовлетворение", "прошлое встречное удовлетворение", "ценное", "выгода", "ущерб"],
+        "de": ["Gegenleistung", "vergangene Gegenleistung", "wertvoll", "Vorteil", "Nachteil"]
+      },
+      "text": {
+        "en": "When at the desire of the promisor, the promisee or any other person has done or abstained from doing, or does or abstains from doing, or promises to do or to abstain from doing something, such act or abstinence or promise is called the consideration for the promise. Consideration may be past, present, or future. An agreement without consideration is void, unless it is in writing and registered, or it is a promise to compensate for something done voluntarily.",
+        "fa": "هنگامی که به درخواست وعده‌دهنده، قابل یا هر شخص دیگری کاری انجام داده یا از انجام آن خودداری کرده، یا کاری انجام می‌دهد یا از انجام آن خودداری می‌کند، یا وعده می‌دهد که کاری انجام دهد یا از انجام آن خودداری کند، چنین عمل، خودداری یا وعده‌ای، عوض آن وعده نامیده می‌شود. عوض می‌تواند گذشته، حال یا آینده باشد. توافقی که فاقد عوض است باطل است، مگر اینکه کتبی و ثبت شده باشد یا وعده‌ای برای جبران چیزی باشد که داوطلبانه انجام شده است.",
+        "tr": "Vaatte bulunanın isteği üzerine, muhatabın veya başka bir kişinin bir şeyi yapmış ya da yapmaktan kaçınmış olması, yapması ya da kaçınması veya yapacağını ya da kaçınacağını vaat etmesi durumunda, bu eylem, kaçınma veya vaat, söz konusu vaadin ivazı olarak adlandırılır. İvaz geçmiş, mevcut veya gelecekte olabilir. İvazsız bir anlaşma, yazılı ve tescil edilmiş olmadıkça veya gönüllü yapılan bir şeyin tazminatına ilişkin vaat olmadıkça geçersizdir.",
+        "ru": "Когда по желанию обещающего сторона-получатель или любое другое лицо совершило или воздержалось от совершения, совершает или воздерживается от совершения, обещает совершить или воздержаться от совершения чего-либо, такое действие, воздержание или обещание называется встречным удовлетворением за данное обещание. Встречное удовлетворение может быть прошлым, настоящим или будущим. Соглашение без встречного удовлетворения является недействительным, если только оно не составлено в письменной форме и не зарегистрировано.",
+        "de": "Wenn auf Wunsch des Versprechenden der Versprechensempfänger oder eine andere Person etwas getan oder unterlassen hat, tut oder unterlässt oder verspricht zu tun oder zu unterlassen, wird eine solche Handlung, Unterlassung oder ein solches Versprechen als Gegenleistung für das Versprechen bezeichnet. Die Gegenleistung kann vergangen, gegenwärtig oder zukünftig sein. Eine Vereinbarung ohne Gegenleistung ist nichtig, sofern sie nicht schriftlich und eingetragen ist."
+      }
+    },
+    {
+      "id": 14,
+      "chapter": 2,
+      "chapter_name": { "en": "Consideration", "fa": "عوض", "tr": "İvaz", "ru": "Встречное удовлетворение", "de": "Gegenleistung" },
+      "title": {
+        "en": "Unlawful Consideration and Object",
+        "fa": "عوض و موضوع غیرقانونی",
+        "tr": "Hukuka Aykırı İvaz ve Konu",
+        "ru": "Незаконное встречное удовлетворение и предмет",
+        "de": "Rechtswidrige Gegenleistung und Gegenstand"
+      },
+      "keywords": {
+        "en": ["unlawful", "illegal", "immoral", "public policy", "void", "forbidden"],
+        "fa": ["غیرقانونی", "نامشروع", "خلاف اخلاق", "نظم عمومی", "باطل", "ممنوع"],
+        "tr": ["hukuka aykırı", "yasadışı", "ahlaka aykırı", "kamu düzeni", "geçersiz", "yasak"],
+        "ru": ["незаконный", "противоправный", "аморальный", "публичный порядок", "недействительный", "запрещённый"],
+        "de": ["rechtswidrig", "illegal", "sittenwidrig", "öffentliche Ordnung", "nichtig", "verboten"]
+      },
+      "text": {
+        "en": "The consideration or object of an agreement is unlawful if it is forbidden by law; or is of such a nature that, if permitted, it would defeat the provisions of any law; or is fraudulent; or involves or implies injury to the person or property of another; or is immoral; or is opposed to public policy. Every agreement of which the consideration or object is unlawful is void.",
+        "fa": "عوض یا موضوع یک توافق در موارد زیر غیرقانونی است: اگر قانون آن را منع کرده باشد؛ یا طبیعتی داشته باشد که اگر مجاز باشد مقررات هر قانونی را نقض کند؛ یا متقلبانه باشد؛ یا متضمن آسیب به شخص یا مال دیگری باشد؛ یا خلاف اخلاق باشد؛ یا مخالف نظم عمومی باشد. هر توافقی که عوض یا موضوع آن غیرقانونی باشد، باطل است.",
+        "tr": "Bir anlaşmanın ivazı veya konusu şu durumlarda hukuka aykırıdır: kanun tarafından yasaklanmışsa; veya niteliği itibarıyla izin verildiği takdirde herhangi bir kanunun hükümlerini geçersiz kılacaksa; ya da hileli ise; ya da başkasının kişisine veya mülküne zarar vermeyi içeriyorsa; ya da ahlaka aykırıysa; ya da kamu düzenine aykırıysa. İvazı veya konusu hukuka aykırı olan her anlaşma geçersizdir.",
+        "ru": "Встречное удовлетворение или предмет соглашения является незаконным, если оно запрещено законом; или имеет такой характер, что, будучи разрешённым, лишит силы положения какого-либо закона; или является мошенническим; или влечёт или подразумевает причинение вреда личности или имуществу другого лица; или является аморальным; или противоречит публичному порядку. Каждое соглашение, встречное удовлетворение или предмет которого является незаконным, является недействительным.",
+        "de": "Die Gegenleistung oder der Gegenstand einer Vereinbarung ist rechtswidrig, wenn sie gesetzlich verboten ist; oder von solcher Art ist, dass sie, wenn erlaubt, die Bestimmungen eines Gesetzes vereiteln würde; oder betrügerisch ist; oder die Verletzung einer Person oder des Eigentums einer anderen Person beinhaltet; oder sittenwidrig ist; oder der öffentlichen Ordnung widerspricht. Jede Vereinbarung, deren Gegenleistung oder Gegenstand rechtswidrig ist, ist nichtig."
+      }
+    },
+    {
+      "id": 20,
+      "chapter": 3,
+      "chapter_name": { "en": "Capacity of Parties", "fa": "اهلیت طرفین", "tr": "Tarafların Ehliyeti", "ru": "Дееспособность сторон", "de": "Geschäftsfähigkeit der Parteien" },
+      "title": {
+        "en": "Capacity to Contract",
+        "fa": "اهلیت انعقاد قرارداد",
+        "tr": "Sözleşme Yapma Ehliyeti",
+        "ru": "Дееспособность к заключению договора",
+        "de": "Vertragsfähigkeit"
+      },
+      "keywords": {
+        "en": ["capacity", "minor", "competent", "age", "majority", "sound mind"],
+        "fa": ["اهلیت", "صغیر", "صالح", "سن", "بلوغ", "عقل سالم"],
+        "tr": ["ehliyet", "küçük", "ehliyetli", "yaş", "reşitlik", "akıl sağlığı"],
+        "ru": ["дееспособность", "несовершеннолетний", "компетентный", "возраст", "совершеннолетие", "психическое здоровье"],
+        "de": ["Geschäftsfähigkeit", "Minderjähriger", "fähig", "Alter", "Volljährigkeit", "gesunder Verstand"]
+      },
+      "text": {
+        "en": "Every person is competent to contract who is of the age of majority according to the law to which he is subject, and who is of sound mind, and is not disqualified from contracting by any law to which he is subject. A minor's agreement is void. A person of unsound mind cannot make a valid contract. A person who is usually of sound mind, but occasionally of unsound mind, may not make a contract when he is of unsound mind.",
+        "fa": "هر شخصی که به موجب قانون قابل اعمال بر او به سن بلوغ رسیده باشد، دارای عقل سالم باشد و از انعقاد قرارداد محروم نشده باشد، اهلیت انعقاد قرارداد دارد. توافق صغیر باطل است. شخصی که عقل سالم ندارد نمی‌تواند قرارداد معتبر منعقد نماید. شخصی که معمولاً دارای عقل سالم است اما گاهی فاقد آن می‌شود، در زمانی که فاقد عقل سالم است نمی‌تواند قرارداد منعقد کند.",
+        "tr": "Tabi olduğu hukuka göre reşitlik yaşına ulaşmış, akıl sağlığı yerinde olan ve tabi olduğu herhangi bir kanun tarafından sözleşme yapmaktan men edilmemiş her kişi sözleşme yapma ehliyetine sahiptir. Küçüğün yaptığı anlaşma geçersizdir. Akıl sağlığı yerinde olmayan bir kişi geçerli sözleşme yapamaz. Genellikle akıl sağlığı yerinde olan ancak zaman zaman akıl sağlığı yerinde olmayan kişi, akıl sağlığının yerinde olmadığı dönemde sözleşme yapamaz.",
+        "ru": "Каждый человек, достигший совершеннолетия согласно применимому к нему закону, находящийся в здравом уме и не лишённый права на заключение договоров каким-либо применимым к нему законом, правоспособен заключать договоры. Соглашение несовершеннолетнего является недействительным. Лицо, находящееся в невменяемом состоянии, не может заключить действительный договор.",
+        "de": "Jede Person ist vertragsfähig, die nach dem auf sie anwendbaren Recht volljährig ist, geistig gesund ist und nicht durch ein auf sie anwendbares Gesetz von der Vertragsschließung ausgeschlossen ist. Die Vereinbarung eines Minderjährigen ist nichtig. Eine Person mit gestörtem Geisteszustand kann keinen gültigen Vertrag schließen."
+      }
+    },
+    {
+      "id": 30,
+      "chapter": 4,
+      "chapter_name": { "en": "Free Consent", "fa": "رضای آزاد", "tr": "Serbest İrade", "ru": "Свободное согласие", "de": "Freier Konsens" },
+      "title": {
+        "en": "Free Consent Defined",
+        "fa": "تعریف رضای آزاد",
+        "tr": "Serbest İradenin Tanımı",
+        "ru": "Определение свободного согласия",
+        "de": "Definition des freien Konsenses"
+      },
+      "keywords": {
+        "en": ["consent", "free", "coercion", "undue influence", "fraud", "misrepresentation", "mistake"],
+        "fa": ["رضا", "آزاد", "اکراه", "نفوذ ناروا", "تقلب", "اشتباه در واقع", "اشتباه"],
+        "tr": ["rıza", "serbest", "zorlama", "aşırı etki", "hile", "yanıltma", "hata"],
+        "ru": ["согласие", "свободное", "принуждение", "ненадлежащее влияние", "мошенничество", "введение в заблуждение", "заблуждение"],
+        "de": ["Zustimmung", "frei", "Nötigung", "unzulässige Beeinflussung", "Betrug", "Täuschung", "Irrtum"]
+      },
+      "text": {
+        "en": "Consent is said to be free when it is not caused by coercion, undue influence, fraud, misrepresentation, or mistake. Consent is said to be caused by coercion when it is obtained by putting a person in fear of injury to that person or to any other person. Consent is caused by undue influence when the relationship between the parties is such that one party is in a position to dominate the will of the other and uses that position to obtain an unfair advantage.",
+        "fa": "رضا زمانی آزاد است که ناشی از اکراه، نفوذ ناروا، تقلب، اشتباه در واقع یا اشتباه نباشد. رضا زمانی ناشی از اکراه است که با ترساندن شخص از آسیب به خود یا شخص دیگری به دست آمده باشد. رضا ناشی از نفوذ ناروا است هنگامی که رابطه بین طرفین به گونه‌ای باشد که یک طرف در موقعیتی باشد که بر اراده دیگری سلطه داشته باشد و از این موقعیت برای کسب مزیت ناعادلانه استفاده کند.",
+        "tr": "Rıza; zorlamayla, aşırı etkiyle, hileyle, yanıltmayla veya hatayla sağlanmadığında serbest olarak kabul edilir. Rıza, bir kişinin kendisine veya başka birine zarar göreceği korkusuyla elde edildiğinde zorlamayla elde edilmiş sayılır. Taraflar arasındaki ilişki, bir tarafın diğerinin iradesine hâkim olabilecek durumda olduğu ve bu durumu haksız bir avantaj elde etmek için kullandığı hallerde rıza aşırı etkiyle sağlanmış sayılır.",
+        "ru": "Согласие считается свободным, когда оно не вызвано принуждением, ненадлежащим влиянием, мошенничеством, введением в заблуждение или заблуждением. Согласие считается вызванным принуждением, когда оно получено путём введения лица в страх причинения вреда этому лицу или любому другому лицу. Согласие вызвано ненадлежащим влиянием, когда отношения между сторонами таковы, что одна сторона находится в положении, позволяющем доминировать над волей другой.",
+        "de": "Eine Zustimmung gilt als frei, wenn sie nicht durch Nötigung, unzulässige Beeinflussung, Betrug, Täuschung oder Irrtum verursacht wird. Eine Zustimmung gilt als durch Nötigung verursacht, wenn sie durch Einschüchterung einer Person in Bezug auf Verletzungen dieser oder einer anderen Person erlangt wird. Zustimmung durch unzulässige Beeinflussung liegt vor, wenn die Beziehung zwischen den Parteien derart ist, dass eine Partei in der Lage ist, den Willen der anderen zu dominieren."
+      }
+    },
+    {
+      "id": 45,
+      "chapter": 5,
+      "chapter_name": { "en": "Void and Voidable Contracts", "fa": "قراردادهای باطل و قابل ابطال", "tr": "Geçersiz ve İptal Edilebilir Sözleşmeler", "ru": "Ничтожные и оспоримые договоры", "de": "Nichtige und anfechtbare Verträge" },
+      "title": {
+        "en": "Void Agreements",
+        "fa": "توافقات باطل",
+        "tr": "Geçersiz Anlaşmalar",
+        "ru": "Ничтожные соглашения",
+        "de": "Nichtige Vereinbarungen"
+      },
+      "keywords": {
+        "en": ["void", "null", "impossible", "uncertain", "wagering", "restraint of trade"],
+        "fa": ["باطل", "بلاعوض", "غیرممکن", "نامعین", "شرط‌بندی", "محدودیت تجارت"],
+        "tr": ["geçersiz", "hükümsüz", "imkânsız", "belirsiz", "bahis", "ticaret kısıtlaması"],
+        "ru": ["ничтожный", "недействительный", "невозможный", "неопределённый", "пари", "ограничение торговли"],
+        "de": ["nichtig", "ungültig", "unmöglich", "unbestimmt", "Wette", "Handelsbeschränkung"]
+      },
+      "text": {
+        "en": "An agreement is void if it is impossible of performance, or is uncertain in its terms. An agreement by way of wager is void. Every agreement by which any person is restrained from exercising a lawful profession, trade, or business of any kind is, to that extent, void. Agreements in restraint of legal proceedings are void. An agreement the meaning of which is not certain or capable of being made certain is void.",
+        "fa": "توافقی که اجرای آن غیرممکن باشد یا شرایط آن نامعین باشد، باطل است. توافق از طریق شرط‌بندی باطل است. هر توافقی که طبق آن شخصی از اشتغال به حرفه، تجارت یا شغل قانونی منع شود، تا همان حد باطل است. توافقات مانع از اقدامات قانونی باطل هستند. توافقی که معنای آن معین نیست یا قابل تعیین نیست باطل است.",
+        "tr": "Yerine getirilmesi imkânsız olan veya şartları belirsiz olan bir anlaşma geçersizdir. Bahis yoluyla yapılan anlaşma geçersizdir. Herhangi bir kişiyi meşru bir meslek, ticaret veya iş yapmaktan alıkoyan her anlaşma, bu ölçüde geçersizdir. Hukuki işlemleri kısıtlayan anlaşmalar geçersizdir. Anlamı kesin olmayan veya kesinleştirilemeyen bir anlaşma geçersizdir.",
+        "ru": "Соглашение является ничтожным, если его исполнение невозможно или его условия неопределённы. Соглашение в виде пари является ничтожным. Каждое соглашение, которым какое-либо лицо ограничивается в осуществлении законной профессии, торговли или бизнеса любого рода, является в этой мере ничтожным. Соглашения, ограничивающие судебное разбирательство, являются ничтожными.",
+        "de": "Eine Vereinbarung ist nichtig, wenn ihre Erfüllung unmöglich ist oder ihre Bedingungen unbestimmt sind. Eine Vereinbarung durch Wetten ist nichtig. Jede Vereinbarung, durch die eine Person an der Ausübung eines rechtmäßigen Berufs, Handels oder Gewerbes gehindert wird, ist in diesem Umfang nichtig. Vereinbarungen zur Einschränkung von Rechtsverfahren sind nichtig."
+      }
+    },
+    {
+      "id": 60,
+      "chapter": 6,
+      "chapter_name": { "en": "Performance of Contracts", "fa": "اجرای قراردادها", "tr": "Sözleşmelerin İfası", "ru": "Исполнение договоров", "de": "Erfüllung von Verträgen" },
+      "title": {
+        "en": "Obligation to Perform",
+        "fa": "تعهد به اجرا",
+        "tr": "İfa Yükümlülüğü",
+        "ru": "Обязательство исполнить",
+        "de": "Erfüllungspflicht"
+      },
+      "keywords": {
+        "en": ["performance", "obligation", "time", "place", "joint", "severable"],
+        "fa": ["اجرا", "تعهد", "زمان", "مکان", "مشترک", "قابل تفکیک"],
+        "tr": ["ifa", "yükümlülük", "zaman", "yer", "müşterek", "bölünebilir"],
+        "ru": ["исполнение", "обязательство", "время", "место", "совместное", "делимое"],
+        "de": ["Erfüllung", "Verpflichtung", "Zeit", "Ort", "gemeinsam", "trennbar"]
+      },
+      "text": {
+        "en": "The parties to a contract must either perform or offer to perform their respective promises unless such performance is dispensed with or excused under the provisions of this Law or of any other law. Promises bind the representatives of the promisors in case of the death of such promisors before performance, unless a contrary intention appears from the contract. Where time is specified for performance, failure to perform at the specified time makes the contract voidable at the option of the promisee.",
+        "fa": "طرفین قرارداد باید وعده‌های خود را اجرا کنند یا آمادگی اجرای آن را اعلام نمایند، مگر اینکه چنین اجرایی بر اساس مقررات این قانون یا هر قانون دیگری معاف یا بخشوده شده باشد. وعده‌ها در صورت فوت وعده‌دهنده قبل از اجرا، نمایندگان وعده‌دهنده را ملزم می‌سازد، مگر اینکه قصد خلاف از قرارداد استنباط شود. در جایی که زمان مشخصی برای اجرا تعیین شده باشد، عدم اجرا در زمان مقرر قرارداد را به اختیار قابل، قابل ابطال می‌کند.",
+        "tr": "Sözleşmenin tarafları, bu Kanun veya herhangi bir kanunun hükümleri uyarınca performans muaf tutulmadıkça veya mazur görülmedikçe, kendi vaatlerini ifa etmek veya ifa etmeye hazır olduklarını bildirmek zorundadır. Vaatler, vaatte bulunanın ifadan önce ölümü halinde, aksini belirten bir niyet sözleşmeden anlaşılmadıkça, temsilcilerini bağlar. İfa için belirli bir süre öngörülmüşse, belirtilen sürede ifa edilmemesi, sözleşmeyi muhatabın seçeneğiyle iptal edilebilir kılar.",
+        "ru": "Стороны договора должны либо исполнить, либо предложить исполнить свои соответствующие обещания, если только такое исполнение не освобождено или не оправдано положениями настоящего Закона или любого другого закона. Обещания связывают представителей обещающих в случае смерти таких обещающих до исполнения, если из договора не следует иное намерение. Если время исполнения оговорено, то невыполнение в установленное время делает договор оспоримым по выбору получателя обещания.",
+        "de": "Die Vertragsparteien müssen ihre jeweiligen Versprechen erfüllen oder ihre Erfüllung anbieten, es sei denn, eine solche Erfüllung wird nach den Bestimmungen dieses Gesetzes oder eines anderen Gesetzes erlassen oder entschuldigt. Versprechen binden die Vertreter der Versprechenden im Falle des Todes solcher Versprechender vor der Erfüllung, sofern aus dem Vertrag keine gegenteilige Absicht hervorgeht."
+      }
+    },
+    {
+      "id": 73,
+      "chapter": 7,
+      "chapter_name": { "en": "Breach and Remedies", "fa": "نقض و جبران خسارت", "tr": "İhlal ve Tazminat", "ru": "Нарушение и средства защиты", "de": "Vertragsverletzung und Rechtsbehelfe" },
+      "title": {
+        "en": "Compensation for Loss or Damage from Breach",
+        "fa": "جبران خسارت ناشی از نقض قرارداد",
+        "tr": "İhlalden Kaynaklanan Zarar Tazminatı",
+        "ru": "Возмещение убытков за нарушение договора",
+        "de": "Schadensersatz bei Vertragsverletzung"
+      },
+      "keywords": {
+        "en": ["breach", "damages", "compensation", "loss", "penalty", "liquidated", "remote"],
+        "fa": ["نقض", "خسارت", "جبران", "ضرر", "جریمه", "مقطوع", "دور"],
+        "tr": ["ihlal", "tazminat", "zarar", "ziyan", "ceza", "götürü", "uzak"],
+        "ru": ["нарушение", "убытки", "возмещение", "ущерб", "неустойка", "фиксированный", "отдалённый"],
+        "de": ["Vertragsverletzung", "Schadensersatz", "Entschädigung", "Verlust", "Vertragsstrafe", "pauschaliert", "entfernt"]
+      },
+      "text": {
+        "en": "When a contract has been broken, the party who suffers by such breach is entitled to receive, from the party who has broken it, compensation for any loss or damage caused to him thereby, which naturally arose in the usual course of things from such breach, or which the parties knew, when they made the contract, to be likely to result from the breach of it. Such compensation is not to be given for any remote and indirect loss or damage sustained by reason of the breach. Where a sum has been named in the contract as liquidated damages, the party complaining of the breach shall receive reasonable compensation not exceeding the amount named.",
+        "fa": "هنگامی که قراردادی نقض شده است، طرفی که از این نقض متضرر شده مستحق دریافت از طرفی که آن را نقض کرده، جبران خسارت برای هر گونه ضرر یا خسارتی است که به طور طبیعی در جریان عادی امور از این نقض ناشی شده یا طرفین در زمان انعقاد قرارداد می‌دانستند که احتمالاً از نقض آن حاصل خواهد شد. این جبران خسارت برای هیچ ضرر یا خسارت غیرمستقیم و دوری که به دلیل نقض متحمل شده، پرداخت نخواهد شد. در جایی که مبلغی به عنوان خسارت مقطوع در قرارداد ذکر شده باشد، شاکی از نقض، غرامت معقولی دریافت خواهد کرد که از مبلغ مذکور تجاوز نکند.",
+        "tr": "Bir sözleşme ihlal edildiğinde, bu ihlalden zarar gören taraf, sözleşmeyi ihlal eden taraftan, ihlalin olağan seyri içinde doğal olarak ortaya çıkan veya tarafların sözleşmeyi yaparken ihlalden kaynaklanmasının muhtemel olduğunu bildikleri her türlü kayıp veya zarar için tazminat almaya hak kazanır. Bu tazminat, ihlal nedeniyle uğranılan uzak ve dolaylı kayıp veya zarar için ödenmez. Sözleşmede götürü tazminat olarak bir miktar belirlenmişse, ihlalden şikâyetçi olan taraf, belirlenen miktarı aşmamak kaydıyla makul bir tazminat alır.",
+        "ru": "Когда договор нарушен, сторона, пострадавшая от такого нарушения, имеет право получить от нарушившей стороны компенсацию за любые убытки или ущерб, причинённые ей, которые естественно возникли в ходе обычного течения дел в результате такого нарушения, или о которых стороны знали при заключении договора как о вероятных последствиях его нарушения. Такая компенсация не предоставляется за любые отдалённые и косвенные убытки, понесённые вследствие нарушения.",
+        "de": "Wenn ein Vertrag gebrochen wird, hat die durch den Vertragsbruch geschädigte Partei Anspruch auf Schadensersatz von der vertragsbrüchigen Partei für jeden Verlust oder Schaden, der ihr dadurch entstanden ist und der im gewöhnlichen Verlauf der Dinge natürlich aus dem Vertragsbruch entstanden ist oder von dem die Parteien beim Vertragsschluss wussten, dass er wahrscheinlich aus dem Vertragsbruch resultieren würde. Solcher Schadensersatz ist für keinen entfernten und indirekten Verlust zu gewähren."
+      }
+    },
+    {
+      "id": 80,
+      "chapter": 8,
+      "chapter_name": { "en": "Indemnity and Guarantee", "fa": "ضمان و ضمانت", "tr": "Tazminat ve Kefalet", "ru": "Возмещение убытков и гарантия", "de": "Entschädigung und Bürgschaft" },
+      "title": {
+        "en": "Contract of Indemnity",
+        "fa": "قرارداد ضمانت خسارت",
+        "tr": "Tazminat Sözleşmesi",
+        "ru": "Договор о возмещении убытков",
+        "de": "Entschädigungsvertrag"
+      },
+      "keywords": {
+        "en": ["indemnity", "indemnifier", "promise", "loss", "third party"],
+        "fa": ["ضمانت خسارت", "ضامن خسارت", "وعده", "ضرر", "شخص ثالث"],
+        "tr": ["tazminat", "tazmin eden", "vaat", "kayıp", "üçüncü kişi"],
+        "ru": ["возмещение", "возмещающая сторона", "обещание", "убыток", "третье лицо"],
+        "de": ["Entschädigung", "Entschädigender", "Versprechen", "Verlust", "Dritter"]
+      },
+      "text": {
+        "en": "A contract by which one party promises to save the other from loss caused to him by the conduct of the promisor himself or by the conduct of any other person is called a contract of indemnity. The promisee in a contract of indemnity, acting within the scope of his authority, is entitled to recover from the promisor all damages which he may be compelled to pay in any suit in respect of any matter to which the promise to indemnify applies.",
+        "fa": "قراردادی که طبق آن یک طرف وعده می‌دهد طرف دیگر را از ضرری که ناشی از رفتار خود وعده‌دهنده یا رفتار هر شخص دیگری به او وارد شده نجات دهد، قرارداد ضمانت خسارت نامیده می‌شود. قابل در قرارداد ضمانت خسارت که در حدود اختیار خود عمل می‌کند، مستحق است تمام خسارات را که در هر دعوایی در خصوص هر موضوعی که وعده جبران خسارت بر آن اعمال می‌شود مجبور به پرداخت شده، از وعده‌دهنده وصول کند.",
+        "tr": "Bir tarafın, diğer tarafı, vaatte bulunanın kendi davranışı veya başka bir kişinin davranışından kaynaklanan zarardan kurtarmayı vaat ettiği sözleşmeye tazminat sözleşmesi denir. Tazminat sözleşmesinde muhatap, yetkisi dâhilinde hareket ederek, tazminat vaadinin uygulandığı herhangi bir konudaki herhangi bir davada ödemek zorunda kalabileceği tüm zararları vaatte bulunandan geri almaya hak kazanır.",
+        "ru": "Договор, по которому одна сторона обещает спасти другую от убытков, причинённых ей поведением самого обещающего или поведением любого другого лица, называется договором о возмещении убытков. Получатель обещания по договору о возмещении убытков, действующий в пределах своих полномочий, вправе взыскать с обещающего все убытки, которые он может быть вынужден уплатить в любом судебном разбирательстве по любому вопросу, к которому применяется обещание о возмещении убытков.",
+        "de": "Ein Vertrag, durch den eine Partei verspricht, die andere vor Verlusten zu bewahren, die ihr durch das Verhalten des Versprechenden selbst oder durch das Verhalten einer anderen Person entstehen, wird als Entschädigungsvertrag bezeichnet. Der Versprechensempfänger eines Entschädigungsvertrags, der im Rahmen seiner Befugnisse handelt, ist berechtigt, vom Versprechenden alle Schäden zurückzufordern, die er in einem Rechtsstreit in Bezug auf eine Angelegenheit, auf die das Entschädigungsversprechen zutrifft, zahlen muss."
+      }
+    }
+  ]
+};
+
+// ═══════════════════════════════════════════════════════
+//  UI TRANSLATIONS
+// ═══════════════════════════════════════════════════════
+const UI = {
+  en: {
+    headerTitle: "TRNC Contract Law",
+    headerSub: "Legal Reference System",
+    heroTitle: "Northern Cyprus Contract Law",
+    heroSub: "Cap. 149 · Official Legal Reference · TRNC",
+    searchPanelTitle: "Search Articles",
+    labelArticle: "Article Number",
+    labelKeyword: "Keyword",
+    inputArticlePlaceholder: "e.g. 10",
+    inputKeywordPlaceholder: "e.g. offer, consideration",
+    searchBtn: "Search",
+    clearBtn: "✕ Clear",
+    orLabel: "— OR —",
+    chaptersPanelTitle: "Browse by Chapter",
+    welcomeTitle: "TRNC Contract Law Reference",
+    welcomeText: "Search by article number or keyword, or browse by chapter using the sidebar.",
+    resultsTitle: "Search Results",
+    articleLabel: "Article",
+    noResultsText: "No articles found",
+    noResultsHint: "Try a different keyword or article number",
+    footerText: "TRNC Contract Law (Cap. 149) · Legal Reference System · For informational purposes only",
+    chapterAll: "All Articles",
+  },
+  fa: {
+    headerTitle: "قانون قراردادهای TRNC",
+    headerSub: "سامانه مرجع حقوقی",
+    heroTitle: "قانون قراردادهای قبرس شمالی",
+    heroSub: "فصل ۱۴۹ · مرجع رسمی حقوقی · TRNC",
+    searchPanelTitle: "جستجوی مواد قانونی",
+    labelArticle: "شماره ماده",
+    labelKeyword: "کلیدواژه",
+    inputArticlePlaceholder: "مثلاً: ۱۰",
+    inputKeywordPlaceholder: "مثلاً: ایجاب، عوض",
+    searchBtn: "جستجو",
+    clearBtn: "✕ پاک کردن",
+    orLabel: "— یا —",
+    chaptersPanelTitle: "مرور بر اساس فصل",
+    welcomeTitle: "مرجع قانون قراردادهای TRNC",
+    welcomeText: "با شماره ماده یا کلیدواژه جستجو کنید، یا از نوار کناری بر اساس فصل مرور نمایید.",
+    resultsTitle: "نتایج جستجو",
+    articleLabel: "ماده",
+    noResultsText: "ماده‌ای یافت نشد",
+    noResultsHint: "کلیدواژه یا شماره ماده دیگری را امتحان کنید",
+    footerText: "قانون قراردادهای TRNC (فصل ۱۴۹) · سامانه مرجع حقوقی · صرفاً جهت اطلاع‌رسانی",
+    chapterAll: "همه مواد",
+  },
+  tr: {
+    headerTitle: "KKTC Sözleşmeler Kanunu",
+    headerSub: "Hukuki Referans Sistemi",
+    heroTitle: "Kuzey Kıbrıs Sözleşmeler Kanunu",
+    heroSub: "Fas. 149 · Resmi Hukuki Referans · KKTC",
+    searchPanelTitle: "Madde Ara",
+    labelArticle: "Madde Numarası",
+    labelKeyword: "Anahtar Kelime",
+    inputArticlePlaceholder: "ör. 10",
+    inputKeywordPlaceholder: "ör. teklif, ivaz",
+    searchBtn: "Ara",
+    clearBtn: "✕ Temizle",
+    orLabel: "— VEYA —",
+    chaptersPanelTitle: "Bölüme Göre Gözat",
+    welcomeTitle: "KKTC Sözleşmeler Kanunu Referansı",
+    welcomeText: "Madde numarası veya anahtar kelimeyle arayın ya da kenar çubuğundan bölüme göre gözatın.",
+    resultsTitle: "Arama Sonuçları",
+    articleLabel: "Madde",
+    noResultsText: "Madde bulunamadı",
+    noResultsHint: "Farklı bir anahtar kelime veya madde numarası deneyin",
+    footerText: "KKTC Sözleşmeler Kanunu (Fas. 149) · Hukuki Referans Sistemi · Yalnızca bilgilendirme amaçlıdır",
+    chapterAll: "Tüm Maddeler",
+  },
+  ru: {
+    headerTitle: "Договорное право ТРСК",
+    headerSub: "Правовая справочная система",
+    heroTitle: "Договорное право Северного Кипра",
+    heroSub: "Гл. 149 · Официальный правовой справочник · ТРСК",
+    searchPanelTitle: "Поиск статей",
+    labelArticle: "Номер статьи",
+    labelKeyword: "Ключевое слово",
+    inputArticlePlaceholder: "напр. 10",
+    inputKeywordPlaceholder: "напр. оферта, встречное удовлетворение",
+    searchBtn: "Поиск",
+    clearBtn: "✕ Очистить",
+    orLabel: "— ИЛИ —",
+    chaptersPanelTitle: "Обзор по главам",
+    welcomeTitle: "Справочник договорного права ТРСК",
+    welcomeText: "Ищите по номеру статьи или ключевому слову либо просматривайте по главам на боковой панели.",
+    resultsTitle: "Результаты поиска",
+    articleLabel: "Статья",
+    noResultsText: "Статьи не найдены",
+    noResultsHint: "Попробуйте другое ключевое слово или номер статьи",
+    footerText: "Договорное право ТРСК (Гл. 149) · Правовая справочная система · Только в информационных целях",
+    chapterAll: "Все статьи",
+  },
+  de: {
+    headerTitle: "TRNC Vertragsgesetz",
+    headerSub: "Rechtliches Referenzsystem",
+    heroTitle: "Nordzypern Vertragsgesetz",
+    heroSub: "Kap. 149 · Offizielle Rechtsreferenz · TRNC",
+    searchPanelTitle: "Artikel suchen",
+    labelArticle: "Artikelnummer",
+    labelKeyword: "Stichwort",
+    inputArticlePlaceholder: "z.B. 10",
+    inputKeywordPlaceholder: "z.B. Angebot, Gegenleistung",
+    searchBtn: "Suchen",
+    clearBtn: "✕ Löschen",
+    orLabel: "— ODER —",
+    chaptersPanelTitle: "Nach Kapitel durchsuchen",
+    welcomeTitle: "TRNC Vertragsgesetz Referenz",
+    welcomeText: "Suchen Sie nach Artikelnummer oder Stichwort, oder durchsuchen Sie die Kapitel über die Seitenleiste.",
+    resultsTitle: "Suchergebnisse",
+    articleLabel: "Artikel",
+    noResultsText: "Keine Artikel gefunden",
+    noResultsHint: "Versuchen Sie ein anderes Stichwort oder eine andere Artikelnummer",
+    footerText: "TRNC Vertragsgesetz (Kap. 149) · Rechtliches Referenzsystem · Nur zu Informationszwecken",
+    chapterAll: "Alle Artikel",
+  }
+};
+
+// ═══════════════════════════════════════════════════════
+//  STATE
+// ═══════════════════════════════════════════════════════
+let currentLang = 'en';
+let currentResults = [];
+let activeChapter = null;
+
+// ═══════════════════════════════════════════════════════
+//  LANGUAGE
+// ═══════════════════════════════════════════════════════
+function setLang(lang) {
+  currentLang = lang;
+  document.body.setAttribute('data-lang', lang);
+  document.documentElement.setAttribute('lang', lang);
+  document.documentElement.setAttribute('dir', lang === 'fa' ? 'rtl' : 'ltr');
+
+  // Update buttons
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.textContent.includes(
+      { fa:'فارسی', tr:'Türkçe', en:'English', ru:'Русский', de:'Deutsch' }[lang]
+    ));
+  });
+
+  const t = UI[lang];
+  document.getElementById('headerTitle').textContent = t.headerTitle;
+  document.getElementById('headerSub').textContent = t.headerSub;
+  document.getElementById('heroTitle').textContent = t.heroTitle;
+  document.getElementById('heroSub').textContent = t.heroSub;
+  document.getElementById('searchPanelTitle').textContent = t.searchPanelTitle;
+  document.getElementById('labelArticle').textContent = t.labelArticle;
+  document.getElementById('labelKeyword').textContent = t.labelKeyword;
+  document.getElementById('inputArticle').placeholder = t.inputArticlePlaceholder;
+  document.getElementById('inputKeyword').placeholder = t.inputKeywordPlaceholder;
+  document.getElementById('searchBtn').textContent = t.searchBtn;
+  document.getElementById('clearBtn').textContent = t.clearBtn;
+  document.getElementById('orLabel').textContent = t.orLabel;
+  document.getElementById('chaptersPanelTitle').textContent = t.chaptersPanelTitle;
+  document.getElementById('footerText').textContent = t.footerText;
+
+  // Update search input dir
+  document.getElementById('inputKeyword').dir = lang === 'fa' ? 'rtl' : 'ltr';
+
+  renderChapterList();
+  if (currentResults.length > 0 || activeChapter !== null) {
+    renderResults(currentResults);
+  } else {
+    document.getElementById('welcomeTitle').textContent = t.welcomeTitle;
+    document.getElementById('welcomeText').textContent = t.welcomeText;
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+//  CHAPTERS
+// ═══════════════════════════════════════════════════════
+function getChapters() {
+  const seen = new Set();
+  const chapters = [];
+  LAWS.articles.forEach(a => {
+    if (!seen.has(a.chapter)) {
+      seen.add(a.chapter);
+      chapters.push({ id: a.chapter, name: a.chapter_name });
+    }
+  });
+  return chapters;
+}
+
+function renderChapterList() {
+  const t = UI[currentLang];
+  const list = document.getElementById('chapterList');
+  const chapters = getChapters();
+
+  list.innerHTML = `
+    <li class="chapter-item">
+      <button class="chapter-btn ${activeChapter === null ? 'active' : ''}" onclick="filterByChapter(null)">
+        <span class="chapter-num">★</span>
+        ${t.chapterAll}
+      </button>
+    </li>
+  ` + chapters.map(c => `
+    <li class="chapter-item">
+      <button class="chapter-btn ${activeChapter === c.id ? 'active' : ''}" onclick="filterByChapter(${c.id})">
+        <span class="chapter-num">${c.id}</span>
+        ${c.name[currentLang] || c.name.en}
+      </button>
+    </li>
+  `).join('');
+}
+
+function filterByChapter(chapterId) {
+  activeChapter = chapterId;
+  document.getElementById('inputArticle').value = '';
+  document.getElementById('inputKeyword').value = '';
+  renderChapterList();
+
+  if (chapterId === null) {
+    currentResults = LAWS.articles;
+  } else {
+    currentResults = LAWS.articles.filter(a => a.chapter === chapterId);
+  }
+  renderResults(currentResults);
+}
+
+// ═══════════════════════════════════════════════════════
+//  SEARCH
+// ═══════════════════════════════════════════════════════
+function onSearchInput() {
+  const art = document.getElementById('inputArticle').value.trim();
+  const kw = document.getElementById('inputKeyword').value.trim();
+  if (art || kw) performSearch();
+}
+
+function performSearch() {
+  const artVal = document.getElementById('inputArticle').value.trim();
+  const kwVal = document.getElementById('inputKeyword').value.trim().toLowerCase();
+  activeChapter = null;
+  renderChapterList();
+
+  let results = LAWS.articles;
+
+  if (artVal) {
+    const num = parseInt(artVal);
+    results = results.filter(a => a.id === num);
+  }
+
+  if (kwVal) {
+    results = results.filter(a => {
+      // Search in current language keywords
+      const kws = a.keywords[currentLang] || a.keywords.en || [];
+      const kwMatch = kws.some(k => k.toLowerCase().includes(kwVal));
+      // Also search in current language text and title
+      const txtMatch = (a.text[currentLang] || '').toLowerCase().includes(kwVal);
+      const titleMatch = (a.title[currentLang] || '').toLowerCase().includes(kwVal);
+      return kwMatch || txtMatch || titleMatch;
+    });
+  }
+
+  currentResults = results;
+  renderResults(results, kwVal);
+}
+
+function clearSearch() {
+  document.getElementById('inputArticle').value = '';
+  document.getElementById('inputKeyword').value = '';
+  activeChapter = null;
+  currentResults = [];
+  renderChapterList();
+  showWelcome();
+}
+
+// ═══════════════════════════════════════════════════════
+//  RENDER
+// ═══════════════════════════════════════════════════════
+function highlightText(text, keyword) {
+  if (!keyword) return text;
+  const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return text.replace(new RegExp(`(${escaped})`, 'gi'), '<mark>$1</mark>');
+}
+
+function renderResults(articles, keyword = '') {
+  const t = UI[currentLang];
+  const area = document.getElementById('contentArea');
+
+  if (articles.length === 0) {
+    area.innerHTML = `
+      <div class="no-results">
+        <div class="no-results-icon">📜</div>
+        <div class="no-results-text">${t.noResultsText}</div>
+        <div class="no-results-hint">${t.noResultsHint}</div>
+      </div>`;
+    return;
+  }
+
+  const cardsHtml = articles.map(a => {
+    const title = a.title[currentLang] || a.title.en;
+    const text = a.text[currentLang] || a.text.en;
+    const kws = (a.keywords[currentLang] || a.keywords.en || []).slice(0, 5);
+    const chName = a.chapter_name[currentLang] || a.chapter_name.en;
+    const highlightedText = highlightText(text, keyword);
+
+    return `
+      <div class="article-card">
+        <div class="article-card-head">
+          <div class="article-num-badge">${t.articleLabel} ${a.id}</div>
+          <div class="article-title-head">${title}</div>
+        </div>
+        <div class="article-card-body">
+          <div class="article-tags">
+            <span class="tag">📖 ${chName}</span>
+            ${kws.map(k => `<span class="tag">${k}</span>`).join('')}
+          </div>
+          <div class="article-text">${highlightedText}</div>
+        </div>
+      </div>`;
+  }).join('');
+
+  area.innerHTML = `
+    <div class="results-header">
+      <div class="results-title">${t.resultsTitle}</div>
+      <span class="results-count">${articles.length}</span>
+    </div>
+    ${cardsHtml}`;
+}
+
+function showWelcome() {
+  const t = UI[currentLang];
+  document.getElementById('contentArea').innerHTML = `
+    <div class="welcome-state" id="welcomeState">
+      <div class="welcome-seal">⚖️</div>
+      <div class="welcome-title">${t.welcomeTitle}</div>
+      <p class="welcome-text">${t.welcomeText}</p>
+    </div>`;
+}
+
+// ═══════════════════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════════════════
+document.addEventListener('DOMContentLoaded', () => {
+  renderChapterList();
+  document.getElementById('inputArticle').addEventListener('keydown', e => { if (e.key === 'Enter') performSearch(); });
+  document.getElementById('inputKeyword').addEventListener('keydown', e => { if (e.key === 'Enter') performSearch(); });
+});
+</script>
+</body>
+</html>
