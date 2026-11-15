@@ -1,0 +1,213 @@
+import json
+T = """1|Short title
+2|General rule of construction of Law
+3|Communication, acceptance and revocation of proposals
+4|Communication, when complete
+5|Revocation of proposals and acceptances
+6|Revocation, how made
+7|Acceptance must be absolute
+8|Acceptance by performing conditions or receiving consideration
+9|Promises, express and implied
+10|What agreements are contracts
+11|Capacity to contract
+12|What is a sound mind for the purposes of contracting
+13|"Consent" defined
+14|"Free consent" defined
+15|"Coercion" defined
+16|"Undue influence" defined
+17|"Fraud" defined
+18|"Misrepresentation" defined
+19|Voidability of agreement without free consent
+20|Power to set aside contract induced by undue influence
+21|Agreement void where both parties are under mistake as to matter of fact and effect of mistake as to law
+22|Contract caused by mistake of one party as to matter of fact
+23|What consideration and objects are unlawful and what not
+24|Agreements void if considerations and objects unlawful in part
+25|Agreement without consideration, void unless it is in writing, etc.
+26|Agreements in restraint of marriage void
+27|Agreements in restraint of trade void, savings
+28|Agreements in restraint of legal proceedings void. Saving
+29|Agreements void for uncertainty
+30|Agreements by way of wager void
+31|"Contingent contract" defined
+32|Enforcement of contracts contingent on an event happening
+33|Enforcement of contracts contingent on an event not happening
+34|When contingency is the future conduct of a living person
+35|Agreement contingent on impossible event void
+36|Obligation of parties to contracts
+37|When promises binding on representatives of promisors
+38|Effect of refusal to accept offer of performance
+39|Effect of refusal of party to perform promise wholly
+40|Person by whom promise is to be performed
+41|Effect of accepting performance from third person
+42|Devolution of joint liabilities
+43|Any one of joint promisors may be compelled to perform. Saving
+44|Effect of release of one joint promisor
+45|Devolution of joint rights
+46|Time for performance of promise where no applications is to be made and notice is specified
+47|Time and place of performance of promise where time is specified and no application to be made
+48|Application of performance on certain day to be at proper time and place
+49|Place for performance of promise where no application is be made and no place fixed for performance
+50|Performance in manner or at time prescribed or sanctioned by promise
+51|Promisor not bound to perform, unless reciprocal promisee ready and willing to perform
+52|Order of performance of reciprocal promises
+53|Liability of party preventing event on which contract is to take effect
+54|Effect of default as to that promise which should be first performed in contract consisting of reciprocal promises
+55|Effect of failure to perform at fixed time, in contract in which time is essential
+56|Agreement to do impossible act
+57|Reciprocal promise to do things legal and also other things illegal
+58|Alternative promise, one branch being illegal
+59|Application of payment where debt to be discharged is indicated
+60|Application of payment where debts to be discharged not indicated
+61|Appropriation of payment where neither party appropriates
+62|Effect of novation, rescission and alteration of contract
+63|Promisee may dispense with or remit performance of contract
+64|Consequences of rescission of voidable contract
+65|Obligation of person who has received advantage under void agreement or contract that becomes void
+66|Mode of communicating or revoking rescission of voidable contract
+67|Effect of neglect of promise to afford promisor reasonable facilities for performance
+68|Claim for necessaries supplied to person incapable of contracting, or on his account
+69|Reimbursement of person paying money due by another in payment of which he is interested
+70|Obligation of person enjoying benefit of non-gratuitous act
+71|Responsibility of finder of goods
+72|Liability of person to whom money is paid, or thing delivered, by mistake or under coercion
+73|Compensation for loss or damage caused by breach of contract
+74|Compensation for breach of contract where penalty stipulated for. Saving
+75|Party rightfully rescinding contract entitled to compensation
+76|Specific performance of contracts and requisites thereof. Saving
+77|Requirements for leases and contracts made in consideration of marriage
+78|"Bond in Customary form", "Debtor" and "Creditor" defined, and essentials of bond
+79|Bond secured by guarantee, pledge or mortgage
+80|Conclusiveness of contents of bond
+81|Saving
+82|"Contract of indemnity" defined
+83|Right of indemnity-holder when sued
+84|"Contract of guarantee," "surety," "principal debtor" and "creditor"
+85|Consideration for guarantee
+86|Surety's liability
+87|"Continuing guarantee"
+88|Revocation of continuing guarantee
+89|Revocation of continuing guarantee by surety's death
+90|Liability of two persons primarily liable, not affected by arrangement between them that one shall be surety on other's default
+91|Discharge of surety by variance of terms of contract
+92|Discharge of surety by release or discharge of principal debtor
+93|Discharge of surety when creditor compounds with, gives time to, or agrees not to sue principal debtor
+94|Surety not discharged when agreement made with third person to give time to principal debtor
+95|Creditor's forbearance to sue does not discharge surety
+96|Release of one co-surety does not discharge others
+97|Discharge of surety by creditor's act or omission impairing surety's eventual remedy
+98|Rights of surety on payment or performance
+99|Surety's right to benefit of creditor's securities. Saving
+100|Guarantee obtained by misrepresentation invalid
+101|Guarantee obtained by concealment invalid
+102|Guarantee on contract that creditor shall not act on it until co-surety joins
+103|Implied promise to indemnify surety
+104|Co-surety liable to contribute equally
+105|Liability of co-sureties bound on different sums
+106|"Goods," "company," "bailment," "bailor," and "bailee" defined
+107|Delivery to bailee, how made
+108|Bailor's duty to disclose faults in goods bailed
+109|Care to be taken by bailee
+110|Bailee when not liable for loss, etc., of thing bailed
+111|Termination of bailment by bailee's act inconsistent with conditions
+112|Liability of bailee making unauthorized use of goods bailed
+113|Effect of mixture, with bailor's consent, of his goods with bailee's
+114|Effect of mixture, without bailor's consent, when the goods can be separated
+115|Effect of mixture, without bailor's consent, when the goods cannot be separated
+116|Repayment by bailor of necessary expenses
+117|Restoration of goods lent gratuitously
+118|Return of goods bailed on expiration of time or accomplishment of purpose
+119|Bailee's responsibility when goods are not duly returned
+120|Termination of gratuitous bailment by death
+121|Bailor entitled to interest or profit from goods bailed
+122|Bailor's responsibility to bailee
+123|Bailment by several owners
+124|Bailee not responsible on re-delivery to bailor without title
+125|Right of third person claiming goods bailed
+126|Right of finder of goods; may sue for specific reward offered
+127|When finder of thing commonly on sale may sell it
+128|Bailee's particular lien
+129|General liens of bankers, factors and wharfingers
+130|"Pledge", "pawnor" and "pawnee", defined
+131|Pawnee's right of retainer
+132|Pawnee not to retain debt or promise other than that for which goods pledged. Presumption in case of subsequent advances
+133|Pawnee's right as to extraordinary expenses incurred
+134|Pawnee's right where pawnor makes default
+135|Defaulting pawnor's right to redeem
+136|Pledge by possessor of goods, or of documentary title to goods
+137|Pledge where pawnor has only a limited interest
+138|Requirements for a pledge of bills of exchange, promissory notes etc., or shares
+139|Pawnee's right where pawnor makes default in contract of pledge made with last preceding section
+140|Legal proceedings by bailor or bailee against wrong-doer
+141|Apportionment of relief or compensation obtained by such legal proceedings
+142|"Agent" and "principal" defined
+143|Who may employ agent
+144|Who may be agent
+145|Consideration not necessary
+146|Agent's authority may be expressed or implied
+147|Definitions of express and implied authority
+148|Extent of agent's authority
+149|Agent's authority in an emergency
+150|When agent cannot delegate
+151|"Sub-agent" defined
+152|Representation of principal by sub-agent properly appointed. Agent's responsibility for sub-agent. Sub-agent's responsibility
+153|Agent's responsibility for sub-agent appointed without authority
+154|Relation between principal and person duly appointed by agent to act in business of agency
+155|Agent's duty in naming such person
+156|Right of person as to acts done for him without authority. Effect of ratification
+157|Ratification may be expressed or implied
+158|Knowledge requisite for valid ratification
+159|Effect of ratifying unauthorised act forming part of a transaction
+160|Ratification of an unauthorised act cannot injure third person
+161|Termination of agency
+162|Termination of agency where agent has an interest in subject matter
+163|When principal may revoke agent's authority
+164|Revocation where authority has been partly exercised
+165|Compensation for revocation by principal or renunciation by agent
+166|Notice of revocation or renunciation
+167|Revocation and renunciation may be expressed or implied
+168|When termination of agent's authority takes effect as to agent and as to third person
+169|Agent's duty on termination of agency by principal's death or insanity
+170|Termination of sub-agent's authority
+171|Agent's duty on conducting principal's business
+172|Skill and diligence required of agent
+173|Agent's accounts
+174|Agent's duty to communicate with principal
+175|Right of principal when agent deals on his own account in business of agency without principal's consent
+176|Principal's right to benefit gained by agent dealing on his own account in business of agency
+177|Agent's right of retainer out of sums received on principal's account
+178|Agent's duty to pay sums received for principal
+179|When agent's remuneration becomes due
+180|Agent not entitled to remuneration for business misconducted
+181|Agent's lien on principal's property
+182|Agent to be indemnified against consequences of lawful acts
+183|Agent to be indemnified against consequences of acts done in good faith
+184|Non-liability of employer of agent to do a criminal act
+185|Compensation to agent for injury caused by principal's neglect
+186|Enforcement and consequences of agent's contracts
+187|Principal how far bound when agent exceeds authority
+188|Principal not bound when excess of agent's authority not separable
+189|Consequences of notice given to agent
+190|Agent cannot personally enforce, nor be bound by contracts on behalf of principal
+191|Right of parties to a contract made by agent not disclosed
+192|Performance of contract with agent supposed to be principal
+193|Right of person dealing with agent personally liable
+194|Consequences of inducing agent or principal to act on belief that principal or agent will be held exclusively liable
+195|Liability of pretended agent
+196|Person falsely contracting as agent not entitled to performance
+197|Liability of principal inducing belief that agent's unauthorised acts were authorised
+198|Effect on agreement of misrepresentation or fraud by agent"""
+titles={int(a):b for a,b in (l.split('|',1) for l in T.splitlines())}
+assert sorted(titles)==list(range(1,199))
+PARTS=[("I","Preliminary",1,2),("II","Of the Communication, Acceptance and Revocation of Proposals",3,9),
+("III","Of Contracts, Voidable Contracts and Void Agreements",10,30),("IV","Of Contingent Contracts",31,35),
+("V","Of the Performance of Contracts",36,67),("VI","Of Certain Relations Resembling those Created by Contract",68,72),
+("VII","Of the Consequences of Breach of Contract",73,75),("VIII","Of Specific Performance of Contracts",76,76),
+("IX","Of the Requirements of Contracts Relating to Certain Matters",77,77),("X","Of Bonds in Customary Form",78,81),
+("XI","Of Indemnity and Guarantee",82,105),("XII","Of Bailment",106,141),("XIII","Agency",142,198)]
+HEADINGS={24:"Void Agreements",36:"Contracts which must be performed",40:"By whom Contracts must be performed",46:"Time and Place for Performance",
+51:"Performance of Reciprocal Promises",59:"Appropriation of Payments",62:"Contracts which need not be Performed",130:"Bailments of Pledges",
+140:"Legal Proceedings by Bailees or Bailors against Wrong-doers",142:"Appointment and Authority of Agents",150:"Sub-agents",
+156:"Ratification",161:"Revocation of Authority",171:"Agent's Duty to Principal",182:"Principal's Duty to Agent",186:"Effect of Agency on Contracts with Third Persons"}
+json.dump({"titles":titles,"parts":PARTS,"headings":HEADINGS},open('structure.json','w'),indent=1)
+print("ok")
