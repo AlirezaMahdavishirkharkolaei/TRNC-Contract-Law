@@ -32,9 +32,9 @@ TR = """1|Kısa isim
 32|Bir olayın gerçekleşmesine bağlı sözleşmelerin icrası
 33|Bir olayın gerçekleşmemesine bağlı sözleşmelerin icrası
 34|Şartın yaşayan bir kişinin gelecekteki davranışı olması
-35|İmkânsız bir olaya bağlı anlaşmanın hükümsüzlüğü
-36|Sözleşme taraflarının yükümlülüğü
-37|Vaatlerin vaat edenlerin halefleri bakımından bağlayıcılığı
+35|Şartın belirli bir süre içinde belirli bir olayın gerçekleşmesi olması
+36|İmkânsız olaylara bağlı anlaşmaların hükümsüzlüğü
+37|Sözleşme taraflarının yükümlülüğü; vaatlerin halefler bakımından bağlayıcılığı
 38|İfa teklifinin reddinin etkisi
 39|Tarafın vaadi tamamen ifa etmeyi reddetmesinin etkisi
 40|Vaadi ifa edecek kişi
@@ -231,9 +231,9 @@ FA = """1|عنوان مختصر
 32|اجرای قراردادهای مشروط به وقوع یک رویداد
 33|اجرای قراردادهای مشروط به عدم وقوع یک رویداد
 34|شرطی که رفتار آیندهٔ شخص زنده است
-35|بطلان توافق مشروط به رویداد غیرممکن
-36|تعهد طرفین قرارداد
-37|الزام‌آور بودن وعده‌ها برای قائم‌مقام‌های متعهد
+35|شرطی که وقوع رویدادی معین در مدتی معین است
+36|بطلان توافق‌های مشروط به رویدادهای غیرممکن
+37|تعهد طرفین قرارداد؛ الزام‌آور بودن وعده‌ها برای قائم‌مقام‌های متعهد
 38|اثر رد پیشنهاد اجرا
 39|اثر امتناع طرف از اجرای کامل وعده
 40|شخصی که وعده باید به دست او اجرا شود

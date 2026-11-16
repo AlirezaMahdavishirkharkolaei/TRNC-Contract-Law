@@ -5,13 +5,14 @@ Usage: python3 scripts/build_data.py path/to/secs_f.json path/to/structure.json
 import json, sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "ocr"))
 import titles_tr_fa as T
+import titles_ru_de as R
 
 secs = json.load(open(sys.argv[1]))
 st = json.load(open(sys.argv[2]))
-tr, fa = T.parse(T.TR), T.parse(T.FA)
+tr, fa, ru, de = T.parse(T.TR), T.parse(T.FA), T.parse(R.RU), T.parse(R.DE)
 parts = []
 for i, (num, title, a, b) in enumerate(st["parts"]):
-    parts.append({"id": num, "title": title, "title_tr": T.PARTS_TR[i], "title_fa": T.PARTS_FA[i], "from": a, "to": b})
+    parts.append({"id": num, "title": title, "title_tr": T.PARTS_TR[i], "title_fa": T.PARTS_FA[i], "title_ru": R.PARTS_RU[i], "title_de": R.PARTS_DE[i], "from": a, "to": b})
 heads = {int(k): v for k, v in st["headings"].items()}
 starts = {int(k): v["page"] for k, v in secs.items()}
 out = []
@@ -21,8 +22,8 @@ for n in range(1, 199):
     if n in heads: cur_head = heads[n]
     if any(p["from"] == n for p in parts) and n not in heads: cur_head = None
     a = starts[n]; b = starts.get(n + 1, 46)
-    out.append({"n": n, "title": st["titles"][str(n)], "title_tr": tr[n], "title_fa": fa[n], "part": part,
-                "heading": heads.get(n), "group": cur_head, "pages": list(range(a, max(a, b) + 1)), "text": secs[str(n)]["paras"]})
+    out.append({"n": n, "title": st["titles"][str(n)], "title_tr": tr[n], "title_fa": fa[n], "title_ru": ru[n], "title_de": de[n], "part": part,
+                "heading": heads.get(n), "heading_i18n": R.HEADINGS.get(n), "group": cur_head, "pages": list(range(a, max(a, b) + 1)), "text": secs[str(n)]["paras"]})
 law = {
     "meta": {
         "title": "Contract Law, Cap. 149",

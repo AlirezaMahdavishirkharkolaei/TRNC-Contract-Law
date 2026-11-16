@@ -1,0 +1,15 @@
+name: Legal accuracy
+description: The English text differs from the print, a section mapping is wrong, or the assistant points to the wrong provision
+labels: [legal]
+body:
+  - type: dropdown
+    id: kind
+    attributes: { label: What is wrong, options: [English text differs from the 1959 scan, Assistant or search shows the wrong section, Missing or wrong legal concept, Amendment not reflected, Other] }
+    validations: { required: true }
+  - type: textarea
+    id: details
+    attributes: { label: Details, description: "Section number, the question you asked (if any), and what a lawyer would expect" }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes: { label: Source, placeholder: "Scan page, official gazette, judgment…" }
