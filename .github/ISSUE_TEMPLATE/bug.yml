@@ -1,0 +1,8 @@
+name: Bug
+description: Something in the app does not work
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: What happened, description: "Steps, browser, language selected" }
+    validations: { required: true }

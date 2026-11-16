@@ -1,0 +1,22 @@
+name: Translation error
+description: A translated section is wrong, unclear, or uses the wrong legal term
+labels: [translation]
+body:
+  - type: dropdown
+    id: lang
+    attributes: { label: Language, options: [Türkçe, فارسی, Русский, Deutsch] }
+    validations: { required: true }
+  - type: input
+    id: where
+    attributes: { label: Section and paragraph, placeholder: "s. 74(1), second sentence" }
+    validations: { required: true }
+  - type: textarea
+    id: current
+    attributes: { label: Current translation }
+  - type: textarea
+    id: proposed
+    attributes: { label: Proposed wording, description: Please keep the (1)/(a) markers unchanged. }
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes: { label: Reason or authority, description: "Term base entry, case law, or the official term in this jurisdiction" }

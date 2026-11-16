@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contract Law, Cap. 149 · Full text (Cyprus / Northern Cyprus)</title>
-<meta name="description" content="Searchable full text of the Contract Law, Cap. 149 (Sözleşmeler Yasası, Fasıl 149), 1959 edition: all 198 sections, with links to the printed page scans and section titles in Turkish and Persian.">
+<meta name="description" content="Multilingual (EN/TR/FA/RU/DE) searchable full text of the Contract Law, Cap. 149 (Sözleşmeler Yasası, Fasıl 149), 1959 edition: all 198 sections, with links to the printed page scans and section titles in Turkish and Persian.">
 <meta property="og:title" content="Contract Law, Cap. 149 · Full text">
 <meta property="og:description" content="All 198 sections of Cap. 149 (Fasıl 149), searchable, with page scans of the 1959 edition.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23173a40'/><text x='16' y='22' font-family='Georgia,serif' font-size='13' text-anchor='middle' fill='%23e4b36b'>149</text></svg>">
@@ -21,6 +21,7 @@
       <input id="q" type="search" autocomplete="off" spellcheck="false" aria-label="Search">
       <button id="clear" type="button" class="ghost" hidden data-t="clear">Clear</button>
     </div>
+    <button type="button" id="chat-btn" class="chat-btn" aria-controls="chat" aria-expanded="false"><span aria-hidden="true">💬</span> <span data-t="chat">Ask the law</span></button>
     <select id="lang" aria-label="Language"></select>
   </div>
 </header>
@@ -35,8 +36,11 @@
         <p data-t="aboutBody"></p>
         <p class="tip" data-t="tip"></p>
       </details>
+      <details id="glossary" class="glossary"></details>
+      <div class="viewswitch" id="viewswitch" hidden></div>
     </section>
     <p class="status" id="status" role="status" aria-live="polite"></p>
+    <div class="topics" id="topics"></div>
     <div id="law"></div>
     <aside class="endnote" id="endnote"></aside>
   </main>
@@ -46,6 +50,15 @@
   <a href="https://github.com/AlirezaMahdavishirkharkolaei/TRNC-Contract-Law" data-t="source">Source code and method</a>
   · Alireza Mahdavishirkharkolaei
 </footer>
+
+<aside class="chat" id="chat" hidden aria-labelledby="chat-title">
+  <div class="chat-head"><b id="chat-title" data-t="chatTitle"></b><button type="button" id="chat-close" class="ghost" aria-label="Close">✕</button></div>
+  <div class="chat-log" id="chat-log" aria-live="polite"></div>
+  <form class="chat-form" id="chat-form">
+    <textarea id="chat-input" rows="2" dir="auto" aria-label="Message"></textarea>
+    <button type="submit" class="send" data-t="send">Send</button>
+  </form>
+</aside>
 
 <dialog id="scan">
   <div class="scan-head">

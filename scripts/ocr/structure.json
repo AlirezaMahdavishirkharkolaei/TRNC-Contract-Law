@@ -34,9 +34,9 @@
   "32": "Enforcement of contracts contingent on an event happening",
   "33": "Enforcement of contracts contingent on an event not happening",
   "34": "When contingency is the future conduct of a living person",
-  "35": "Agreement contingent on impossible event void",
-  "36": "Obligation of parties to contracts",
-  "37": "When promises binding on representatives of promisors",
+  "35": "When contingency is the happening of specified event within fixed time",
+  "36": "Agreement contingent on impossible events void",
+  "37": "Obligation of parties to contracts. When promises binding on representatives of promisors",
   "38": "Effect of refusal to accept offer of performance",
   "39": "Effect of refusal of party to perform promise wholly",
   "40": "Person by whom promise is to be performed",
@@ -49,7 +49,7 @@
   "47": "Time and place of performance of promise where time is specified and no application to be made",
   "48": "Application of performance on certain day to be at proper time and place",
   "49": "Place for performance of promise where no application is to be made and no place fixed for performance",
-  "50": "Performance in manner or at time prescribed or sanctioned by promise",
+  "50": "Performance in manner or at time prescribed or sanctioned by promisee",
   "51": "Promisor not bound to perform, unless reciprocal promisee ready and willing to perform",
   "52": "Order of performance of reciprocal promises",
   "53": "Liability of party preventing event on which contract is to take effect",
@@ -66,7 +66,7 @@
   "64": "Consequences of rescission of voidable contract",
   "65": "Obligation of person who has received advantage under void agreement or contract that becomes void",
   "66": "Mode of communicating or revoking rescission of voidable contract",
-  "67": "Effect of neglect of promise to afford promisor reasonable facilities for performance",
+  "67": "Effect of neglect of promisee to afford promisor reasonable facilities for performance",
   "68": "Claim for necessaries supplied to person incapable of contracting, or on his account",
   "69": "Reimbursement of person paying money due by another in payment of which he is interested",
   "70": "Obligation of person enjoying benefit of non-gratuitous act",
@@ -222,12 +222,12 @@
    "IV",
    "Of Contingent Contracts",
    31,
-   35
+   36
   ],
   [
    "V",
    "Of the Performance of Contracts",
-   36,
+   37,
    67
   ],
   [
@@ -281,7 +281,6 @@
  ],
  "headings": {
   "24": "Void Agreements",
-  "36": "Contracts which must be performed",
   "40": "By whom Contracts must be performed",
   "46": "Time and Place for Performance",
   "51": "Performance of Reciprocal Promises",
@@ -295,6 +294,7 @@
   "161": "Revocation of Authority",
   "171": "Agent's Duty to Principal",
   "182": "Principal's Duty to Agent",
-  "186": "Effect of Agency on Contracts with Third Persons"
+  "186": "Effect of Agency on Contracts with Third Persons",
+  "37": "Contracts which must be performed"
  }
 }

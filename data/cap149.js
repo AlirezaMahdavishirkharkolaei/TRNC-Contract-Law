@@ -12,6 +12,8 @@ export const LAW = {
    "title": "Preliminary",
    "title_tr": "Giriş",
    "title_fa": "مقدمات",
+   "title_ru": "Предварительные положения",
+   "title_de": "Vorbemerkungen",
    "from": 1,
    "to": 2
   },
@@ -20,6 +22,8 @@ export const LAW = {
    "title": "Of the Communication, Acceptance and Revocation of Proposals",
    "title_tr": "Önerilerin bildirimi, kabulü ve geri alınması",
    "title_fa": "اعلام، قبول و رجوع از ایجاب",
+   "title_ru": "О сообщении, акцепте и отзыве предложений",
+   "title_de": "Von Mitteilung, Annahme und Widerruf von Anträgen",
    "from": 3,
    "to": 9
   },
@@ -28,6 +32,8 @@ export const LAW = {
    "title": "Of Contracts, Voidable Contracts and Void Agreements",
    "title_tr": "Sözleşmeler, iptal edilebilir sözleşmeler ve hükümsüz anlaşmalar",
    "title_fa": "قراردادها، قراردادهای قابل ابطال و توافق‌های باطل",
+   "title_ru": "О договорах, оспоримых договорах и ничтожных соглашениях",
+   "title_de": "Von Verträgen, anfechtbaren Verträgen und nichtigen Vereinbarungen",
    "from": 10,
    "to": 30
   },
@@ -36,15 +42,19 @@ export const LAW = {
    "title": "Of Contingent Contracts",
    "title_tr": "Şarta bağlı sözleşmeler",
    "title_fa": "قراردادهای مشروط",
+   "title_ru": "Об условных договорах",
+   "title_de": "Von bedingten Verträgen",
    "from": 31,
-   "to": 35
+   "to": 36
   },
   {
    "id": "V",
    "title": "Of the Performance of Contracts",
    "title_tr": "Sözleşmelerin ifası",
    "title_fa": "اجرای قراردادها",
-   "from": 36,
+   "title_ru": "Об исполнении договоров",
+   "title_de": "Von der Erfüllung von Verträgen",
+   "from": 37,
    "to": 67
   },
   {
@@ -52,6 +62,8 @@ export const LAW = {
    "title": "Of Certain Relations Resembling those Created by Contract",
    "title_tr": "Sözleşmeden doğanlara benzeyen bazı ilişkiler",
    "title_fa": "روابط شبه‌قراردادی",
+   "title_ru": "О некоторых отношениях, сходных с договорными",
+   "title_de": "Von bestimmten vertragsähnlichen Verhältnissen",
    "from": 68,
    "to": 72
   },
@@ -60,6 +72,8 @@ export const LAW = {
    "title": "Of the Consequences of Breach of Contract",
    "title_tr": "Sözleşmenin ihlalinin sonuçları",
    "title_fa": "آثار نقض قرارداد",
+   "title_ru": "О последствиях нарушения договора",
+   "title_de": "Von den Folgen der Vertragsverletzung",
    "from": 73,
    "to": 75
   },
@@ -68,6 +82,8 @@ export const LAW = {
    "title": "Of Specific Performance of Contracts",
    "title_tr": "Sözleşmelerin aynen ifası",
    "title_fa": "اجرای عین تعهد",
+   "title_ru": "Об исполнении договоров в натуре",
+   "title_de": "Von der Erfüllung in Natur",
    "from": 76,
    "to": 76
   },
@@ -76,6 +92,8 @@ export const LAW = {
    "title": "Of the Requirements of Contracts Relating to Certain Matters",
    "title_tr": "Belirli konulara ilişkin sözleşmelerin şartları",
    "title_fa": "تشریفات قراردادهای مربوط به برخی امور",
+   "title_ru": "О требованиях к договорам по некоторым вопросам",
+   "title_de": "Von den Erfordernissen bestimmter Verträge",
    "from": 77,
    "to": 77
   },
@@ -84,6 +102,8 @@ export const LAW = {
    "title": "Of Bonds in Customary Form",
    "title_tr": "Örfi senetler",
    "title_fa": "اسناد دین به شکل عرفی",
+   "title_ru": "Об обязательствах в обычной форме",
+   "title_de": "Von Schuldurkunden in üblicher Form",
    "from": 78,
    "to": 81
   },
@@ -92,6 +112,8 @@ export const LAW = {
    "title": "Of Indemnity and Guarantee",
    "title_tr": "Tazmin ve kefalet",
    "title_fa": "جبران خسارت و ضمانت",
+   "title_ru": "О возмещении убытков и поручительстве",
+   "title_de": "Von Schadloshaltung und Bürgschaft",
    "from": 82,
    "to": 105
   },
@@ -100,6 +122,8 @@ export const LAW = {
    "title": "Of Bailment",
    "title_tr": "Emanet (bailment)",
    "title_fa": "امانت",
+   "title_ru": "О хранении (бейлмент)",
+   "title_de": "Von der Verwahrung (bailment)",
    "from": 106,
    "to": 141
   },
@@ -108,6 +132,8 @@ export const LAW = {
    "title": "Agency",
    "title_tr": "Temsil (ajanlık)",
    "title_fa": "نمایندگی",
+   "title_ru": "Агентские отношения",
+   "title_de": "Vertretung",
    "from": 142,
    "to": 198
   }
@@ -118,8 +144,11 @@ export const LAW = {
    "title": "Short title",
    "title_tr": "Kısa isim",
    "title_fa": "عنوان مختصر",
+   "title_ru": "Краткое наименование",
+   "title_de": "Kurztitel",
    "part": "I",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     7,
@@ -134,8 +163,11 @@ export const LAW = {
    "title": "General rule of construction of Law",
    "title_tr": "Yasanın genel yorum kuralı",
    "title_fa": "قاعدهٔ کلی تفسیر قانون",
+   "title_ru": "Общее правило толкования Закона",
+   "title_de": "Allgemeine Auslegungsregel des Gesetzes",
    "part": "I",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     8,
@@ -162,8 +194,11 @@ export const LAW = {
    "title": "Communication, acceptance and revocation of proposals",
    "title_tr": "Önerilerin bildirimi, kabulü ve geri alınması",
    "title_fa": "اعلام، قبول و رجوع از ایجاب",
+   "title_ru": "Сообщение, акцепт и отзыв предложений",
+   "title_de": "Mitteilung, Annahme und Widerruf von Anträgen",
    "part": "II",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     9
@@ -177,8 +212,11 @@ export const LAW = {
    "title": "Communication, when complete",
    "title_tr": "Bildirimin tamamlanma zamanı",
    "title_fa": "زمان کامل شدن اعلام",
+   "title_ru": "Когда сообщение считается завершённым",
+   "title_de": "Wann die Mitteilung vollendet ist",
    "part": "II",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     9
@@ -198,8 +236,11 @@ export const LAW = {
    "title": "Revocation of proposals and acceptances",
    "title_tr": "Önerilerin ve kabullerin geri alınması",
    "title_fa": "رجوع از ایجاب و قبول",
+   "title_ru": "Отзыв предложений и акцептов",
+   "title_de": "Widerruf von Anträgen und Annahmen",
    "part": "II",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     9
@@ -214,8 +255,11 @@ export const LAW = {
    "title": "Revocation, how made",
    "title_tr": "Geri almanın nasıl yapılacağı",
    "title_fa": "نحوهٔ رجوع",
+   "title_ru": "Как производится отзыв",
+   "title_de": "Wie der Widerruf erfolgt",
    "part": "II",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     9,
@@ -234,8 +278,11 @@ export const LAW = {
    "title": "Acceptance must be absolute",
    "title_tr": "Kabulün kayıtsız şartsız olması gerekir",
    "title_fa": "قبول باید مطلق باشد",
+   "title_ru": "Акцепт должен быть безусловным",
+   "title_de": "Die Annahme muss unbedingt sein",
    "part": "II",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     10
@@ -251,8 +298,11 @@ export const LAW = {
    "title": "Acceptance by performing conditions or receiving consideration",
    "title_tr": "Koşulları yerine getirerek veya karşılığı alarak kabul",
    "title_fa": "قبول از راه انجام شرایط یا دریافت عوض",
+   "title_ru": "Акцепт путём выполнения условий или получения встречного удовлетворения",
+   "title_de": "Annahme durch Erfüllung von Bedingungen oder Entgegennahme der Gegenleistung",
    "part": "II",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     10
@@ -266,8 +316,11 @@ export const LAW = {
    "title": "Promises, express and implied",
    "title_tr": "Açık ve örtülü vaatler",
    "title_fa": "وعدهٔ صریح و ضمنی",
+   "title_ru": "Обещания прямо выраженные и подразумеваемые",
+   "title_de": "Ausdrückliche und stillschweigende Versprechen",
    "part": "II",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     10
@@ -281,8 +334,11 @@ export const LAW = {
    "title": "What agreements are contracts",
    "title_tr": "Hangi anlaşmalar sözleşmedir",
    "title_fa": "چه توافق‌هایی قرارداد هستند",
+   "title_ru": "Какие соглашения являются договорами",
+   "title_de": "Welche Vereinbarungen Verträge sind",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     10,
@@ -298,8 +354,11 @@ export const LAW = {
    "title": "Capacity to contract",
    "title_tr": "Sözleşme ehliyeti",
    "title_fa": "اهلیت انعقاد قرارداد",
+   "title_ru": "Способность заключать договоры",
+   "title_de": "Geschäftsfähigkeit",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     11
@@ -317,8 +376,11 @@ export const LAW = {
    "title": "What is a sound mind for the purposes of contracting",
    "title_tr": "Sözleşme yapma bakımından akıl sağlığı",
    "title_fa": "سلامت عقل برای انعقاد قرارداد",
+   "title_ru": "Что считается здравым рассудком для целей заключения договоров",
+   "title_de": "Was gesunder Verstand für Zwecke des Vertragsschlusses ist",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     11
@@ -333,8 +395,11 @@ export const LAW = {
    "title": "\"Consent\" defined",
    "title_tr": "\"Rıza\"nın tanımı",
    "title_fa": "تعریف «رضا»",
+   "title_ru": "Определение «согласия»",
+   "title_de": "Begriff der „Zustimmung“",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     11
@@ -348,8 +413,11 @@ export const LAW = {
    "title": "\"Free consent\" defined",
    "title_tr": "\"Serbest rıza\"nın tanımı",
    "title_fa": "تعریف «رضای آزاد»",
+   "title_ru": "Определение «свободного согласия»",
+   "title_de": "Begriff der „freien Zustimmung“",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     11,
@@ -370,8 +438,11 @@ export const LAW = {
    "title": "\"Coercion\" defined",
    "title_tr": "\"Zorlama\"nın (ikrah) tanımı",
    "title_fa": "تعریف «اکراه»",
+   "title_ru": "Определение «принуждения»",
+   "title_de": "Begriff des „Zwangs“",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     12
@@ -386,8 +457,11 @@ export const LAW = {
    "title": "\"Undue influence\" defined",
    "title_tr": "\"Haksız nüfuz\"un tanımı",
    "title_fa": "تعریف «نفوذ ناروا»",
+   "title_ru": "Определение «неправомерного влияния»",
+   "title_de": "Begriff der „unzulässigen Beeinflussung“",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     12
@@ -405,8 +479,11 @@ export const LAW = {
    "title": "\"Fraud\" defined",
    "title_tr": "\"Hile\"nin tanımı",
    "title_fa": "تعریف «تقلب»",
+   "title_ru": "Определение «обмана»",
+   "title_de": "Begriff des „Betrugs“",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     12,
@@ -427,8 +504,11 @@ export const LAW = {
    "title": "\"Misrepresentation\" defined",
    "title_tr": "\"Yanlış beyan\"ın tanımı",
    "title_fa": "تعریف «اظهار خلاف واقع»",
+   "title_ru": "Определение «искажения сведений»",
+   "title_de": "Begriff der „falschen Darstellung“",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     13
@@ -445,8 +525,11 @@ export const LAW = {
    "title": "Voidability of agreement without free consent",
    "title_tr": "Serbest rıza olmaksızın yapılan anlaşmanın iptal edilebilirliği",
    "title_fa": "قابلیت ابطال توافق بدون رضای آزاد",
+   "title_ru": "Оспоримость соглашения, заключённого без свободного согласия",
+   "title_de": "Anfechtbarkeit einer Vereinbarung ohne freie Zustimmung",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     13,
@@ -454,7 +537,7 @@ export const LAW = {
    ],
    "text": [
     "(1) When consent to an agreement is caused by coercion, fraud or misrepresentation, the agreement is a contract voidable at the option of the party whose consent was so caused.",
-    "(2) A party to a contract, whose consent was caused by fraud or misrepresentation, may, if he thinks fit. insist that the contract shall be performed, and that he shall be put in the position in which he would have been if the representations made had been true.",
+    "(2) A party to a contract, whose consent was caused by fraud or misrepresentation, may, if he thinks fit, insist that the contract shall be performed, and that he shall be put in the position in which he would have been if the representations made had been true.",
     "(3) If such consent was caused by misrepresentation or by silence, fraudulent within the meaning of section 17, the contract, nevertheless, is not voidable, if the party whose consent was so caused had the means of discovering the truth with ordinary diligence.",
     "(4) A fraud or misrepresentation which did not cause the consent to a contract of the party on whom such fraud was practised, or to whom such misrepresentation was made, does not render a contract voidable."
    ]
@@ -464,8 +547,11 @@ export const LAW = {
    "title": "Power to set aside contract induced by undue influence",
    "title_tr": "Haksız nüfuzla yaptırılan sözleşmenin iptali yetkisi",
    "title_fa": "اختیار ابطال قراردادی که با نفوذ ناروا منعقد شده",
+   "title_ru": "Право отменить договор, заключённый под неправомерным влиянием",
+   "title_de": "Befugnis zur Aufhebung eines durch unzulässige Beeinflussung herbeigeführten Vertrags",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     14
@@ -480,8 +566,11 @@ export const LAW = {
    "title": "Agreement void where both parties are under mistake as to matter of fact and effect of mistake as to law",
    "title_tr": "Tarafların her ikisinin maddi olgu konusunda hataya düşmesi halinde anlaşmanın hükümsüzlüğü; hukuki hatanın etkisi",
    "title_fa": "بطلان توافق در صورت اشتباه هر دو طرف در امر موضوعی؛ اثر اشتباه حکمی",
+   "title_ru": "Ничтожность соглашения при ошибке обеих сторон в факте; последствия ошибки в праве",
+   "title_de": "Nichtigkeit bei beiderseitigem Tatsachenirrtum; Wirkung eines Rechtsirrtums",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     14
@@ -496,8 +585,11 @@ export const LAW = {
    "title": "Contract caused by mistake of one party as to matter of fact",
    "title_tr": "Taraflardan birinin maddi olguya ilişkin hatasıyla yapılan sözleşme",
    "title_fa": "قرارداد ناشی از اشتباه یک طرف در امر موضوعی",
+   "title_ru": "Договор, заключённый вследствие ошибки одной стороны в факте",
+   "title_de": "Durch Tatsachenirrtum einer Partei herbeigeführter Vertrag",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     14
@@ -511,8 +603,11 @@ export const LAW = {
    "title": "What consideration and objects are unlawful and what not",
    "title_tr": "Hangi karşılık ve konuların hukuka aykırı olduğu",
    "title_fa": "عوض و موضوع نامشروع و مشروع",
+   "title_ru": "Какие встречное удовлетворение и цели незаконны, а какие нет",
+   "title_de": "Welche Gegenleistungen und Zwecke rechtswidrig sind und welche nicht",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     14,
@@ -533,8 +628,16 @@ export const LAW = {
    "title": "Agreements void if considerations and objects unlawful in part",
    "title_tr": "Karşılık ve konusu kısmen hukuka aykırı anlaşmaların hükümsüzlüğü",
    "title_fa": "بطلان توافق‌هایی که عوض یا موضوع آن‌ها تا حدی نامشروع است",
+   "title_ru": "Ничтожность соглашений при частичной незаконности встречного удовлетворения и целей",
+   "title_de": "Nichtigkeit von Vereinbarungen mit teilweise rechtswidriger Gegenleistung oder Zweck",
    "part": "III",
    "heading": "Void Agreements",
+   "heading_i18n": {
+    "tr": "Hükümsüz anlaşmalar",
+    "fa": "توافق‌های باطل",
+    "ru": "Ничтожные соглашения",
+    "de": "Nichtige Vereinbarungen"
+   },
    "group": "Void Agreements",
    "pages": [
     15
@@ -548,8 +651,11 @@ export const LAW = {
    "title": "Agreement without consideration, void unless it is in writing, etc.",
    "title_tr": "Karşılıksız anlaşma, yazılı olmadıkça hükümsüzdür",
    "title_fa": "توافق بدون عوض باطل است، مگر کتبی باشد و غیره",
+   "title_ru": "Соглашение без встречного удовлетворения ничтожно, если оно не совершено в письменной форме и т. д.",
+   "title_de": "Vereinbarung ohne Gegenleistung nichtig, sofern nicht schriftlich usw.",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": "Void Agreements",
    "pages": [
     15
@@ -569,8 +675,11 @@ export const LAW = {
    "title": "Agreements in restraint of marriage void",
    "title_tr": "Evlenmeyi kısıtlayan anlaşmaların hükümsüzlüğü",
    "title_fa": "بطلان توافق‌های مانع ازدواج",
+   "title_ru": "Ничтожность соглашений, ограничивающих вступление в брак",
+   "title_de": "Nichtigkeit von Vereinbarungen, die die Eheschließung beschränken",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": "Void Agreements",
    "pages": [
     15
@@ -584,8 +693,11 @@ export const LAW = {
    "title": "Agreements in restraint of trade void, savings",
    "title_tr": "Ticareti kısıtlayan anlaşmaların hükümsüzlüğü ve istisnaları",
    "title_fa": "بطلان توافق‌های منع تجارت و استثناهای آن",
+   "title_ru": "Ничтожность соглашений, ограничивающих торговлю; исключения",
+   "title_de": "Nichtigkeit von Vereinbarungen, die den Handel beschränken; Ausnahmen",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": "Void Agreements",
    "pages": [
     15,
@@ -603,8 +715,11 @@ export const LAW = {
    "title": "Agreements in restraint of legal proceedings void. Saving",
    "title_tr": "Dava yolunu kısıtlayan anlaşmaların hükümsüzlüğü ve istisnası",
    "title_fa": "بطلان توافق‌های منع اقامهٔ دعوا و استثنای آن",
+   "title_ru": "Ничтожность соглашений, ограничивающих судебную защиту; исключение",
+   "title_de": "Nichtigkeit von Vereinbarungen, die den Rechtsweg beschränken; Ausnahme",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": "Void Agreements",
    "pages": [
     16,
@@ -622,8 +737,11 @@ export const LAW = {
    "title": "Agreements void for uncertainty",
    "title_tr": "Belirsizlik nedeniyle hükümsüz anlaşmalar",
    "title_fa": "بطلان توافق‌ها به سبب ابهام",
+   "title_ru": "Соглашения, ничтожные вследствие неопределённости",
+   "title_de": "Wegen Unbestimmtheit nichtige Vereinbarungen",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": "Void Agreements",
    "pages": [
     17
@@ -637,8 +755,11 @@ export const LAW = {
    "title": "Agreements by way of wager void",
    "title_tr": "Bahis yoluyla yapılan anlaşmaların hükümsüzlüğü",
    "title_fa": "بطلان توافق‌های شرط‌بندی",
+   "title_ru": "Ничтожность соглашений в форме пари",
+   "title_de": "Nichtigkeit von Wettvereinbarungen",
    "part": "III",
    "heading": null,
+   "heading_i18n": null,
    "group": "Void Agreements",
    "pages": [
     17
@@ -652,8 +773,11 @@ export const LAW = {
    "title": "\"Contingent contract\" defined",
    "title_tr": "\"Şarta bağlı sözleşme\"nin tanımı",
    "title_fa": "تعریف «قرارداد مشروط»",
+   "title_ru": "Определение «условного договора»",
+   "title_de": "Begriff des „bedingten Vertrags“",
    "part": "IV",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     17
@@ -667,8 +791,11 @@ export const LAW = {
    "title": "Enforcement of contracts contingent on an event happening",
    "title_tr": "Bir olayın gerçekleşmesine bağlı sözleşmelerin icrası",
    "title_fa": "اجرای قراردادهای مشروط به وقوع یک رویداد",
+   "title_ru": "Исполнение договоров, зависящих от наступления события",
+   "title_de": "Durchsetzung von Verträgen, die vom Eintritt eines Ereignisses abhängen",
    "part": "IV",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     17
@@ -682,8 +809,11 @@ export const LAW = {
    "title": "Enforcement of contracts contingent on an event not happening",
    "title_tr": "Bir olayın gerçekleşmemesine bağlı sözleşmelerin icrası",
    "title_fa": "اجرای قراردادهای مشروط به عدم وقوع یک رویداد",
+   "title_ru": "Исполнение договоров, зависящих от ненаступления события",
+   "title_de": "Durchsetzung von Verträgen, die vom Nichteintritt eines Ereignisses abhängen",
    "part": "IV",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     17
@@ -697,8 +827,11 @@ export const LAW = {
    "title": "When contingency is the future conduct of a living person",
    "title_tr": "Şartın yaşayan bir kişinin gelecekteki davranışı olması",
    "title_fa": "شرطی که رفتار آیندهٔ شخص زنده است",
+   "title_ru": "Когда условием является будущее поведение живущего лица",
+   "title_de": "Wenn die Bedingung das künftige Verhalten einer lebenden Person ist",
    "part": "IV",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     17
@@ -709,11 +842,14 @@ export const LAW = {
   },
   {
    "n": 35,
-   "title": "Agreement contingent on impossible event void",
-   "title_tr": "İmkânsız bir olaya bağlı anlaşmanın hükümsüzlüğü",
-   "title_fa": "بطلان توافق مشروط به رویداد غیرممکن",
+   "title": "When contingency is the happening of specified event within fixed time",
+   "title_tr": "Şartın belirli bir süre içinde belirli bir olayın gerçekleşmesi olması",
+   "title_fa": "شرطی که وقوع رویدادی معین در مدتی معین است",
+   "title_ru": "Когда условием является наступление определённого события в установленный срок",
+   "title_de": "Wenn die Bedingung der Eintritt eines bestimmten Ereignisses innerhalb fester Frist ist",
    "part": "IV",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     17,
@@ -726,12 +862,15 @@ export const LAW = {
   },
   {
    "n": 36,
-   "title": "Obligation of parties to contracts",
-   "title_tr": "Sözleşme taraflarının yükümlülüğü",
-   "title_fa": "تعهد طرفین قرارداد",
-   "part": "V",
-   "heading": "Contracts which must be performed",
-   "group": "Contracts which must be performed",
+   "title": "Agreement contingent on impossible events void",
+   "title_tr": "İmkânsız olaylara bağlı anlaşmaların hükümsüzlüğü",
+   "title_fa": "بطلان توافق‌های مشروط به رویدادهای غیرممکن",
+   "title_ru": "Ничтожность соглашения, зависящего от невозможных событий",
+   "title_de": "Nichtigkeit einer von unmöglichen Ereignissen abhängigen Vereinbarung",
+   "part": "IV",
+   "heading": null,
+   "heading_i18n": null,
+   "group": null,
    "pages": [
     18
    ],
@@ -741,11 +880,19 @@ export const LAW = {
   },
   {
    "n": 37,
-   "title": "When promises binding on representatives of promisors",
-   "title_tr": "Vaatlerin vaat edenlerin halefleri bakımından bağlayıcılığı",
-   "title_fa": "الزام‌آور بودن وعده‌ها برای قائم‌مقام‌های متعهد",
+   "title": "Obligation of parties to contracts. When promises binding on representatives of promisors",
+   "title_tr": "Sözleşme taraflarının yükümlülüğü; vaatlerin halefler bakımından bağlayıcılığı",
+   "title_fa": "تعهد طرفین قرارداد؛ الزام‌آور بودن وعده‌ها برای قائم‌مقام‌های متعهد",
+   "title_ru": "Обязанность сторон договоров. Когда обещания связывают правопреемников обещающих",
+   "title_de": "Pflicht der Vertragsparteien. Wann Versprechen die Rechtsnachfolger der Versprechenden binden",
    "part": "V",
-   "heading": null,
+   "heading": "Contracts which must be performed",
+   "heading_i18n": {
+    "tr": "İfa edilmesi gereken sözleşmeler",
+    "fa": "قراردادهایی که باید اجرا شوند",
+    "ru": "Договоры, подлежащие исполнению",
+    "de": "Zu erfüllende Verträge"
+   },
    "group": "Contracts which must be performed",
    "pages": [
     18
@@ -760,8 +907,11 @@ export const LAW = {
    "title": "Effect of refusal to accept offer of performance",
    "title_tr": "İfa teklifinin reddinin etkisi",
    "title_fa": "اثر رد پیشنهاد اجرا",
+   "title_ru": "Последствия отказа принять предложение исполнения",
+   "title_de": "Wirkung der Ablehnung eines Erfüllungsangebots",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Contracts which must be performed",
    "pages": [
     18
@@ -780,15 +930,18 @@ export const LAW = {
    "title": "Effect of refusal of party to perform promise wholly",
    "title_tr": "Tarafın vaadi tamamen ifa etmeyi reddetmesinin etkisi",
    "title_fa": "اثر امتناع طرف از اجرای کامل وعده",
+   "title_ru": "Последствия отказа стороны полностью исполнить обещание",
+   "title_de": "Wirkung der Weigerung einer Partei, das Versprechen insgesamt zu erfüllen",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Contracts which must be performed",
    "pages": [
     18,
     19
    ],
    "text": [
-    "When a party to a contract has refused to perform, or disabled himself from performing, his promise in its entirety, the promisee may put an end to the contract. unless he has signified, by words or conduct, his acquiescence in its continuance."
+    "When a party to a contract has refused to perform, or disabled himself from performing, his promise in its entirety, the promisee may put an end to the contract, unless he has signified, by words or conduct, his acquiescence in its continuance."
    ]
   },
   {
@@ -796,8 +949,16 @@ export const LAW = {
    "title": "Person by whom promise is to be performed",
    "title_tr": "Vaadi ifa edecek kişi",
    "title_fa": "شخصی که وعده باید به دست او اجرا شود",
+   "title_ru": "Лицо, которым должно быть исполнено обещание",
+   "title_de": "Person, von der das Versprechen zu erfüllen ist",
    "part": "V",
    "heading": "By whom Contracts must be performed",
+   "heading_i18n": {
+    "tr": "Sözleşmelerin kim tarafından ifa edileceği",
+    "fa": "قراردادها به وسیلهٔ چه کسی باید اجرا شوند",
+    "ru": "Кем должны исполняться договоры",
+    "de": "Von wem Verträge zu erfüllen sind"
+   },
    "group": "By whom Contracts must be performed",
    "pages": [
     19
@@ -811,8 +972,11 @@ export const LAW = {
    "title": "Effect of accepting performance from third person",
    "title_tr": "Üçüncü kişiden ifanın kabulünün etkisi",
    "title_fa": "اثر پذیرفتن اجرا از شخص ثالث",
+   "title_ru": "Последствия принятия исполнения от третьего лица",
+   "title_de": "Wirkung der Annahme der Erfüllung durch einen Dritten",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "By whom Contracts must be performed",
    "pages": [
     19
@@ -826,8 +990,11 @@ export const LAW = {
    "title": "Devolution of joint liabilities",
    "title_tr": "Müşterek borçların intikali",
    "title_fa": "انتقال تعهدات مشترک",
+   "title_ru": "Переход совместных обязанностей",
+   "title_de": "Übergang gemeinsamer Verbindlichkeiten",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "By whom Contracts must be performed",
    "pages": [
     19
@@ -841,8 +1008,11 @@ export const LAW = {
    "title": "Any one of joint promisors may be compelled to perform. Saving",
    "title_tr": "Müşterek vaat edenlerden her biri ifaya zorlanabilir; istisna",
    "title_fa": "هر یک از متعهدان مشترک را می‌توان به اجرا ملزم کرد؛ استثنا",
+   "title_ru": "Любой из совместных обещающих может быть принуждён к исполнению; оговорка",
+   "title_de": "Jeder gemeinsam Versprechende kann zur Erfüllung angehalten werden; Vorbehalt",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "By whom Contracts must be performed",
    "pages": [
     19
@@ -859,8 +1029,11 @@ export const LAW = {
    "title": "Effect of release of one joint promisor",
    "title_tr": "Müşterek vaat edenlerden birinin ibrasının etkisi",
    "title_fa": "اثر ابراء یکی از متعهدان مشترک",
+   "title_ru": "Последствия освобождения одного совместного обещающего",
+   "title_de": "Wirkung der Entlassung eines gemeinsam Versprechenden",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "By whom Contracts must be performed",
    "pages": [
     19,
@@ -875,8 +1048,11 @@ export const LAW = {
    "title": "Devolution of joint rights",
    "title_tr": "Müşterek hakların intikali",
    "title_fa": "انتقال حقوق مشترک",
+   "title_ru": "Переход совместных прав",
+   "title_de": "Übergang gemeinsamer Rechte",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "By whom Contracts must be performed",
    "pages": [
     20
@@ -890,8 +1066,16 @@ export const LAW = {
    "title": "Time for performance of promise where no application is to be made and no time is specified",
    "title_tr": "Talep gerekmeyen ve süre belirlenmemiş vaatlerde ifa zamanı",
    "title_fa": "زمان اجرای وعده در جایی که مطالبه لازم نیست و زمانی تعیین نشده",
+   "title_ru": "Срок исполнения обещания, если требование не предъявляется и срок не установлен",
+   "title_de": "Erfüllungszeit, wenn keine Aufforderung erfolgt und keine Zeit bestimmt ist",
    "part": "V",
    "heading": "Time and Place for Performance",
+   "heading_i18n": {
+    "tr": "İfa zamanı ve yeri",
+    "fa": "زمان و مکان اجرا",
+    "ru": "Время и место исполнения",
+    "de": "Zeit und Ort der Erfüllung"
+   },
    "group": "Time and Place for Performance",
    "pages": [
     20
@@ -906,8 +1090,11 @@ export const LAW = {
    "title": "Time and place of performance of promise where time is specified and no application to be made",
    "title_tr": "Sürenin belirlendiği ve talep gerekmeyen vaatlerde ifa zamanı ve yeri",
    "title_fa": "زمان و مکان اجرا در جایی که زمان تعیین شده و مطالبه لازم نیست",
+   "title_ru": "Время и место исполнения обещания, если срок установлен и требование не предъявляется",
+   "title_de": "Zeit und Ort der Erfüllung, wenn die Zeit bestimmt ist und keine Aufforderung erfolgt",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Time and Place for Performance",
    "pages": [
     20
@@ -921,8 +1108,11 @@ export const LAW = {
    "title": "Application of performance on certain day to be at proper time and place",
    "title_tr": "Belirli günde ifa talebinin uygun zaman ve yerde yapılması",
    "title_fa": "مطالبهٔ اجرا در روز معین باید در زمان و مکان مناسب باشد",
+   "title_ru": "Требование исполнения в определённый день должно быть предъявлено в надлежащее время и в надлежащем месте",
+   "title_de": "Aufforderung zur Erfüllung an einem bestimmten Tag hat zu geeigneter Zeit und am geeigneten Ort zu erfolgen",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Time and Place for Performance",
    "pages": [
     20
@@ -937,8 +1127,11 @@ export const LAW = {
    "title": "Place for performance of promise where no application is to be made and no place fixed for performance",
    "title_tr": "Talep gerekmeyen ve ifa yeri belirlenmemiş vaatlerde ifa yeri",
    "title_fa": "مکان اجرا در جایی که مطالبه لازم نیست و مکانی تعیین نشده",
+   "title_ru": "Место исполнения обещания, если требование не предъявляется и место исполнения не установлено",
+   "title_de": "Erfüllungsort, wenn keine Aufforderung erfolgt und kein Ort bestimmt ist",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Time and Place for Performance",
    "pages": [
     20,
@@ -950,11 +1143,14 @@ export const LAW = {
   },
   {
    "n": 50,
-   "title": "Performance in manner or at time prescribed or sanctioned by promise",
+   "title": "Performance in manner or at time prescribed or sanctioned by promisee",
    "title_tr": "Vaat alanın belirlediği veya onayladığı şekilde ya da zamanda ifa",
    "title_fa": "اجرا به نحو یا در زمانی که متعهدله تعیین یا تأیید کرده",
+   "title_ru": "Исполнение способом или в срок, предписанные или одобренные получателем обещания",
+   "title_de": "Erfüllung auf die vom Versprechensempfänger vorgeschriebene oder gebilligte Art oder Zeit",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Time and Place for Performance",
    "pages": [
     21
@@ -968,8 +1164,16 @@ export const LAW = {
    "title": "Promisor not bound to perform, unless reciprocal promisee ready and willing to perform",
    "title_tr": "Karşı edimi ifaya hazır olmadıkça vaat edenin ifa yükümlülüğünün olmaması",
    "title_fa": "متعهد مکلف به اجرا نیست مگر طرف مقابل آمادهٔ اجرای تعهد متقابل باشد",
+   "title_ru": "Обещающий не обязан исполнять, пока получатель встречного обещания не готов и не желает исполнить",
+   "title_de": "Versprechender nicht zur Erfüllung verpflichtet, solange der Gegenversprechensempfänger nicht bereit und willens ist",
    "part": "V",
    "heading": "Performance of Reciprocal Promises",
+   "heading_i18n": {
+    "tr": "Karşılıklı vaatlerin ifası",
+    "fa": "اجرای تعهدات متقابل",
+    "ru": "Исполнение взаимных обещаний",
+    "de": "Erfüllung gegenseitiger Versprechen"
+   },
    "group": "Performance of Reciprocal Promises",
    "pages": [
     21
@@ -983,8 +1187,11 @@ export const LAW = {
    "title": "Order of performance of reciprocal promises",
    "title_tr": "Karşılıklı vaatlerin ifa sırası",
    "title_fa": "ترتیب اجرای تعهدات متقابل",
+   "title_ru": "Порядок исполнения взаимных обещаний",
+   "title_de": "Reihenfolge der Erfüllung gegenseitiger Versprechen",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Performance of Reciprocal Promises",
    "pages": [
     21
@@ -998,8 +1205,11 @@ export const LAW = {
    "title": "Liability of party preventing event on which contract is to take effect",
    "title_tr": "Sözleşmenin hüküm doğurmasına bağlı olayı engelleyen tarafın sorumluluğu",
    "title_fa": "مسئولیت طرفی که مانع وقوع رویداد مؤثر در قرارداد شود",
+   "title_ru": "Ответственность стороны, препятствующей событию, с которым связано действие договора",
+   "title_de": "Haftung der Partei, die das Ereignis verhindert, von dem die Wirksamkeit des Vertrags abhängt",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Performance of Reciprocal Promises",
    "pages": [
     21
@@ -1013,8 +1223,11 @@ export const LAW = {
    "title": "Effect of default as to that promise which should be first performed in contract consisting of reciprocal promises",
    "title_tr": "Karşılıklı vaatlerden oluşan sözleşmede önce ifa edilmesi gereken vaatte temerrüdün etkisi",
    "title_fa": "اثر تخلف در تعهدی که باید نخست اجرا شود در قرارداد متشکل از تعهدات متقابل",
+   "title_ru": "Последствия неисполнения обещания, подлежащего первоочередному исполнению, в договоре из взаимных обещаний",
+   "title_de": "Wirkung der Nichterfüllung des zuerst zu erfüllenden Versprechens bei gegenseitigen Versprechen",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Performance of Reciprocal Promises",
    "pages": [
     21
@@ -1028,8 +1241,11 @@ export const LAW = {
    "title": "Effect of failure to perform at fixed time, in contract in which time is essential",
    "title_tr": "Sürenin esaslı olduğu sözleşmede belirli zamanda ifa etmemenin etkisi",
    "title_fa": "اثر عدم اجرا در زمان معین در قراردادی که زمان در آن اساسی است",
+   "title_ru": "Последствия неисполнения в установленный срок в договоре, в котором срок существенен",
+   "title_de": "Wirkung der Nichterfüllung zur festgesetzten Zeit bei Verträgen, in denen die Zeit wesentlich ist",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Performance of Reciprocal Promises",
    "pages": [
     21,
@@ -1046,8 +1262,11 @@ export const LAW = {
    "title": "Agreement to do impossible act",
    "title_tr": "İmkânsız bir edimi yapma anlaşması",
    "title_fa": "توافق بر انجام کار غیرممکن",
+   "title_ru": "Соглашение о совершении невозможного действия",
+   "title_de": "Vereinbarung über eine unmögliche Handlung",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Performance of Reciprocal Promises",
    "pages": [
     22
@@ -1063,8 +1282,11 @@ export const LAW = {
    "title": "Reciprocal promise to do things legal and also other things illegal",
    "title_tr": "Hukuka uygun ve aykırı şeyleri birlikte içeren karşılıklı vaat",
    "title_fa": "تعهد متقابل به انجام امور مشروع و امور نامشروع",
+   "title_ru": "Взаимное обещание совершить законные действия, а также иные незаконные действия",
+   "title_de": "Gegenseitiges Versprechen rechtmäßiger und zugleich rechtswidriger Handlungen",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Performance of Reciprocal Promises",
    "pages": [
     22
@@ -1078,8 +1300,11 @@ export const LAW = {
    "title": "Alternative promise, one branch being illegal",
    "title_tr": "Bir kolu hukuka aykırı olan seçimlik vaat",
    "title_fa": "تعهد تخییری که یک شق آن نامشروع است",
+   "title_ru": "Альтернативное обещание, одна часть которого незаконна",
+   "title_de": "Wahlversprechen mit einem rechtswidrigen Zweig",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Performance of Reciprocal Promises",
    "pages": [
     22
@@ -1093,8 +1318,16 @@ export const LAW = {
    "title": "Application of payment where debt to be discharged is indicated",
    "title_tr": "Hangi borcun ödendiği belirtilmişse ödemenin mahsubu",
    "title_fa": "احتساب پرداخت در جایی که دین مورد نظر معلوم است",
+   "title_ru": "Зачёт платежа, если указан погашаемый долг",
+   "title_de": "Anrechnung einer Zahlung, wenn die zu tilgende Schuld bestimmt ist",
    "part": "V",
    "heading": "Appropriation of Payments",
+   "heading_i18n": {
+    "tr": "Ödemelerin mahsubu",
+    "fa": "احتساب پرداخت‌ها",
+    "ru": "Зачёт платежей",
+    "de": "Anrechnung von Zahlungen"
+   },
    "group": "Appropriation of Payments",
    "pages": [
     22,
@@ -1109,8 +1342,11 @@ export const LAW = {
    "title": "Application of payment where debts to be discharged not indicated",
    "title_tr": "Hangi borcun ödendiği belirtilmemişse ödemenin mahsubu",
    "title_fa": "احتساب پرداخت در جایی که دین مورد نظر معلوم نیست",
+   "title_ru": "Зачёт платежа, если погашаемые долги не указаны",
+   "title_de": "Anrechnung einer Zahlung, wenn die zu tilgenden Schulden nicht bestimmt sind",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Appropriation of Payments",
    "pages": [
     23
@@ -1124,8 +1360,11 @@ export const LAW = {
    "title": "Appropriation of payment where neither party appropriates",
    "title_tr": "Taraflardan hiçbiri mahsup yapmazsa ödemenin mahsubu",
    "title_fa": "احتساب پرداخت در جایی که هیچ‌یک از طرفین آن را معین نکرده",
+   "title_ru": "Зачёт платежа, если ни одна из сторон не производит зачёта",
+   "title_de": "Anrechnung, wenn keine Partei eine Anrechnung vornimmt",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Appropriation of Payments",
    "pages": [
     23
@@ -1139,8 +1378,16 @@ export const LAW = {
    "title": "Effect of novation, rescission and alteration of contract",
    "title_tr": "Yenileme, fesih ve değişikliğin etkisi",
    "title_fa": "اثر تبدیل تعهد، اقاله و اصلاح قرارداد",
+   "title_ru": "Последствия новации, расторжения и изменения договора",
+   "title_de": "Wirkung von Novation, Aufhebung und Änderung des Vertrags",
    "part": "V",
    "heading": "Contracts which need not be Performed",
+   "heading_i18n": {
+    "tr": "İfa edilmesi gerekmeyen sözleşmeler",
+    "fa": "قراردادهایی که اجرای آن‌ها لازم نیست",
+    "ru": "Договоры, не подлежащие исполнению",
+    "de": "Verträge, die nicht erfüllt werden müssen"
+   },
    "group": "Contracts which need not be Performed",
    "pages": [
     23
@@ -1154,8 +1401,11 @@ export const LAW = {
    "title": "Promisee may dispense with or remit performance of contract",
    "title_tr": "Vaat alanın ifadan vazgeçmesi veya ifayı bağışlaması",
    "title_fa": "متعهدله می‌تواند از اجرای تعهد صرف‌نظر یا آن را ابراء کند",
+   "title_ru": "Получатель обещания может освободить от исполнения договора или простить его",
+   "title_de": "Der Versprechensempfänger kann auf die Erfüllung verzichten oder sie erlassen",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Contracts which need not be Performed",
    "pages": [
     23
@@ -1169,8 +1419,11 @@ export const LAW = {
    "title": "Consequences of rescission of voidable contract",
    "title_tr": "İptal edilebilir sözleşmenin iptalinin sonuçları",
    "title_fa": "آثار ابطال قرارداد قابل ابطال",
+   "title_ru": "Последствия расторжения оспоримого договора",
+   "title_de": "Folgen der Aufhebung eines anfechtbaren Vertrags",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Contracts which need not be Performed",
    "pages": [
     23
@@ -1184,8 +1437,11 @@ export const LAW = {
    "title": "Obligation of person who has received advantage under void agreement or contract that becomes void",
    "title_tr": "Hükümsüz anlaşma veya sonradan hükümsüz hale gelen sözleşme kapsamında yarar elde eden kişinin yükümlülüğü",
    "title_fa": "تعهد شخصی که تحت توافق باطل یا قراردادی که باطل شده نفعی برده",
+   "title_ru": "Обязанность лица, получившего выгоду по ничтожному соглашению или договору, ставшему ничтожным",
+   "title_de": "Pflicht dessen, der aus einer nichtigen Vereinbarung oder einem nichtig gewordenen Vertrag einen Vorteil erlangt hat",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Contracts which need not be Performed",
    "pages": [
     23
@@ -1199,8 +1455,11 @@ export const LAW = {
    "title": "Mode of communicating or revoking rescission of voidable contract",
    "title_tr": "İptal edilebilir sözleşmenin iptalinin bildirimi veya geri alınması",
    "title_fa": "نحوهٔ اعلام یا رجوع از ابطال قرارداد قابل ابطال",
+   "title_ru": "Способ сообщения о расторжении оспоримого договора или его отзыва",
+   "title_de": "Art der Mitteilung oder des Widerrufs der Aufhebung eines anfechtbaren Vertrags",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Contracts which need not be Performed",
    "pages": [
     23,
@@ -1212,11 +1471,14 @@ export const LAW = {
   },
   {
    "n": 67,
-   "title": "Effect of neglect of promise to afford promisor reasonable facilities for performance",
+   "title": "Effect of neglect of promisee to afford promisor reasonable facilities for performance",
    "title_tr": "Vaat alanın ifa için makul kolaylık sağlamamasının etkisi",
    "title_fa": "اثر کوتاهی متعهدله در فراهم کردن امکانات معقول برای اجرا",
+   "title_ru": "Последствия непредоставления получателем обещания разумных возможностей для исполнения",
+   "title_de": "Wirkung, wenn der Versprechensempfänger dem Versprechenden keine angemessenen Erfüllungsmöglichkeiten verschafft",
    "part": "V",
    "heading": null,
+   "heading_i18n": null,
    "group": "Contracts which need not be Performed",
    "pages": [
     24
@@ -1230,8 +1492,11 @@ export const LAW = {
    "title": "Claim for necessaries supplied to person incapable of contracting, or on his account",
    "title_tr": "Sözleşme ehliyeti olmayan kişiye sağlanan zorunlu ihtiyaçlar için talep",
    "title_fa": "مطالبهٔ هزینهٔ ضروریات فراهم‌شده برای شخص فاقد اهلیت",
+   "title_ru": "Требование о предметах первой необходимости, предоставленных лицу, неспособному заключать договоры, или за его счёт",
+   "title_de": "Anspruch für lebensnotwendige Dinge, die einer geschäftsunfähigen Person oder für sie geliefert wurden",
    "part": "VI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     24
@@ -1245,8 +1510,11 @@ export const LAW = {
    "title": "Reimbursement of person paying money due by another in payment of which he is interested",
    "title_tr": "Ödenmesinde menfaati olan kişinin başkasının borcunu ödemesi halinde tazmini",
    "title_fa": "بازپرداخت به کسی که دین دیگری را که در پرداختش ذی‌نفع است می‌پردازد",
+   "title_ru": "Возмещение лицу, уплатившему деньги, причитающиеся с другого, в уплате которых оно заинтересовано",
+   "title_de": "Erstattung an denjenigen, der eine fremde Schuld zahlt, an deren Zahlung er interessiert ist",
    "part": "VI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     24
@@ -1260,14 +1528,17 @@ export const LAW = {
    "title": "Obligation of person enjoying benefit of non-gratuitous act",
    "title_tr": "Karşılıksız olmayan bir işin yararından faydalanan kişinin yükümlülüğü",
    "title_fa": "تعهد شخصی که از کار غیرمجانی دیگری بهره می‌برد",
+   "title_ru": "Обязанность лица, пользующегося результатом возмездного действия",
+   "title_de": "Pflicht dessen, der den Nutzen einer nicht unentgeltlichen Handlung genießt",
    "part": "VI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     24
    ],
    "text": [
-    "Where a person lawfully docs anything for another person, or delivers. anything to him, not intending to do so gratuitously, and such other person enjoys the benefit thereof, the latter is bound to make compensation to the former in respect of, or to restore, the thing so done or delivered."
+    "Where a person lawfully does anything for another person, or delivers anything to him, not intending to do so gratuitously, and such other person enjoys the benefit thereof, the latter is bound to make compensation to the former in respect of, or to restore, the thing so done or delivered."
    ]
   },
   {
@@ -1275,8 +1546,11 @@ export const LAW = {
    "title": "Responsibility of finder of goods",
    "title_tr": "Bulunan eşyayı bulanın sorumluluğu",
    "title_fa": "مسئولیت یابندهٔ مال",
+   "title_ru": "Ответственность нашедшего товары",
+   "title_de": "Verantwortlichkeit des Finders von Waren",
    "part": "VI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     24
@@ -1290,8 +1564,11 @@ export const LAW = {
    "title": "Liability of person to whom money is paid, or thing delivered, by mistake or under coercion",
    "title_tr": "Hata veya zorlama sonucu para ödenen veya şey teslim edilen kişinin sorumluluğu",
    "title_fa": "مسئولیت کسی که پول یا مالی به اشتباه یا تحت اکراه به او داده شده",
+   "title_ru": "Ответственность лица, которому деньги уплачены или вещь передана по ошибке или под принуждением",
+   "title_de": "Haftung dessen, dem Geld irrtümlich oder unter Zwang gezahlt oder eine Sache geliefert wurde",
    "part": "VI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     24
@@ -1305,8 +1582,11 @@ export const LAW = {
    "title": "Compensation for loss or damage caused by breach of contract",
    "title_tr": "Sözleşmenin ihlali sonucu doğan zarar için tazminat",
    "title_fa": "جبران خسارت ناشی از نقض قرارداد",
+   "title_ru": "Компенсация убытков или ущерба, причинённых нарушением договора",
+   "title_de": "Ersatz von Verlust oder Schaden aus Vertragsverletzung",
    "part": "VII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     24,
@@ -1324,8 +1604,11 @@ export const LAW = {
    "title": "Compensation for breach of contract where penalty stipulated for. Saving",
    "title_tr": "Cezai şart öngörülen sözleşmenin ihlali halinde tazminat; istisna",
    "title_fa": "جبران خسارت نقض قرارداد در صورت تعیین وجه التزام؛ استثنا",
+   "title_ru": "Компенсация за нарушение договора при оговорённой неустойке; оговорка",
+   "title_de": "Ersatz bei vereinbarter Vertragsstrafe; Vorbehalt",
    "part": "VII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     25
@@ -1342,8 +1625,11 @@ export const LAW = {
    "title": "Party rightfully rescinding contract entitled to compensation",
    "title_tr": "Sözleşmeyi haklı olarak fesheden tarafın tazminat hakkı",
    "title_fa": "حق جبران خسارت طرفی که به‌حق قرارداد را فسخ کرده",
+   "title_ru": "Сторона, правомерно расторгающая договор, вправе получить компенсацию",
+   "title_de": "Die zu Recht aufhebende Partei hat Anspruch auf Ersatz",
    "part": "VII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     25,
@@ -1358,8 +1644,11 @@ export const LAW = {
    "title": "Specific performance of contracts and requisites thereof. Saving",
    "title_tr": "Sözleşmelerin aynen ifası ve koşulları; istisna",
    "title_fa": "اجرای عین تعهد و شرایط آن؛ استثنا",
+   "title_ru": "Исполнение договоров в натуре и его условия; оговорка",
+   "title_de": "Erfüllung in Natur und ihre Voraussetzungen; Vorbehalt",
    "part": "VIII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     26
@@ -1378,8 +1667,11 @@ export const LAW = {
    "title": "Requirements for leases and contracts made in consideration of marriage",
    "title_tr": "Kira sözleşmeleri ve evlilik karşılığında yapılan sözleşmeler için şekil şartları",
    "title_fa": "تشریفات اجاره و قراردادهای منعقد در مقابل ازدواج",
+   "title_ru": "Требования к договорам аренды и договорам, заключаемым в связи с браком",
+   "title_de": "Erfordernisse für Mietverträge und Verträge im Hinblick auf eine Eheschließung",
    "part": "IX",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     26,
@@ -1400,8 +1692,11 @@ export const LAW = {
    "title": "\"Bond in Customary form\", \"Debtor\" and \"Creditor\" defined, and essentials of bond",
    "title_tr": "\"Örfi senet\", \"borçlu\" ve \"alacaklı\"nın tanımı ve senedin unsurları",
    "title_fa": "تعریف «سند دین به شکل عرفی»، «مدیون» و «دائن» و ارکان سند",
+   "title_ru": "Определения «обязательства в обычной форме», «должника» и «кредитора»; существенные условия обязательства",
+   "title_de": "Begriffe „Schuldurkunde in üblicher Form“, „Schuldner“ und „Gläubiger“; Wesensmerkmale der Urkunde",
    "part": "X",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     27
@@ -1416,8 +1711,11 @@ export const LAW = {
    "title": "Bond secured by guarantee, pledge or mortgage",
    "title_tr": "Kefalet, rehin veya ipotekle güvence altına alınmış senet",
    "title_fa": "سند دینی که با ضمانت، رهن مال منقول یا رهن ملکی تضمین شده",
+   "title_ru": "Обязательство, обеспеченное поручительством, закладом или ипотекой",
+   "title_de": "Durch Bürgschaft, Pfand oder Hypothek gesicherte Schuldurkunde",
    "part": "X",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     27
@@ -1431,8 +1729,11 @@ export const LAW = {
    "title": "Conclusiveness of contents of bond",
    "title_tr": "Senet içeriğinin kesin delil niteliği",
    "title_fa": "قطعی بودن مندرجات سند",
+   "title_ru": "Бесспорность содержания обязательства",
+   "title_de": "Schlüssigkeit des Urkundeninhalts",
    "part": "X",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     27
@@ -1447,8 +1748,11 @@ export const LAW = {
    "title": "Saving",
    "title_tr": "İstisna",
    "title_fa": "استثنا",
+   "title_ru": "Оговорка",
+   "title_de": "Vorbehalt",
    "part": "X",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     27,
@@ -1465,8 +1769,11 @@ export const LAW = {
    "title": "\"Contract of indemnity\" defined",
    "title_tr": "\"Tazmin sözleşmesi\"nin tanımı",
    "title_fa": "تعریف «قرارداد جبران خسارت»",
+   "title_ru": "Определение «договора о возмещении убытков»",
+   "title_de": "Begriff des „Schadloshaltungsvertrags“",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     28
@@ -1480,8 +1787,11 @@ export const LAW = {
    "title": "Right of indemnity-holder when sued",
    "title_tr": "Tazmin alacaklısının dava edilmesi halinde hakları",
    "title_fa": "حقوق متعهدله قرارداد جبران خسارت هنگامی که علیه او اقامهٔ دعوا شود",
+   "title_ru": "Права лица, которому обещано возмещение, при предъявлении к нему иска",
+   "title_de": "Rechte des Schadloshaltungsberechtigten bei Inanspruchnahme",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     28
@@ -1498,8 +1808,11 @@ export const LAW = {
    "title": "\"Contract of guarantee,\" \"surety,\" \"principal debtor\" and \"creditor\"",
    "title_tr": "\"Kefalet sözleşmesi\", \"kefil\", \"asıl borçlu\" ve \"alacaklı\"",
    "title_fa": "«قرارداد ضمانت»، «ضامن»، «مدیون اصلی» و «طلبکار»",
+   "title_ru": "«Договор поручительства», «поручитель», «основной должник» и «кредитор»",
+   "title_de": "„Bürgschaftsvertrag“, „Bürge“, „Hauptschuldner“ und „Gläubiger“",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     28
@@ -1513,8 +1826,11 @@ export const LAW = {
    "title": "Consideration for guarantee",
    "title_tr": "Kefaletin karşılığı",
    "title_fa": "عوض ضمانت",
+   "title_ru": "Встречное удовлетворение за поручительство",
+   "title_de": "Gegenleistung für die Bürgschaft",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     28,
@@ -1529,8 +1845,11 @@ export const LAW = {
    "title": "Surety's liability",
    "title_tr": "Kefilin sorumluluğu",
    "title_fa": "مسئولیت ضامن",
+   "title_ru": "Ответственность поручителя",
+   "title_de": "Haftung des Bürgen",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     29
@@ -1544,8 +1863,11 @@ export const LAW = {
    "title": "\"Continuing guarantee\"",
    "title_tr": "\"Sürekli kefalet\"",
    "title_fa": "«ضمانت مستمر»",
+   "title_ru": "«Длящееся поручительство»",
+   "title_de": "„Fortlaufende Bürgschaft“",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     29
@@ -1559,8 +1881,11 @@ export const LAW = {
    "title": "Revocation of continuing guarantee",
    "title_tr": "Sürekli kefaletin geri alınması",
    "title_fa": "رجوع از ضمانت مستمر",
+   "title_ru": "Отзыв длящегося поручительства",
+   "title_de": "Widerruf der fortlaufenden Bürgschaft",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     29
@@ -1574,8 +1899,11 @@ export const LAW = {
    "title": "Revocation of continuing guarantee by surety's death",
    "title_tr": "Kefilin ölümüyle sürekli kefaletin sona ermesi",
    "title_fa": "زوال ضمانت مستمر با فوت ضامن",
+   "title_ru": "Отзыв длящегося поручительства вследствие смерти поручителя",
+   "title_de": "Widerruf der fortlaufenden Bürgschaft durch Tod des Bürgen",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     29
@@ -1589,14 +1917,17 @@ export const LAW = {
    "title": "Liability of two persons primarily liable, not affected by arrangement between them that one shall be surety on other's default",
    "title_tr": "Aralarında birinin diğerinin temerrüdünde kefil olacağı kararlaştırılan iki asli borçlunun sorumluluğu",
    "title_fa": "مسئولیت دو متعهد اصلی که میان خود توافق کرده‌اند یکی ضامن دیگری باشد",
+   "title_ru": "Ответственность двух лиц, отвечающих в первую очередь, не затрагивается их договорённостью о том, что одно будет поручителем при неисполнении другим",
+   "title_de": "Haftung zweier primär Haftender wird durch ihre Abrede, dass einer bei Säumnis des anderen Bürge sein soll, nicht berührt",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     29
    ],
    "text": [
-    "Where two persons contract with a third person to undertake a certain liability, and also contract with each other that one of them shall be liable only on the default of the other, the third person not being a party to such contract, the lability of each of such two persons to the third person under the first contract is not affected by the existence of the second contract, although such third person may have been aware of its existence."
+    "Where two persons contract with a third person to undertake a certain liability, and also contract with each other that one of them shall be liable only on the default of the other, the third person not being a party to such contract, the liability of each of such two persons to the third person under the first contract is not affected by the existence of the second contract, although such third person may have been aware of its existence."
    ]
   },
   {
@@ -1604,8 +1935,11 @@ export const LAW = {
    "title": "Discharge of surety by variance of terms of contract",
    "title_tr": "Sözleşme koşullarının değiştirilmesiyle kefilin kurtulması",
    "title_fa": "برائت ضامن با تغییر شرایط قرارداد",
+   "title_ru": "Освобождение поручителя вследствие изменения условий договора",
+   "title_de": "Befreiung des Bürgen durch Änderung der Vertragsbedingungen",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     29
@@ -1619,8 +1953,11 @@ export const LAW = {
    "title": "Discharge of surety by release or discharge of principal debtor",
    "title_tr": "Asıl borçlunun ibra edilmesiyle kefilin kurtulması",
    "title_fa": "برائت ضامن با ابراء یا برائت مدیون اصلی",
+   "title_ru": "Освобождение поручителя вследствие освобождения основного должника",
+   "title_de": "Befreiung des Bürgen durch Entlassung oder Befreiung des Hauptschuldners",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     29
@@ -1634,8 +1971,11 @@ export const LAW = {
    "title": "Discharge of surety when creditor compounds with, gives time to, or agrees not to sue principal debtor",
    "title_tr": "Alacaklının asıl borçluyla uzlaşması, ona süre vermesi veya dava etmeme sözü vermesiyle kefilin kurtulması",
    "title_fa": "برائت ضامن هنگامی که طلبکار با مدیون اصلی سازش کند، به او مهلت دهد یا تعهد کند علیه او اقامهٔ دعوا نکند",
+   "title_ru": "Освобождение поручителя, если кредитор заключает компромисс с основным должником, предоставляет ему отсрочку или соглашается не предъявлять к нему иск",
+   "title_de": "Befreiung des Bürgen bei Vergleich, Stundung oder Klageverzicht des Gläubigers gegenüber dem Hauptschuldner",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     29,
@@ -1650,8 +1990,11 @@ export const LAW = {
    "title": "Surety not discharged when agreement made with third person to give time to principal debtor",
    "title_tr": "Asıl borçluya süre verilmesi için üçüncü kişiyle anlaşma yapılması halinde kefilin kurtulmaması",
    "title_fa": "عدم برائت ضامن هنگامی که توافق مهلت با شخص ثالث بسته شود",
+   "title_ru": "Поручитель не освобождается, если соглашение об отсрочке основному должнику заключено с третьим лицом",
+   "title_de": "Keine Befreiung des Bürgen bei Stundungsabrede mit einem Dritten",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     30
@@ -1665,8 +2008,11 @@ export const LAW = {
    "title": "Creditor's forbearance to sue does not discharge surety",
    "title_tr": "Alacaklının dava açmayı ertelemesi kefili kurtarmaz",
    "title_fa": "خودداری طلبکار از اقامهٔ دعوا موجب برائت ضامن نمی‌شود",
+   "title_ru": "Воздержание кредитора от иска не освобождает поручителя",
+   "title_de": "Bloßes Zuwarten des Gläubigers mit der Klage befreit den Bürgen nicht",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     30
@@ -1680,8 +2026,11 @@ export const LAW = {
    "title": "Release of one co-surety does not discharge others",
    "title_tr": "Kefillerden birinin ibrası diğerlerini kurtarmaz",
    "title_fa": "ابراء یکی از ضامنان موجب برائت دیگران نمی‌شود",
+   "title_ru": "Освобождение одного сопоручителя не освобождает остальных",
+   "title_de": "Entlassung eines Mitbürgen befreit die anderen nicht",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     30
@@ -1695,8 +2044,11 @@ export const LAW = {
    "title": "Discharge of surety by creditor's act or omission impairing surety's eventual remedy",
    "title_tr": "Alacaklının, kefilin rücu hakkını zedeleyen eylem veya ihmaliyle kefilin kurtulması",
    "title_fa": "برائت ضامن به سبب فعل یا ترک فعل طلبکار که حق رجوع ضامن را مختل کند",
+   "title_ru": "Освобождение поручителя вследствие действия или бездействия кредитора, ухудшающего окончательное средство защиты поручителя",
+   "title_de": "Befreiung des Bürgen durch Handlung oder Unterlassung des Gläubigers, die den Rückgriff des Bürgen beeinträchtigt",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     30
@@ -1710,8 +2062,11 @@ export const LAW = {
    "title": "Rights of surety on payment or performance",
    "title_tr": "Ödeme veya ifa halinde kefilin hakları",
    "title_fa": "حقوق ضامن پس از پرداخت یا اجرا",
+   "title_ru": "Права поручителя после уплаты или исполнения",
+   "title_de": "Rechte des Bürgen nach Zahlung oder Erfüllung",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     30
@@ -1725,8 +2080,11 @@ export const LAW = {
    "title": "Surety's right to benefit of creditor's securities. Saving",
    "title_tr": "Kefilin alacaklının teminatlarından yararlanma hakkı; istisna",
    "title_fa": "حق ضامن بر وثیقه‌های طلبکار؛ استثنا",
+   "title_ru": "Право поручителя на обеспечения кредитора; оговорка",
+   "title_de": "Recht des Bürgen auf die Sicherheiten des Gläubigers; Vorbehalt",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     30
@@ -1741,8 +2099,11 @@ export const LAW = {
    "title": "Guarantee obtained by misrepresentation invalid",
    "title_tr": "Yanlış beyanla elde edilen kefaletin geçersizliği",
    "title_fa": "بی‌اعتباری ضمانتی که با اظهار خلاف واقع گرفته شده",
+   "title_ru": "Недействительность поручительства, полученного путём искажения сведений",
+   "title_de": "Ungültigkeit einer durch falsche Darstellung erlangten Bürgschaft",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     30,
@@ -1757,8 +2118,11 @@ export const LAW = {
    "title": "Guarantee obtained by concealment invalid",
    "title_tr": "Gizleme yoluyla elde edilen kefaletin geçersizliği",
    "title_fa": "بی‌اعتباری ضمانتی که با کتمان گرفته شده",
+   "title_ru": "Недействительность поручительства, полученного путём умолчания",
+   "title_de": "Ungültigkeit einer durch Verschweigen erlangten Bürgschaft",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     31
@@ -1772,8 +2136,11 @@ export const LAW = {
    "title": "Guarantee on contract that creditor shall not act on it until co-surety joins",
    "title_tr": "Diğer kefil katılmadıkça alacaklının işlem yapmayacağı koşuluyla verilen kefalet",
    "title_fa": "ضمانت به شرط آنکه طلبکار تا پیوستن ضامن دیگر اقدامی نکند",
+   "title_ru": "Поручительство с условием, что кредитор не будет действовать до присоединения сопоручителя",
+   "title_de": "Bürgschaft unter der Abrede, dass der Gläubiger erst nach Beitritt eines Mitbürgen vorgeht",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     31
@@ -1787,8 +2154,11 @@ export const LAW = {
    "title": "Implied promise to indemnify surety",
    "title_tr": "Kefili tazmin etme yönünde örtülü vaat",
    "title_fa": "وعدهٔ ضمنی جبران خسارت ضامن",
+   "title_ru": "Подразумеваемое обещание возместить убытки поручителю",
+   "title_de": "Stillschweigendes Versprechen, den Bürgen schadlos zu halten",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     31
@@ -1802,8 +2172,11 @@ export const LAW = {
    "title": "Co-surety liable to contribute equally",
    "title_tr": "Kefillerin eşit katkı yükümlülüğü",
    "title_fa": "تکلیف ضامنان به مشارکت برابر",
+   "title_ru": "Сопоручители обязаны участвовать поровну",
+   "title_de": "Mitbürgen haften zu gleichen Teilen",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     31
@@ -1817,8 +2190,11 @@ export const LAW = {
    "title": "Liability of co-sureties bound on different sums",
    "title_tr": "Farklı tutarlarla sorumlu kefillerin sorumluluğu",
    "title_fa": "مسئولیت ضامنانی که به مبالغ متفاوت متعهد شده‌اند",
+   "title_ru": "Ответственность сопоручителей, обязавшихся на разные суммы",
+   "title_de": "Haftung von Mitbürgen mit unterschiedlichen Beträgen",
    "part": "XI",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     31
@@ -1832,8 +2208,11 @@ export const LAW = {
    "title": "\"Goods,\" \"company,\" \"bailment,\" \"bailor,\" and \"bailee\" defined",
    "title_tr": "\"Mal\", \"şirket\", \"emanet (bailment)\", \"emanet veren\" ve \"emanet alan\"ın tanımı",
    "title_fa": "تعریف «کالا»، «شرکت»، «امانت»، «امانت‌گذار» و «امانت‌دار»",
+   "title_ru": "Определения «товаров», «компании», «хранения», «поклажедателя» и «хранителя»",
+   "title_de": "Begriffe „Waren“, „Gesellschaft“, „Verwahrung“, „Hinterleger“ und „Verwahrer“",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     31,
@@ -1852,8 +2231,11 @@ export const LAW = {
    "title": "Delivery to bailee, how made",
    "title_tr": "Emanet alana teslimin nasıl yapılacağı",
    "title_fa": "نحوهٔ تحویل به امانت‌دار",
+   "title_ru": "Как производится передача хранителю",
+   "title_de": "Wie die Übergabe an den Verwahrer erfolgt",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     32
@@ -1867,8 +2249,11 @@ export const LAW = {
    "title": "Bailor's duty to disclose faults in goods bailed",
    "title_tr": "Emanet verenin emanet edilen maldaki kusurları bildirme yükümlülüğü",
    "title_fa": "تکلیف امانت‌گذار به افشای عیوب مال امانی",
+   "title_ru": "Обязанность поклажедателя сообщать о недостатках переданных товаров",
+   "title_de": "Pflicht des Hinterlegers, Mängel der verwahrten Waren offenzulegen",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     32
@@ -1883,8 +2268,11 @@ export const LAW = {
    "title": "Care to be taken by bailee",
    "title_tr": "Emanet alanın göstermesi gereken özen",
    "title_fa": "مراقبتی که امانت‌دار باید به کار ببرد",
+   "title_ru": "Заботливость, которую должен проявлять хранитель",
+   "title_de": "Vom Verwahrer anzuwendende Sorgfalt",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     32
@@ -1898,8 +2286,11 @@ export const LAW = {
    "title": "Bailee when not liable for loss, etc., of thing bailed",
    "title_tr": "Emanet alanın emanet edilen şeyin kaybından vb. sorumlu olmadığı haller",
    "title_fa": "مواردی که امانت‌دار مسئول تلف و غیره نیست",
+   "title_ru": "Когда хранитель не отвечает за утрату и т. п. переданной вещи",
+   "title_de": "Wann der Verwahrer nicht für Verlust usw. der verwahrten Sache haftet",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     32
@@ -1913,8 +2304,11 @@ export const LAW = {
    "title": "Termination of bailment by bailee's act inconsistent with conditions",
    "title_tr": "Emanet alanın koşullara aykırı eylemiyle emanetin sona ermesi",
    "title_fa": "پایان امانت با عمل امانت‌دار برخلاف شرایط",
+   "title_ru": "Прекращение хранения вследствие действия хранителя, несовместимого с условиями",
+   "title_de": "Beendigung der Verwahrung durch bedingungswidrige Handlung des Verwahrers",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     32,
@@ -1929,8 +2323,11 @@ export const LAW = {
    "title": "Liability of bailee making unauthorized use of goods bailed",
    "title_tr": "Emanet edilen malı izinsiz kullanan emanet alanın sorumluluğu",
    "title_fa": "مسئولیت امانت‌داری که بدون اجازه از مال امانی استفاده کند",
+   "title_ru": "Ответственность хранителя за неразрешённое использование переданных товаров",
+   "title_de": "Haftung des Verwahrers bei unbefugtem Gebrauch der verwahrten Waren",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     33
@@ -1944,8 +2341,11 @@ export const LAW = {
    "title": "Effect of mixture, with bailor's consent, of his goods with bailee's",
    "title_tr": "Emanet verenin rızasıyla malların emanet alanın mallarıyla karışmasının etkisi",
    "title_fa": "اثر اختلاط مال امانی با مال امانت‌دار با رضایت امانت‌گذار",
+   "title_ru": "Последствия смешения товаров поклажедателя с товарами хранителя с согласия поклажедателя",
+   "title_de": "Wirkung der Vermischung mit Zustimmung des Hinterlegers",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     33
@@ -1959,8 +2359,11 @@ export const LAW = {
    "title": "Effect of mixture, without bailor's consent, when the goods can be separated",
    "title_tr": "Emanet verenin rızası olmadan karışma: mallar ayrılabiliyorsa",
    "title_fa": "اثر اختلاط بدون رضایت امانت‌گذار، هنگامی که اموال قابل تفکیک است",
+   "title_ru": "Последствия смешения без согласия поклажедателя, когда товары могут быть отделены",
+   "title_de": "Wirkung der Vermischung ohne Zustimmung des Hinterlegers, wenn die Waren trennbar sind",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     33
@@ -1974,8 +2377,11 @@ export const LAW = {
    "title": "Effect of mixture, without bailor's consent, when the goods cannot be separated",
    "title_tr": "Emanet verenin rızası olmadan karışma: mallar ayrılamıyorsa",
    "title_fa": "اثر اختلاط بدون رضایت امانت‌گذار، هنگامی که اموال قابل تفکیک نیست",
+   "title_ru": "Последствия смешения без согласия поклажедателя, когда товары не могут быть отделены",
+   "title_de": "Wirkung der Vermischung ohne Zustimmung des Hinterlegers, wenn die Waren nicht trennbar sind",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     33
@@ -1989,8 +2395,11 @@ export const LAW = {
    "title": "Repayment by bailor of necessary expenses",
    "title_tr": "Zorunlu giderlerin emanet veren tarafından ödenmesi",
    "title_fa": "پرداخت هزینه‌های ضروری به وسیلهٔ امانت‌گذار",
+   "title_ru": "Возмещение поклажедателем необходимых расходов",
+   "title_de": "Erstattung notwendiger Aufwendungen durch den Hinterleger",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     33
@@ -2004,8 +2413,11 @@ export const LAW = {
    "title": "Restoration of goods lent gratuitously",
    "title_tr": "Karşılıksız ödünç verilen malların iadesi",
    "title_fa": "استرداد مالی که مجانی عاریه داده شده",
+   "title_ru": "Возврат вещей, переданных в безвозмездное пользование",
+   "title_de": "Rückgabe unentgeltlich verliehener Sachen",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     33,
@@ -2020,8 +2432,11 @@ export const LAW = {
    "title": "Return of goods bailed on expiration of time or accomplishment of purpose",
    "title_tr": "Sürenin dolması veya amacın gerçekleşmesi üzerine emanet malların iadesi",
    "title_fa": "استرداد مال امانی پس از انقضای مدت یا تحقق هدف",
+   "title_ru": "Возврат переданных товаров по истечении срока или достижении цели",
+   "title_de": "Rückgabe der verwahrten Waren nach Zeitablauf oder Zweckerreichung",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     34
@@ -2035,8 +2450,11 @@ export const LAW = {
    "title": "Bailee's responsibility when goods are not duly returned",
    "title_tr": "Mallar zamanında iade edilmezse emanet alanın sorumluluğu",
    "title_fa": "مسئولیت امانت‌دار هنگامی که مال به‌موقع مسترد نشود",
+   "title_ru": "Ответственность хранителя, если товары не возвращены надлежащим образом",
+   "title_de": "Verantwortlichkeit des Verwahrers bei nicht ordnungsgemäßer Rückgabe",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     34
@@ -2050,8 +2468,11 @@ export const LAW = {
    "title": "Termination of gratuitous bailment by death",
    "title_tr": "Karşılıksız emanetin ölümle sona ermesi",
    "title_fa": "پایان امانت مجانی با فوت",
+   "title_ru": "Прекращение безвозмездного хранения смертью",
+   "title_de": "Beendigung der unentgeltlichen Verwahrung durch Tod",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     34
@@ -2065,8 +2486,11 @@ export const LAW = {
    "title": "Bailor entitled to interest or profit from goods bailed",
    "title_tr": "Emanet verenin emanet edilen malların faiz veya kazancına hakkı",
    "title_fa": "حق امانت‌گذار بر بهره یا منافع مال امانی",
+   "title_ru": "Поклажедатель вправе на проценты или доход от переданных товаров",
+   "title_de": "Anspruch des Hinterlegers auf Zinsen oder Gewinn aus den verwahrten Waren",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     34
@@ -2080,8 +2504,11 @@ export const LAW = {
    "title": "Bailor's responsibility to bailee",
    "title_tr": "Emanet verenin emanet alana karşı sorumluluğu",
    "title_fa": "مسئولیت امانت‌گذار در برابر امانت‌دار",
+   "title_ru": "Ответственность поклажедателя перед хранителем",
+   "title_de": "Verantwortlichkeit des Hinterlegers gegenüber dem Verwahrer",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     34
@@ -2095,8 +2522,11 @@ export const LAW = {
    "title": "Bailment by several owners",
    "title_tr": "Birden fazla malik tarafından yapılan emanet",
    "title_fa": "امانت به وسیلهٔ چند مالک",
+   "title_ru": "Передача на хранение несколькими собственниками",
+   "title_de": "Verwahrung durch mehrere Eigentümer",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     34
@@ -2110,8 +2540,11 @@ export const LAW = {
    "title": "Bailee not responsible on re-delivery to bailor without title",
    "title_tr": "Mülkiyet hakkı olmayan emanet verene iade halinde emanet alanın sorumsuzluğu",
    "title_fa": "عدم مسئولیت امانت‌دار در صورت استرداد به امانت‌گذار فاقد مالکیت",
+   "title_ru": "Хранитель не отвечает при возврате поклажедателю, не имеющему права",
+   "title_de": "Keine Haftung des Verwahrers bei Rückgabe an einen nichtberechtigten Hinterleger",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     34
@@ -2125,8 +2558,11 @@ export const LAW = {
    "title": "Right of third person claiming goods bailed",
    "title_tr": "Emanet edilen mal üzerinde hak iddia eden üçüncü kişinin hakkı",
    "title_fa": "حق شخص ثالثی که مدعی مال امانی است",
+   "title_ru": "Право третьего лица, заявляющего права на переданные товары",
+   "title_de": "Recht eines Dritten, der die verwahrten Waren beansprucht",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     34
@@ -2140,8 +2576,11 @@ export const LAW = {
    "title": "Right of finder of goods; may sue for specific reward offered",
    "title_tr": "Bulunan malı bulanın hakkı; vaat edilen ödül için dava hakkı",
    "title_fa": "حق یابندهٔ مال؛ امکان مطالبهٔ جایزهٔ وعده‌داده‌شده",
+   "title_ru": "Право нашедшего товары; может требовать обещанное вознаграждение",
+   "title_de": "Recht des Finders; Klage auf ausgesetzte Belohnung",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     34,
@@ -2156,8 +2595,11 @@ export const LAW = {
    "title": "When finder of thing commonly on sale may sell it",
    "title_tr": "Genellikle satışa konu olan şeyi bulanın onu satabileceği haller",
    "title_fa": "مواردی که یابندهٔ مال معمولاً قابل فروش می‌تواند آن را بفروشد",
+   "title_ru": "Когда нашедший вещь, обычно являющуюся предметом продажи, может её продать",
+   "title_de": "Wann der Finder einer üblicherweise verkäuflichen Sache sie verkaufen darf",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     35
@@ -2173,8 +2615,11 @@ export const LAW = {
    "title": "Bailee's particular lien",
    "title_tr": "Emanet alanın özel hapis hakkı",
    "title_fa": "حق حبس خاص امانت‌دار",
+   "title_ru": "Особое право удержания хранителя",
+   "title_de": "Besonderes Zurückbehaltungsrecht des Verwahrers",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     35
@@ -2188,14 +2633,17 @@ export const LAW = {
    "title": "General liens of bankers, factors and wharfingers",
    "title_tr": "Bankerlerin, komisyoncuların ve rıhtım işletmecilerinin genel hapis hakkı",
    "title_fa": "حق حبس عام بانکداران، حق‌العمل‌کاران و متصدیان بارانداز",
+   "title_ru": "Общее право удержания банкиров, комиссионеров и владельцев пристаней",
+   "title_de": "Allgemeines Zurückbehaltungsrecht von Bankiers, Kommissionären und Kaiunternehmern",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": null,
    "pages": [
     35
    ],
    "text": [
-    "Bankers, factors and wharfingers, may, in the absence of a contract to the contrary, retain, asa security for a general balance of account, any goods bailed to them; but no other persons have a right to retain, as a security for such balance, goods bailed to them, unless there is an express contract to that effect."
+    "Bankers, factors and wharfingers, may, in the absence of a contract to the contrary, retain, as a security for a general balance of account, any goods bailed to them; but no other persons have a right to retain, as a security for such balance, goods bailed to them, unless there is an express contract to that effect."
    ]
   },
   {
@@ -2203,8 +2651,16 @@ export const LAW = {
    "title": "\"Pledge\", \"pawnor\" and \"pawnee\", defined",
    "title_tr": "\"Rehin\", \"rehin veren\" ve \"rehin alan\"ın tanımı",
    "title_fa": "تعریف «رهن مال منقول»، «راهن» و «مرتهن»",
+   "title_ru": "Определения «залога», «залогодателя» и «залогодержателя»",
+   "title_de": "Begriffe „Pfand“, „Verpfänder“ und „Pfandgläubiger“",
    "part": "XII",
    "heading": "Bailments of Pledges",
+   "heading_i18n": {
+    "tr": "Rehin yoluyla emanetler",
+    "fa": "امانت به صورت رهن",
+    "ru": "Хранение в виде залога",
+    "de": "Verwahrung als Pfand"
+   },
    "group": "Bailments of Pledges",
    "pages": [
     35
@@ -2218,8 +2674,11 @@ export const LAW = {
    "title": "Pawnee's right of retainer",
    "title_tr": "Rehin alanın alıkoyma hakkı",
    "title_fa": "حق حبس مرتهن",
+   "title_ru": "Право удержания залогодержателя",
+   "title_de": "Zurückbehaltungsrecht des Pfandgläubigers",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Bailments of Pledges",
    "pages": [
     35
@@ -2233,8 +2692,11 @@ export const LAW = {
    "title": "Pawnee not to retain debt or promise other than that for which goods pledged. Presumption in case of subsequent advances",
    "title_tr": "Rehin alan, malın rehnedildiği borç veya vaat dışındakiler için alıkoyamaz; sonraki avanslarda karine",
    "title_fa": "مرتهن نمی‌تواند مال را برای دین یا تعهدی جز آنچه رهن برای آن داده شده نگه دارد؛ اماره در مورد پیش‌پرداخت‌های بعدی",
+   "title_ru": "Залогодержатель не вправе удерживать залог для иного долга или обещания; презумпция при последующих авансах",
+   "title_de": "Kein Zurückbehalten für andere Schulden oder Versprechen; Vermutung bei späteren Vorschüssen",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Bailments of Pledges",
    "pages": [
     35,
@@ -2249,8 +2711,11 @@ export const LAW = {
    "title": "Pawnee's right as to extraordinary expenses incurred",
    "title_tr": "Rehin alanın olağanüstü giderler bakımından hakkı",
    "title_fa": "حق مرتهن نسبت به هزینه‌های فوق‌العاده",
+   "title_ru": "Право залогодержателя на чрезвычайные расходы",
+   "title_de": "Recht des Pfandgläubigers auf außergewöhnliche Aufwendungen",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Bailments of Pledges",
    "pages": [
     36
@@ -2264,8 +2729,11 @@ export const LAW = {
    "title": "Pawnee's right where pawnor makes default",
    "title_tr": "Rehin veren temerrüde düştüğünde rehin alanın hakkı",
    "title_fa": "حق مرتهن هنگامی که راهن تخلف کند",
+   "title_ru": "Права залогодержателя при неисполнении залогодателем",
+   "title_de": "Rechte des Pfandgläubigers bei Verzug des Verpfänders",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Bailments of Pledges",
    "pages": [
     36
@@ -2280,14 +2748,17 @@ export const LAW = {
    "title": "Defaulting pawnor's right to redeem",
    "title_tr": "Temerrüde düşen rehin verenin rehni kurtarma hakkı",
    "title_fa": "حق راهن متخلف به فک رهن",
+   "title_ru": "Право неисправного залогодателя на выкуп",
+   "title_de": "Auslösungsrecht des säumigen Verpfänders",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Bailments of Pledges",
    "pages": [
     36
    ],
    "text": [
-    "If a time is stipulated for the payment of the debt, or performance of the promise, for which the pledge is made. and the pawnor makes default in payment of the debt or performance of the promise at the stipulated time, he may redeem the goods pledged at any subsequent time before the actual sale of them; but he must, in that case, pay, in addition, any expenses which have arisen from his default."
+    "If a time is stipulated for the payment of the debt, or performance of the promise, for which the pledge is made, and the pawnor makes default in payment of the debt or performance of the promise at the stipulated time, he may redeem the goods pledged at any subsequent time before the actual sale of them; but he must, in that case, pay, in addition, any expenses which have arisen from his default."
    ]
   },
   {
@@ -2295,14 +2766,17 @@ export const LAW = {
    "title": "Pledge by possessor of goods, or of documentary title to goods",
    "title_tr": "Mal zilyedi veya mal üzerindeki temsili belgenin zilyedi tarafından rehin",
    "title_fa": "رهن به وسیلهٔ متصرف کالا یا سند مالکیت کالا",
+   "title_ru": "Залог владельцем товаров или товарораспорядительного документа",
+   "title_de": "Verpfändung durch den Besitzer von Waren oder Traditionspapieren",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Bailments of Pledges",
    "pages": [
     36
    ],
    "text": [
-    "A person who is in possession of any goods, or of any bill of lading, dock-warrant, warehouse-keeper's certificate, wharfinger's certificate, or warrant or order for delivery, or any other document of title to goods. may make a valid pledge of such goods or documents:",
+    "A person who is in possession of any goods, or of any bill of lading, dock-warrant, warehouse-keeper's certificate, wharfinger's certificate, or warrant or order for delivery, or any other document of title to goods, may make a valid pledge of such goods or documents:",
     "Provided that the pawnee acts in good faith, and under circumstances which are not such as to raise a reasonable presumption that the pawnor is acting improperly:",
     "Provided also that such goods or documents have not been obtained from their lawful owner, or from any person in lawful custody of them, by means of an offence or fraud."
    ]
@@ -2312,8 +2786,11 @@ export const LAW = {
    "title": "Pledge where pawnor has only a limited interest",
    "title_tr": "Rehin verenin yalnızca sınırlı bir hakka sahip olduğu rehin",
    "title_fa": "رهن در جایی که راهن تنها حق محدودی دارد",
+   "title_ru": "Залог, когда залогодатель имеет лишь ограниченный интерес",
+   "title_de": "Verpfändung bei nur beschränktem Recht des Verpfänders",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Bailments of Pledges",
    "pages": [
     36,
@@ -2328,8 +2805,11 @@ export const LAW = {
    "title": "Requirements for a pledge of bills of exchange, promissory notes etc., or shares",
    "title_tr": "Poliçe, bono vb. veya hisse senetlerinin rehni için şartlar",
    "title_fa": "شرایط رهن برات، سفته و غیره یا سهام",
+   "title_ru": "Требования к залогу переводных и простых векселей и т. д. или акций",
+   "title_de": "Erfordernisse für die Verpfändung von Wechseln, Eigenwechseln usw. oder Aktien",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Bailments of Pledges",
    "pages": [
     37
@@ -2354,8 +2834,11 @@ export const LAW = {
    "title": "Pawnee's right where pawnor makes default in contract of pledge made with last preceding section",
    "title_tr": "Önceki maddeye göre yapılan rehin sözleşmesinde rehin veren temerrüde düştüğünde rehin alanın hakkı",
    "title_fa": "حق مرتهن هنگامی که راهن در قرارداد رهن موضوع مادهٔ قبل تخلف کند",
+   "title_ru": "Права залогодержателя при неисполнении залогодателем по договору залога, заключённому согласно предыдущей статье",
+   "title_de": "Rechte des Pfandgläubigers bei Verzug unter einem nach dem vorhergehenden Paragraphen geschlossenen Pfandvertrag",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Bailments of Pledges",
    "pages": [
     37,
@@ -2370,8 +2853,16 @@ export const LAW = {
    "title": "Legal proceedings by bailor or bailee against wrong-doer",
    "title_tr": "Emanet veren veya emanet alanın haksız fiil faillerine karşı dava açması",
    "title_fa": "اقامهٔ دعوای امانت‌گذار یا امانت‌دار علیه متجاوز",
+   "title_ru": "Иски поклажедателя или хранителя к правонарушителю",
+   "title_de": "Klagen des Hinterlegers oder Verwahrers gegen den Schädiger",
    "part": "XII",
    "heading": "Legal Proceedings by Bailees or Bailors against Wrong-doers",
+   "heading_i18n": {
+    "tr": "Emanet alan veya verenin haksız fiil işleyene karşı yasal işlemleri",
+    "fa": "اقدامات قانونی امانت‌دار یا امانت‌گذار علیه متخلف",
+    "ru": "Иски хранителей или поклажедателей к правонарушителям",
+    "de": "Klagen von Verwahrern oder Hinterlegern gegen Schädiger"
+   },
    "group": "Legal Proceedings by Bailees or Bailors against Wrong-doers",
    "pages": [
     38
@@ -2385,8 +2876,11 @@ export const LAW = {
    "title": "Apportionment of relief or compensation obtained by such legal proceedings",
    "title_tr": "Bu davalar sonucunda elde edilen tazminatın paylaştırılması",
    "title_fa": "تقسیم جبرانی که از این دعاوی به دست آمده",
+   "title_ru": "Распределение средств защиты или компенсации, полученных по таким искам",
+   "title_de": "Aufteilung des in solchen Verfahren Erlangten",
    "part": "XII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Legal Proceedings by Bailees or Bailors against Wrong-doers",
    "pages": [
     38
@@ -2400,8 +2894,16 @@ export const LAW = {
    "title": "\"Agent\" and \"principal\" defined",
    "title_tr": "\"Temsilci (ajan)\" ve \"temsil olunan (asıl)\"ın tanımı",
    "title_fa": "تعریف «نماینده» و «اصیل»",
+   "title_ru": "Определения «агента» и «принципала»",
+   "title_de": "Begriffe „Vertreter“ und „Geschäftsherr“",
    "part": "XIII",
    "heading": "Appointment and Authority of Agents",
+   "heading_i18n": {
+    "tr": "Temsilcilerin atanması ve yetkisi",
+    "fa": "انتصاب و اختیار نمایندگان",
+    "ru": "Назначение и полномочия агентов",
+    "de": "Bestellung und Vollmacht von Vertretern"
+   },
    "group": "Appointment and Authority of Agents",
    "pages": [
     38
@@ -2415,8 +2917,11 @@ export const LAW = {
    "title": "Who may employ agent",
    "title_tr": "Kimlerin temsilci atayabileceği",
    "title_fa": "چه کسی می‌تواند نماینده بگیرد",
+   "title_ru": "Кто может нанять агента",
+   "title_de": "Wer einen Vertreter bestellen kann",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Appointment and Authority of Agents",
    "pages": [
     38
@@ -2430,8 +2935,11 @@ export const LAW = {
    "title": "Who may be agent",
    "title_tr": "Kimlerin temsilci olabileceği",
    "title_fa": "چه کسی می‌تواند نماینده باشد",
+   "title_ru": "Кто может быть агентом",
+   "title_de": "Wer Vertreter sein kann",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Appointment and Authority of Agents",
    "pages": [
     38
@@ -2445,8 +2953,11 @@ export const LAW = {
    "title": "Consideration not necessary",
    "title_tr": "Karşılık gerekmez",
    "title_fa": "عوض لازم نیست",
+   "title_ru": "Встречное удовлетворение не требуется",
+   "title_de": "Keine Gegenleistung erforderlich",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Appointment and Authority of Agents",
    "pages": [
     38
@@ -2460,8 +2971,11 @@ export const LAW = {
    "title": "Agent's authority may be expressed or implied",
    "title_tr": "Temsilcinin yetkisi açık veya örtülü olabilir",
    "title_fa": "اختیار نماینده می‌تواند صریح یا ضمنی باشد",
+   "title_ru": "Полномочия агента могут быть прямо выраженными или подразумеваемыми",
+   "title_de": "Die Vollmacht kann ausdrücklich oder stillschweigend sein",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Appointment and Authority of Agents",
    "pages": [
     38
@@ -2475,8 +2989,11 @@ export const LAW = {
    "title": "Definitions of express and implied authority",
    "title_tr": "Açık ve örtülü yetkinin tanımları",
    "title_fa": "تعریف اختیار صریح و ضمنی",
+   "title_ru": "Определения прямо выраженных и подразумеваемых полномочий",
+   "title_de": "Begriffe der ausdrücklichen und der stillschweigenden Vollmacht",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Appointment and Authority of Agents",
    "pages": [
     38,
@@ -2491,8 +3008,11 @@ export const LAW = {
    "title": "Extent of agent's authority",
    "title_tr": "Temsilcinin yetkisinin kapsamı",
    "title_fa": "حدود اختیار نماینده",
+   "title_ru": "Объём полномочий агента",
+   "title_de": "Umfang der Vollmacht des Vertreters",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Appointment and Authority of Agents",
    "pages": [
     39
@@ -2507,8 +3027,11 @@ export const LAW = {
    "title": "Agent's authority in an emergency",
    "title_tr": "Acil durumlarda temsilcinin yetkisi",
    "title_fa": "اختیار نماینده در وضعیت اضطراری",
+   "title_ru": "Полномочия агента в чрезвычайной ситуации",
+   "title_de": "Vollmacht des Vertreters in einer Notlage",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Appointment and Authority of Agents",
    "pages": [
     39
@@ -2522,8 +3045,16 @@ export const LAW = {
    "title": "When agent cannot delegate",
    "title_tr": "Temsilcinin yetki devredemeyeceği haller",
    "title_fa": "مواردی که نماینده نمی‌تواند اختیار را به دیگری بسپارد",
+   "title_ru": "Когда агент не может передоверить",
+   "title_de": "Wann der Vertreter nicht delegieren darf",
    "part": "XIII",
    "heading": "Sub-agents",
+   "heading_i18n": {
+    "tr": "Alt temsilciler",
+    "fa": "نمایندگان فرعی",
+    "ru": "Субагенты",
+    "de": "Untervertreter"
+   },
    "group": "Sub-agents",
    "pages": [
     39
@@ -2537,8 +3068,11 @@ export const LAW = {
    "title": "\"Sub-agent\" defined",
    "title_tr": "\"Alt temsilci\"nin tanımı",
    "title_fa": "تعریف «نمایندهٔ فرعی»",
+   "title_ru": "Определение «субагента»",
+   "title_de": "Begriff des „Untervertreters“",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Sub-agents",
    "pages": [
     39
@@ -2552,8 +3086,11 @@ export const LAW = {
    "title": "Representation of principal by sub-agent properly appointed. Agent's responsibility for sub-agent. Sub-agent's responsibility",
    "title_tr": "Usulüne uygun atanan alt temsilci tarafından temsil; temsilcinin alt temsilciden sorumluluğu; alt temsilcinin sorumluluğu",
    "title_fa": "نمایندگی اصیل به وسیلهٔ نمایندهٔ فرعی که به‌درستی تعیین شده؛ مسئولیت نماینده و نمایندهٔ فرعی",
+   "title_ru": "Представительство принципала надлежаще назначенным субагентом; ответственность агента за субагента; ответственность субагента",
+   "title_de": "Vertretung durch ordnungsgemäß bestellten Untervertreter; Verantwortlichkeit von Vertreter und Untervertreter",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Sub-agents",
    "pages": [
     39
@@ -2569,8 +3106,11 @@ export const LAW = {
    "title": "Agent's responsibility for sub-agent appointed without authority",
    "title_tr": "Yetkisiz atanan alt temsilciden temsilcinin sorumluluğu",
    "title_fa": "مسئولیت نماینده برای نمایندهٔ فرعی که بدون اختیار تعیین شده",
+   "title_ru": "Ответственность агента за субагента, назначенного без полномочий",
+   "title_de": "Verantwortlichkeit des Vertreters für einen ohne Vollmacht bestellten Untervertreter",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Sub-agents",
    "pages": [
     39,
@@ -2585,8 +3125,11 @@ export const LAW = {
    "title": "Relation between principal and person duly appointed by agent to act in business of agency",
    "title_tr": "Temsil olunan ile temsilcinin temsil işinde hareket etmek üzere usulüne uygun atadığı kişi arasındaki ilişki",
    "title_fa": "رابطهٔ اصیل با شخصی که نماینده به‌درستی برای کار نمایندگی تعیین کرده",
+   "title_ru": "Отношения между принципалом и лицом, надлежаще назначенным агентом для ведения агентского дела",
+   "title_de": "Verhältnis zwischen Geschäftsherrn und einer vom Vertreter ordnungsgemäß benannten Person",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Sub-agents",
    "pages": [
     40
@@ -2600,8 +3143,11 @@ export const LAW = {
    "title": "Agent's duty in naming such person",
    "title_tr": "Temsilcinin böyle bir kişiyi belirlemedeki özen yükümlülüğü",
    "title_fa": "تکلیف نماینده در انتخاب چنین شخصی",
+   "title_ru": "Обязанность агента при назначении такого лица",
+   "title_de": "Pflicht des Vertreters bei der Benennung einer solchen Person",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Sub-agents",
    "pages": [
     40
@@ -2615,8 +3161,16 @@ export const LAW = {
    "title": "Right of person as to acts done for him without authority. Effect of ratification",
    "title_tr": "Kendi adına yetkisiz yapılan işlemler bakımından kişinin hakkı; onayın etkisi",
    "title_fa": "حق شخص نسبت به اعمالی که بدون اختیار برای او انجام شده؛ اثر تنفیذ",
+   "title_ru": "Право лица в отношении действий, совершённых за него без полномочий; последствия одобрения",
+   "title_de": "Recht hinsichtlich vollmachtlos vorgenommener Handlungen; Wirkung der Genehmigung",
    "part": "XIII",
    "heading": "Ratification",
+   "heading_i18n": {
+    "tr": "İcazet",
+    "fa": "تنفیذ",
+    "ru": "Одобрение",
+    "de": "Genehmigung"
+   },
    "group": "Ratification",
    "pages": [
     40
@@ -2630,8 +3184,11 @@ export const LAW = {
    "title": "Ratification may be expressed or implied",
    "title_tr": "Onay açık veya örtülü olabilir",
    "title_fa": "تنفیذ می‌تواند صریح یا ضمنی باشد",
+   "title_ru": "Одобрение может быть прямо выраженным или подразумеваемым",
+   "title_de": "Die Genehmigung kann ausdrücklich oder stillschweigend sein",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Ratification",
    "pages": [
     40
@@ -2645,8 +3202,11 @@ export const LAW = {
    "title": "Knowledge requisite for valid ratification",
    "title_tr": "Geçerli onay için gerekli bilgi",
    "title_fa": "آگاهی لازم برای تنفیذ معتبر",
+   "title_ru": "Осведомлённость, необходимая для действительного одобрения",
+   "title_de": "Für eine wirksame Genehmigung erforderliche Kenntnis",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Ratification",
    "pages": [
     40
@@ -2660,8 +3220,11 @@ export const LAW = {
    "title": "Effect of ratifying unauthorised act forming part of a transaction",
    "title_tr": "Bir işlemin parçası olan yetkisiz eylemin onaylanmasının etkisi",
    "title_fa": "اثر تنفیذ عمل غیرمجازی که بخشی از یک معامله است",
+   "title_ru": "Последствия одобрения неуполномоченного действия, являющегося частью сделки",
+   "title_de": "Wirkung der Genehmigung einer vollmachtlosen Handlung als Teil eines Geschäfts",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Ratification",
    "pages": [
     40
@@ -2675,8 +3238,11 @@ export const LAW = {
    "title": "Ratification of an unauthorised act cannot injure third person",
    "title_tr": "Yetkisiz eylemin onaylanması üçüncü kişiye zarar veremez",
    "title_fa": "تنفیذ عمل غیرمجاز نمی‌تواند به شخص ثالث زیان برساند",
+   "title_ru": "Одобрение неуполномоченного действия не может причинить вред третьему лицу",
+   "title_de": "Die Genehmigung einer vollmachtlosen Handlung kann einem Dritten nicht schaden",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Ratification",
    "pages": [
     40
@@ -2690,8 +3256,16 @@ export const LAW = {
    "title": "Termination of agency",
    "title_tr": "Temsilin sona ermesi",
    "title_fa": "پایان نمایندگی",
+   "title_ru": "Прекращение агентских отношений",
+   "title_de": "Beendigung der Vertretung",
    "part": "XIII",
    "heading": "Revocation of Authority",
+   "heading_i18n": {
+    "tr": "Yetkinin geri alınması",
+    "fa": "لغو اختیار",
+    "ru": "Отзыв полномочий",
+    "de": "Widerruf der Vollmacht"
+   },
    "group": "Revocation of Authority",
    "pages": [
     40,
@@ -2706,8 +3280,11 @@ export const LAW = {
    "title": "Termination of agency where agent has an interest in subject matter",
    "title_tr": "Temsilcinin konu üzerinde menfaati bulunan temsilin sona ermesi",
    "title_fa": "پایان نمایندگی در جایی که نماینده در موضوع ذی‌نفع است",
+   "title_ru": "Прекращение агентских отношений, когда агент имеет интерес в их предмете",
+   "title_de": "Beendigung der Vertretung bei eigenem Interesse des Vertreters am Gegenstand",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Revocation of Authority",
    "pages": [
     41
@@ -2721,8 +3298,11 @@ export const LAW = {
    "title": "When principal may revoke agent's authority",
    "title_tr": "Temsil olunanın temsilcinin yetkisini geri alabileceği zaman",
    "title_fa": "زمانی که اصیل می‌تواند اختیار نماینده را لغو کند",
+   "title_ru": "Когда принципал может отозвать полномочия агента",
+   "title_de": "Wann der Geschäftsherr die Vollmacht widerrufen kann",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Revocation of Authority",
    "pages": [
     41
@@ -2736,8 +3316,11 @@ export const LAW = {
    "title": "Revocation where authority has been partly exercised",
    "title_tr": "Yetkinin kısmen kullanılmasından sonra geri alma",
    "title_fa": "لغو پس از اعمال بخشی از اختیار",
+   "title_ru": "Отзыв, когда полномочия частично осуществлены",
+   "title_de": "Widerruf nach teilweiser Ausübung der Vollmacht",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Revocation of Authority",
    "pages": [
     41
@@ -2751,8 +3334,11 @@ export const LAW = {
    "title": "Compensation for revocation by principal or renunciation by agent",
    "title_tr": "Temsil olunanın geri alması veya temsilcinin vazgeçmesi halinde tazminat",
    "title_fa": "جبران خسارت برای لغو به وسیلهٔ اصیل یا استعفای نماینده",
+   "title_ru": "Компенсация за отзыв принципалом или отказ агента",
+   "title_de": "Ersatz bei Widerruf durch den Geschäftsherrn oder Niederlegung durch den Vertreter",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Revocation of Authority",
    "pages": [
     41
@@ -2766,8 +3352,11 @@ export const LAW = {
    "title": "Notice of revocation or renunciation",
    "title_tr": "Geri alma veya vazgeçme bildirimi",
    "title_fa": "اطلاع‌رسانی لغو یا استعفا",
+   "title_ru": "Уведомление об отзыве или отказе",
+   "title_de": "Ankündigung von Widerruf oder Niederlegung",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Revocation of Authority",
    "pages": [
     41
@@ -2781,8 +3370,11 @@ export const LAW = {
    "title": "Revocation and renunciation may be expressed or implied",
    "title_tr": "Geri alma ve vazgeçme açık veya örtülü olabilir",
    "title_fa": "لغو و استعفا می‌تواند صریح یا ضمنی باشد",
+   "title_ru": "Отзыв и отказ могут быть прямо выраженными или подразумеваемыми",
+   "title_de": "Widerruf und Niederlegung können ausdrücklich oder stillschweigend sein",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Revocation of Authority",
    "pages": [
     41
@@ -2796,8 +3388,11 @@ export const LAW = {
    "title": "When termination of agent's authority takes effect as to agent and as to third person",
    "title_tr": "Temsilci yetkisinin sona ermesinin temsilci ve üçüncü kişiler bakımından hüküm doğurduğu zaman",
    "title_fa": "زمان اثر پایان اختیار نماینده نسبت به نماینده و شخص ثالث",
+   "title_ru": "Когда прекращение полномочий агента вступает в силу в отношении агента и третьих лиц",
+   "title_de": "Wann die Beendigung der Vollmacht gegenüber Vertreter und Dritten wirksam wird",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Revocation of Authority",
    "pages": [
     41
@@ -2811,8 +3406,11 @@ export const LAW = {
    "title": "Agent's duty on termination of agency by principal's death or insanity",
    "title_tr": "Temsil olunanın ölümü veya akıl hastalığıyla temsil sona erdiğinde temsilcinin yükümlülüğü",
    "title_fa": "تکلیف نماینده پس از پایان نمایندگی با فوت یا جنون اصیل",
+   "title_ru": "Обязанность агента при прекращении агентских отношений вследствие смерти или душевной болезни принципала",
+   "title_de": "Pflicht des Vertreters bei Beendigung durch Tod oder Geisteskrankheit des Geschäftsherrn",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Revocation of Authority",
    "pages": [
     41
@@ -2826,8 +3424,11 @@ export const LAW = {
    "title": "Termination of sub-agent's authority",
    "title_tr": "Alt temsilcinin yetkisinin sona ermesi",
    "title_fa": "پایان اختیار نمایندهٔ فرعی",
+   "title_ru": "Прекращение полномочий субагента",
+   "title_de": "Beendigung der Vollmacht des Untervertreters",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Revocation of Authority",
    "pages": [
     41,
@@ -2842,8 +3443,16 @@ export const LAW = {
    "title": "Agent's duty on conducting principal's business",
    "title_tr": "Temsilcinin temsil olunanın işini yürütme yükümlülüğü",
    "title_fa": "تکلیف نماینده در اداره کار اصیل",
+   "title_ru": "Обязанность агента при ведении дела принципала",
+   "title_de": "Pflicht des Vertreters bei der Führung der Geschäfte des Geschäftsherrn",
    "part": "XIII",
    "heading": "Agent's Duty to Principal",
+   "heading_i18n": {
+    "tr": "Temsilcinin temsil olunana karşı yükümlülükleri",
+    "fa": "وظایف نماینده در برابر اصیل",
+    "ru": "Обязанности агента перед принципалом",
+    "de": "Pflichten des Vertreters gegenüber dem Geschäftsherrn"
+   },
    "group": "Agent's Duty to Principal",
    "pages": [
     42
@@ -2857,14 +3466,17 @@ export const LAW = {
    "title": "Skill and diligence required of agent",
    "title_tr": "Temsilciden beklenen beceri ve özen",
    "title_fa": "مهارت و دقت لازم از نماینده",
+   "title_ru": "Мастерство и заботливость, требуемые от агента",
+   "title_de": "Vom Vertreter verlangte Geschicklichkeit und Sorgfalt",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Agent's Duty to Principal",
    "pages": [
     42
    ],
    "text": [
-    "An agent is bound to conduct the business of the agency with as much skill as is generally possessed by persons engaged in similar business, unless the principal has notice of his want of skill. The agent is always bound to act with reasonable diligence, and to use such skill as he possesses; and to make compensation to lis principal in respect of the direct consequences of his own neglect want of skill or misconduct, but not in respect of loss or damage which are indirectly or remotely caused by such neglect, want of skill or misconduct."
+    "An agent is bound to conduct the business of the agency with as much skill as is generally possessed by persons engaged in similar business, unless the principal has notice of his want of skill. The agent is always bound to act with reasonable diligence, and to use such skill as he possesses; and to make compensation to his principal in respect of the direct consequences of his own neglect, want of skill or misconduct, but not in respect of loss or damage which are indirectly or remotely caused by such neglect, want of skill or misconduct."
    ]
   },
   {
@@ -2872,8 +3484,11 @@ export const LAW = {
    "title": "Agent's accounts",
    "title_tr": "Temsilcinin hesap verme yükümlülüğü",
    "title_fa": "حساب‌های نماینده",
+   "title_ru": "Отчёты агента",
+   "title_de": "Rechnungslegung des Vertreters",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Agent's Duty to Principal",
    "pages": [
     42
@@ -2887,14 +3502,17 @@ export const LAW = {
    "title": "Agent's duty to communicate with principal",
    "title_tr": "Temsilcinin temsil olunanla iletişim kurma yükümlülüğü",
    "title_fa": "تکلیف نماینده به ارتباط با اصیل",
+   "title_ru": "Обязанность агента связываться с принципалом",
+   "title_de": "Pflicht des Vertreters, sich mit dem Geschäftsherrn zu verständigen",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Agent's Duty to Principal",
    "pages": [
     42
    ],
    "text": [
-    "It is the duty of an agent, in cases of difficulty, to use all reasonable diligency in communicating with his principal and in seeking to obtain his instruction."
+    "It is the duty of an agent, in cases of difficulty, to use all reasonable diligence in communicating with his principal and in seeking to obtain his instruction."
    ]
   },
   {
@@ -2902,14 +3520,17 @@ export const LAW = {
    "title": "Right of principal when agent deals on his own account in business of agency without principal's consent",
    "title_tr": "Temsilcinin temsil olunanın rızası olmadan temsil işinde kendi hesabına işlem yapması halinde temsil olunanın hakkı",
    "title_fa": "حق اصیل هنگامی که نماینده بدون رضایت او در کار نمایندگی به حساب خود معامله کند",
+   "title_ru": "Право принципала, если агент совершает сделки за свой счёт в агентском деле без согласия принципала",
+   "title_de": "Recht des Geschäftsherrn bei Eigengeschäften des Vertreters ohne dessen Zustimmung",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Agent's Duty to Principal",
    "pages": [
     42
    ],
    "text": [
-    "If an agent deals on his own account in the business of the agency, without, first obtaining the consent of his principal and acquainting him with all material circumstances which have come to his own knowledge on the subject, the principal may repudiate the transaction, if the case shows either that any material fact has been dishonestly concealed from him by the agent, or that the dealings of the agent have been disadvantageous to him."
+    "If an agent deals on his own account in the business of the agency, without first obtaining the consent of his principal and acquainting him with all material circumstances which have come to his own knowledge on the subject, the principal may repudiate the transaction, if the case shows either that any material fact has been dishonestly concealed from him by the agent, or that the dealings of the agent have been disadvantageous to him."
    ]
   },
   {
@@ -2917,8 +3538,11 @@ export const LAW = {
    "title": "Principal's right to benefit gained by agent dealing on his own account in business of agency",
    "title_tr": "Temsil işinde kendi hesabına işlem yapan temsilcinin elde ettiği yarar üzerinde temsil olunanın hakkı",
    "title_fa": "حق اصیل بر منفعتی که نماینده با معامله به حساب خود در کار نمایندگی به دست آورده",
+   "title_ru": "Право принципала на выгоду, полученную агентом от сделок за свой счёт в агентском деле",
+   "title_de": "Recht des Geschäftsherrn auf den Vorteil aus Eigengeschäften des Vertreters",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Agent's Duty to Principal",
    "pages": [
     42,
@@ -2933,8 +3557,11 @@ export const LAW = {
    "title": "Agent's right of retainer out of sums received on principal's account",
    "title_tr": "Temsilcinin temsil olunan hesabına aldığı paralardan alıkoyma hakkı",
    "title_fa": "حق نماینده به برداشت از مبالغ دریافتی به حساب اصیل",
+   "title_ru": "Право агента на удержание из сумм, полученных за счёт принципала",
+   "title_de": "Zurückbehaltungsrecht des Vertreters an für den Geschäftsherrn empfangenen Beträgen",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Agent's Duty to Principal",
    "pages": [
     43
@@ -2948,8 +3575,11 @@ export const LAW = {
    "title": "Agent's duty to pay sums received for principal",
    "title_tr": "Temsilcinin temsil olunan adına aldığı paraları ödeme yükümlülüğü",
    "title_fa": "تکلیف نماینده به پرداخت مبالغ دریافتی برای اصیل",
+   "title_ru": "Обязанность агента уплатить суммы, полученные для принципала",
+   "title_de": "Pflicht des Vertreters, für den Geschäftsherrn empfangene Beträge auszuzahlen",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Agent's Duty to Principal",
    "pages": [
     43
@@ -2963,14 +3593,17 @@ export const LAW = {
    "title": "When agent's remuneration becomes due",
    "title_tr": "Temsilcinin ücretinin muaccel olduğu zaman",
    "title_fa": "زمان استحقاق حق‌الزحمهٔ نماینده",
+   "title_ru": "Когда вознаграждение агента становится причитающимся",
+   "title_de": "Wann die Vergütung des Vertreters fällig wird",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Agent's Duty to Principal",
    "pages": [
     43
    ],
    "text": [
-    "In the absence of any special contract, payment for the performance of any act is not due to the agent until the completion of such act; but an agent may detain moneys received by him on account of goods sold, although the whole of the good consigned to him for sale may not have been sold, or although the sale may not be actually complete."
+    "In the absence of any special contract, payment for the performance of any act is not due to the agent until the completion of such act; but an agent may detain moneys received by him on account of goods sold, although the whole of the goods consigned to him for sale may not have been sold, or although the sale may not be actually complete."
    ]
   },
   {
@@ -2978,8 +3611,11 @@ export const LAW = {
    "title": "Agent not entitled to remuneration for business misconducted",
    "title_tr": "Kötü yürütülen iş için temsilcinin ücrete hak kazanmaması",
    "title_fa": "نماینده برای کاری که بد انجام داده مستحق حق‌الزحمه نیست",
+   "title_ru": "Агент не вправе на вознаграждение за ненадлежаще проведённое дело",
+   "title_de": "Keine Vergütung für schlecht geführte Geschäfte",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Agent's Duty to Principal",
    "pages": [
     43
@@ -2993,8 +3629,11 @@ export const LAW = {
    "title": "Agent's lien on principal's property",
    "title_tr": "Temsilcinin temsil olunanın malı üzerindeki hapis hakkı",
    "title_fa": "حق حبس نماینده بر اموال اصیل",
+   "title_ru": "Право удержания агента на имущество принципала",
+   "title_de": "Zurückbehaltungsrecht des Vertreters am Vermögen des Geschäftsherrn",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Agent's Duty to Principal",
    "pages": [
     43
@@ -3008,8 +3647,16 @@ export const LAW = {
    "title": "Agent to be indemnified against consequences of lawful acts",
    "title_tr": "Temsilcinin hukuka uygun eylemlerin sonuçlarına karşı tazmin edilmesi",
    "title_fa": "جبران خسارت نماینده در برابر پیامدهای اعمال مشروع",
+   "title_ru": "Агенту возмещаются последствия законных действий",
+   "title_de": "Freistellung des Vertreters von den Folgen rechtmäßiger Handlungen",
    "part": "XIII",
    "heading": "Principal's Duty to Agent",
+   "heading_i18n": {
+    "tr": "Temsil olunanın temsilciye karşı yükümlülükleri",
+    "fa": "وظایف اصیل در برابر نماینده",
+    "ru": "Обязанности принципала перед агентом",
+    "de": "Pflichten des Geschäftsherrn gegenüber dem Vertreter"
+   },
    "group": "Principal's Duty to Agent",
    "pages": [
     43
@@ -3023,8 +3670,11 @@ export const LAW = {
    "title": "Agent to be indemnified against consequences of acts done in good faith",
    "title_tr": "Temsilcinin iyi niyetle yapılan eylemlerin sonuçlarına karşı tazmin edilmesi",
    "title_fa": "جبران خسارت نماینده در برابر پیامدهای اعمالی که با حسن نیت انجام شده",
+   "title_ru": "Агенту возмещаются последствия действий, совершённых добросовестно",
+   "title_de": "Freistellung des Vertreters von den Folgen gutgläubiger Handlungen",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Principal's Duty to Agent",
    "pages": [
     43
@@ -3038,8 +3688,11 @@ export const LAW = {
    "title": "Non-liability of employer of agent to do a criminal act",
    "title_tr": "Suç teşkil eden bir eylem için temsilci kullananın sorumsuzluğu",
    "title_fa": "عدم مسئولیت کسی که نماینده را برای ارتکاب جرم به کار گرفته",
+   "title_ru": "Отсутствие ответственности нанимателя агента для совершения преступного действия",
+   "title_de": "Keine Haftung des Auftraggebers eines Vertreters für eine strafbare Handlung",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Principal's Duty to Agent",
    "pages": [
     43,
@@ -3054,8 +3707,11 @@ export const LAW = {
    "title": "Compensation to agent for injury caused by principal's neglect",
    "title_tr": "Temsil olunanın ihmali nedeniyle temsilcinin uğradığı zararın tazmini",
    "title_fa": "جبران صدمه‌ای که به سبب غفلت اصیل به نماینده وارد شده",
+   "title_ru": "Компенсация агенту за вред, причинённый небрежностью принципала",
+   "title_de": "Ersatz an den Vertreter für Schaden durch Nachlässigkeit des Geschäftsherrn",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Principal's Duty to Agent",
    "pages": [
     44
@@ -3069,8 +3725,16 @@ export const LAW = {
    "title": "Enforcement and consequences of agent's contracts",
    "title_tr": "Temsilcinin yaptığı sözleşmelerin icrası ve sonuçları",
    "title_fa": "اجرا و آثار قراردادهای نماینده",
+   "title_ru": "Исполнение и последствия договоров агента",
+   "title_de": "Durchsetzung und Folgen der Verträge des Vertreters",
    "part": "XIII",
    "heading": "Effect of Agency on Contracts with Third Persons",
+   "heading_i18n": {
+    "tr": "Temsilin üçüncü kişilerle yapılan sözleşmelere etkisi",
+    "fa": "اثر نمایندگی بر قراردادها با اشخاص ثالث",
+    "ru": "Влияние агентских отношений на договоры с третьими лицами",
+    "de": "Wirkung der Vertretung auf Verträge mit Dritten"
+   },
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     44
@@ -3084,8 +3748,11 @@ export const LAW = {
    "title": "Principal how far bound when agent exceeds authority",
    "title_tr": "Temsilci yetkisini aştığında temsil olunanın ne ölçüde bağlı olduğu",
    "title_fa": "حدود الزام اصیل هنگامی که نماینده از اختیار خود تجاوز کند",
+   "title_ru": "В какой мере связан принципал, когда агент превышает полномочия",
+   "title_de": "Inwieweit der Geschäftsherr gebunden ist, wenn der Vertreter die Vollmacht überschreitet",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     44
@@ -3099,8 +3766,11 @@ export const LAW = {
    "title": "Principal not bound when excess of agent's authority not separable",
    "title_tr": "Yetki aşımı ayrılamıyorsa temsil olunanın bağlı olmaması",
    "title_fa": "اصیل ملزم نیست هنگامی که تجاوز از اختیار قابل تفکیک نباشد",
+   "title_ru": "Принципал не связан, если превышение полномочий агента неотделимо",
+   "title_de": "Keine Bindung, wenn die Überschreitung nicht abtrennbar ist",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     44
@@ -3114,8 +3784,11 @@ export const LAW = {
    "title": "Consequences of notice given to agent",
    "title_tr": "Temsilciye yapılan bildirimin sonuçları",
    "title_fa": "آثار اطلاعی که به نماینده داده شده",
+   "title_ru": "Последствия уведомления, данного агенту",
+   "title_de": "Folgen einer dem Vertreter gegebenen Mitteilung",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     44
@@ -3129,8 +3802,11 @@ export const LAW = {
    "title": "Agent cannot personally enforce, nor be bound by contracts on behalf of principal",
    "title_tr": "Temsilci, temsil olunan adına yaptığı sözleşmeleri kişisel olarak icra edemez ve bunlarla bağlı değildir",
    "title_fa": "نماینده نمی‌تواند قراردادهایی را که از طرف اصیل بسته شخصاً اجرا کند و به آن‌ها ملزم نیست",
+   "title_ru": "Агент не может лично требовать исполнения и не связан договорами, заключёнными от имени принципала",
+   "title_de": "Der Vertreter kann Verträge für den Geschäftsherrn weder persönlich durchsetzen noch ist er an sie gebunden",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     44,
@@ -3149,8 +3825,11 @@ export const LAW = {
    "title": "Right of parties to a contract made by agent not disclosed",
    "title_tr": "Açıklanmayan temsilcinin yaptığı sözleşmede tarafların hakları",
    "title_fa": "حقوق طرفین قراردادی که نمایندهٔ افشانشده منعقد کرده",
+   "title_ru": "Права сторон по договору, заключённому нераскрытым агентом",
+   "title_de": "Rechte der Parteien eines von einem verdeckten Vertreter geschlossenen Vertrags",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     45
@@ -3165,8 +3844,11 @@ export const LAW = {
    "title": "Performance of contract with agent supposed to be principal",
    "title_tr": "Asıl olduğu sanılan temsilciyle yapılan sözleşmenin ifası",
    "title_fa": "اجرای قرارداد با نماینده‌ای که اصیل پنداشته شده",
+   "title_ru": "Исполнение договора с агентом, принятым за принципала",
+   "title_de": "Erfüllung eines Vertrags mit einem für den Geschäftsherrn gehaltenen Vertreter",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     45
@@ -3180,8 +3862,11 @@ export const LAW = {
    "title": "Right of person dealing with agent personally liable",
    "title_tr": "Kişisel olarak sorumlu temsilciyle işlem yapan kişinin hakkı",
    "title_fa": "حق شخصی که با نمایندهٔ شخصاً مسئول معامله می‌کند",
+   "title_ru": "Право лица, вступающего в сделку с лично ответственным агентом",
+   "title_de": "Recht dessen, der mit einem persönlich haftenden Vertreter verhandelt",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     45
@@ -3195,8 +3880,11 @@ export const LAW = {
    "title": "Consequences of inducing agent or principal to act on belief that principal or agent will be held exclusively liable",
    "title_tr": "Temsilciyi veya temsil olunanı, yalnızca diğerinin sorumlu tutulacağı inancıyla hareket etmeye yöneltmenin sonuçları",
    "title_fa": "آثار واداشتن نماینده یا اصیل به عمل با این باور که تنها دیگری مسئول است",
+   "title_ru": "Последствия побуждения агента или принципала действовать в убеждении, что исключительную ответственность будет нести принципал или агент",
+   "title_de": "Folgen der Veranlassung des Glaubens an die ausschließliche Haftung von Geschäftsherr oder Vertreter",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     45
@@ -3210,8 +3898,11 @@ export const LAW = {
    "title": "Liability of pretended agent",
    "title_tr": "Sahte temsilcinin sorumluluğu",
    "title_fa": "مسئولیت نمایندهٔ ادعایی",
+   "title_ru": "Ответственность мнимого агента",
+   "title_de": "Haftung des angeblichen Vertreters",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     45
@@ -3225,8 +3916,11 @@ export const LAW = {
    "title": "Person falsely contracting as agent not entitled to performance",
    "title_tr": "Sahte olarak temsilci sıfatıyla sözleşme yapan kişinin ifa talep edememesi",
    "title_fa": "کسی که به‌دروغ به عنوان نماینده قرارداد می‌بندد حق مطالبهٔ اجرا ندارد",
+   "title_ru": "Лицо, ложно заключающее договор в качестве агента, не вправе требовать исполнения",
+   "title_de": "Wer fälschlich als Vertreter kontrahiert, kann keine Erfüllung verlangen",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     45,
@@ -3241,14 +3935,17 @@ export const LAW = {
    "title": "Liability of principal inducing belief that agent's unauthorised acts were authorised",
    "title_tr": "Temsilcinin yetkisiz eylemlerinin yetkili olduğu inancını yaratan temsil olunanın sorumluluğu",
    "title_fa": "مسئولیت اصیلی که باور به مجاز بودن اعمال غیرمجاز نماینده را ایجاد کرده",
+   "title_ru": "Ответственность принципала, побудившего полагать, что неуполномоченные действия агента были уполномочены",
+   "title_de": "Haftung des Geschäftsherrn, der den Glauben an die Bevollmächtigung vollmachtloser Handlungen veranlasst",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     46
    ],
    "text": [
-    "When an agent has, without. authority, done acts or incurred obligations to third persons on behalf of his principal, the principal is bound by such acts or obligations if he has by his words or conduct induced such third persons to believe that such acts and obligations were within the scope of the agent's authority."
+    "When an agent has, without authority, done acts or incurred obligations to third persons on behalf of his principal, the principal is bound by such acts or obligations if he has by his words or conduct induced such third persons to believe that such acts and obligations were within the scope of the agent's authority."
    ]
   },
   {
@@ -3256,8 +3953,11 @@ export const LAW = {
    "title": "Effect on agreement of misrepresentation or fraud by agent",
    "title_tr": "Temsilcinin yanlış beyanı veya hilesinin anlaşmaya etkisi",
    "title_fa": "اثر اظهار خلاف واقع یا تقلب نماینده بر توافق",
+   "title_ru": "Последствия для соглашения искажения сведений или обмана со стороны агента",
+   "title_de": "Wirkung falscher Darstellung oder Betrugs des Vertreters auf die Vereinbarung",
    "part": "XIII",
    "heading": null,
+   "heading_i18n": null,
    "group": "Effect of Agency on Contracts with Third Persons",
    "pages": [
     46
