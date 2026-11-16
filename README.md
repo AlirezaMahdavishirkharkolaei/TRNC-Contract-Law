@@ -92,4 +92,4 @@ The project is organised as an engineering team working under legal oversight.
 
 ## Author and licence
 
-Built by Alireza Mahdavishirkharkolaei, LL.M. The code is under the [MIT licence](LICENSE). The statutory text is a public legal document.
+Built by Alireza Mahdavishirkharkolaei, LL.M. **Mohammad Amir Modami** collaborated on the legal analysis and research behind this project. The code is under the [MIT licence](LICENSE). The statutory text is a public legal document.
